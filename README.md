@@ -1,16 +1,75 @@
-# atlas-frontend-challenge
+# Nuxt Minimal Starter
 
-Utilize este README como base para apresentar seu projeto. Sinta-se à vontade para adicionar outros tópicos que considere relevantes para explicar sua solução, decisões técnicas ou qualquer ponto importante da entrega.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
----
+## Setup
 
-## Como executar o projeto
-Explique os comandos necessários para instalar dependências e rodar a aplicação localmente.
+Make sure to install dependencies:
 
----
+```bash
+# npm
+npm install
 
-## Uso de IA
-* Utilizou alguma ferramenta? Qual?
+# pnpm
+pnpm install
 
----
+# yarn
+yarn install
 
+# bun
+bun install
+```
+
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
+npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
+```
+
+## Production
+
+Build the application for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
