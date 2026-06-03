@@ -19,10 +19,12 @@
               <USkeleton class="h-3 w-1/2" />
             </div>
           </div>
+
           <USkeleton class="h-3 w-full mb-2" />
           <USkeleton class="h-3 w-2/3" />
         </UCard>
       </template>
+
       <template v-else>
         <template v-if="professionals.length">
           <ProfessionalCard
@@ -45,16 +47,18 @@
 
     <div v-if="meta && meta.totalPages > 1" class="flex justify-center mt-8">
       <UPagination
-        v-model:page="meta.page"
+        :page="meta.page"
         :total="meta.total"
-        :page-count="meta.perPage"
-        @update:model-value="emit('update:page', $event)"
+        :items-per-page="meta.perPage"
+        @update:page="emit('update:page', $event)"
       />
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import type { PaginationMeta, Professional } from "~/types";
+
 defineProps<{
   professionals: Professional[];
   meta: PaginationMeta | null;
