@@ -2,7 +2,7 @@
   <UFooter>
     <template #left>
       <p class="text-muted text-sm">
-        Copyright © {{ new Date().getFullYear() }}
+        Copyright © {{ new Date().getFullYear() }} Larissa Santos
       </p>
     </template>
 
@@ -15,11 +15,13 @@
         variant="ghost"
         to="https://www.linkedin.com/in/lari-moro-ss/"
         target="_blank"
+        class="cursor-pointer"
         aria-label="Linkedin"
       />
       <UButton
         icon="i-simple-icons-instagram"
         color="neutral"
+        class="cursor-pointer"
         variant="ghost"
         to="https://www.instagram.com/larisantos.dev/"
         target="_blank"
@@ -28,6 +30,7 @@
       <UButton
         icon="i-simple-icons-github"
         color="neutral"
+        class="cursor-pointer"
         variant="ghost"
         to="https://github.com/nuxt/nuxt"
         target="_blank"
