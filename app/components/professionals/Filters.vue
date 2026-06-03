@@ -5,7 +5,7 @@
         body: 'p-4 sm:p-5',
       }"
     >
-      <div class="flex items-center justify-between gap-3 mb-4">
+      <div class="flex items-center justify-between gap-3">
         <div class="flex items-center gap-2">
           <UIcon
             name="i-heroicons-adjustments-horizontal"
@@ -20,9 +20,9 @@
         <div class="flex items-center gap-2">
           <UButton
             v-if="hasActiveFilters"
-            variant="ghost"
+            variant="outline"
             class="cursor-pointer"
-            size="xs"
+            size="md"
             color="neutral"
             @click="emit('clear')"
           >
@@ -45,6 +45,14 @@
           </UButton>
         </div>
       </div>
+
+      <UAlert
+        v-if="error"
+        color="error"
+        icon="i-heroicons-exclamation-circle"
+        title="Erro ao carregar filtros"
+        class="mt-3"
+      />
 
       <div
         :class="[showMobileFilters ? 'block mt-4' : 'hidden mt-4', 'lg:block']"
@@ -166,6 +174,7 @@ const emit = defineEmits<{
 const showMobileFilters = ref(false);
 
 const {
+  error,
   ratingOptions,
   cityOptions,
   professionOptions,
@@ -181,6 +190,6 @@ const {
   updateAvailable,
 } = useProfessionalsFilters({
   filters: props.filters,
-  updateFilters: (partial) => emit("update:filters", partial),
+  onUpdate: (partial) => emit("update:filters", partial),
 });
 </script>
