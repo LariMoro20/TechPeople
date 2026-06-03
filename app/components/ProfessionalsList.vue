@@ -39,7 +39,7 @@
             v-for="professional in professionals"
             :key="professional.id"
             :professional="professional"
-            @select="openProfessionalModal"
+            @select="emit('select', $event)"
           />
         </template>
 
@@ -63,10 +63,6 @@
       />
     </div>
 
-    <ProfessionalDetailsModal
-      v-model:open="isProfessionalModalOpen"
-      :professional="selectedProfessional"
-    />
   </div>
 </template>
 
@@ -80,19 +76,8 @@ defineProps<{
   error: Error | null;
 }>();
 
-onMounted(() => {
-  favoriteProfessionalsStore.hydrate();
-});
 const emit = defineEmits<{
   "update:page": [page: number];
+  select: [professional: Professional];
 }>();
-
-const favoriteProfessionalsStore = useFavoriteProfessionalsStore();
-const selectedProfessional = ref<Professional | null>(null);
-const isProfessionalModalOpen = ref(false);
-
-function openProfessionalModal(professional: Professional) {
-  selectedProfessional.value = professional;
-  isProfessionalModalOpen.value = true;
-}
 </script>
