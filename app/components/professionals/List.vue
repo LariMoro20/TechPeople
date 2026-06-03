@@ -35,7 +35,7 @@
 
       <template v-else>
         <template v-if="professionals.length">
-          <ProfessionalCard
+          <ProfessionalsCard
             v-for="professional in professionals"
             :key="professional.id"
             :professional="professional"
@@ -73,7 +73,7 @@ defineProps<{
   professionals: Professional[];
   meta: PaginationMeta | null;
   loading: boolean;
-  error: Error | null;
+  error: { message: string } | null;
 }>();
 
 const emit = defineEmits<{

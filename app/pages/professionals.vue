@@ -11,7 +11,7 @@
       </div>
 
       <div class="flex flex-col lg:flex-row gap-6">
-        <AsideFilters
+        <ProfessionalsFilters
           :filters="filters"
           @update:filters="updateFilters"
           @clear="clearFilters"
@@ -39,7 +39,7 @@
             @select="openModal"
           />
 
-          <ProfessionalDetailsModal
+          <ProfessionalsDetailsModal
             v-model:open="isModalOpen"
             :professional="selectedProfessional"
           />
@@ -49,7 +49,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { Professional } from "~/types";
+import type { Professional, SortField, SortDirection } from "~/types";
 
 const {
   professionals,
