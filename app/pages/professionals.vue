@@ -36,6 +36,12 @@
             :loading="loading"
             :error="error"
             @update:page="goToPage"
+            @select="openModal"
+          />
+
+          <ProfessionalDetailsModal
+            v-model:open="isModalOpen"
+            :professional="selectedProfessional"
           />
         </div>
       </div>
@@ -43,6 +49,8 @@
   </div>
 </template>
 <script setup lang="ts">
+import type { Professional } from "~/types";
+
 const {
   professionals,
   meta,
@@ -55,6 +63,14 @@ const {
   goToPage,
   clearFilters,
 } = useProfessionals();
+
+const isModalOpen = ref(false);
+const selectedProfessional = ref<Professional | null>(null);
+
+function openModal(professional: Professional) {
+  selectedProfessional.value = professional;
+  isModalOpen.value = true;
+}
 
 const sortOptions = [
   { label: "Melhor avaliação", value: "rating:desc" },
