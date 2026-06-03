@@ -1,71 +1,22 @@
 <template>
   <div class="min-h-screen bg-gray-50 dark:bg-gray-950">
-    <div class="max-w-7xl mx-auto px-4 py-8">
-      <div class="mb-8">
-        <h1 class="text-3xl font-bold text-gray-900 dark:text-white">
-          Profissionais
-        </h1>
-        <p class="text-gray-500 dark:text-gray-400 mt-1">
-          {{ meta?.total ?? 0 }} profissionais encontrados
-        </p>
-      </div>
-
-      <div class="flex flex-col lg:flex-row gap-6">
-        <AsideFilters
-          :filters="filters"
-          @update:filters="updateFilters"
-          @clear="clearFilters"
-        />
-        <div class="flex-1 min-w-0">
-          <div class="flex items-center justify-between mb-4">
-            <span class="text-sm text-gray-500 dark:text-gray-400">
-              <template v-if="meta">
-                Página {{ meta.page }} de {{ meta.totalPages }}
-              </template>
-            </span>
-            <USelect v-model="selectedSort" :items="sortOptions" class="w-48" />
-          </div>
-
-          <ProfessionalsList
-            :professionals="professionals"
-            :meta="meta"
-            :loading="loading"
-            :error="error"
-            @update:page="goToPage"
-          />
-        </div>
-      </div>
-    </div>
+    <UPageHero
+      title="TechPeople"
+      description="Explore uma listagem fictícia de profissionais de tecnologia, incluindo desenvolvedores frontend, backend, fullstack, UI/UX designers, DevOps e especialistas em dados."
+      headline="Profissionais"
+      orientation="horizontal"
+      :links="links"
+    >
+      <img
+        src="/images/image_app.png"
+        alt="App screenshot"
+        class="rounded-lg shadow-2xl ring ring-default"
+      />
+    </UPageHero>
   </div>
 </template>
 <script setup lang="ts">
-const {
-  professionals,
-  meta,
-  loading,
-  error,
-  filters,
-  sort,
-  updateFilters,
-  updateSort,
-  goToPage,
-  clearFilters,
-} = useProfessionals();
-
-const sortOptions = [
-  { label: "Melhor avaliação", value: "rating:desc" },
-  { label: "Menor preço", value: "servicePrice:asc" },
-  { label: "Maior preço", value: "servicePrice:desc" },
-  { label: "Nome A-Z", value: "name:asc" },
-];
-
-const selectedSort = computed({
-  get: () => `${sort.field}:${sort.direction}`,
-  set: (val: string) => {
-    const [field, direction] = val.split(":") as [SortField, SortDirection];
-    updateSort({ field, direction });
-  },
-});
+import type { ButtonProps } from "@nuxt/ui";
 
 useSeoMeta({
   titleTemplate: "%s",
@@ -76,4 +27,18 @@ useSeoMeta({
   ogDescription:
     "Explore uma listagem fictícia de profissionais de tecnologia, incluindo desenvolvedores frontend, backend, fullstack, UI/UX designers, DevOps e especialistas em dados.",
 });
+const links = ref<ButtonProps[]>([
+  {
+    label: "Encontrar profissionais",
+    to: "/professionals",
+    icon: "i-lucide-square-play",
+  },
+  {
+    label: "Ver projeto no Github",
+    to: "https://github.com/LariMoro20/atlas-frontend-challenge",
+    color: "neutral",
+    variant: "subtle",
+    trailingIcon: "i-simple-icons-github",
+  },
+]);
 </script>
