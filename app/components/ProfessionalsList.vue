@@ -9,7 +9,9 @@
       class="mb-4"
     />
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4">
+    <div
+      class="grid grid-cols-1 min-[420px]:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4"
+    >
       <template v-if="loading">
         <UCard v-for="i in 6" :key="i">
           <div class="flex items-center gap-3 mb-4">
@@ -31,6 +33,12 @@
             v-for="professional in professionals"
             :key="professional.id"
             :professional="professional"
+            @select="openProfessionalModal"
+          />
+
+          <ProfessionalDetailsModal
+            v-model:open="isProfessionalModalOpen"
+            :professional="selectedProfessional"
           />
         </template>
 
@@ -58,7 +66,13 @@
 
 <script setup lang="ts">
 import type { PaginationMeta, Professional } from "~/types";
+const selectedProfessional = ref<Professional | null>(null);
+const isProfessionalModalOpen = ref(false);
 
+function openProfessionalModal(professional: Professional) {
+  selectedProfessional.value = professional;
+  isProfessionalModalOpen.value = true;
+}
 defineProps<{
   professionals: Professional[];
   meta: PaginationMeta | null;

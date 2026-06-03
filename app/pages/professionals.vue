@@ -23,7 +23,11 @@
                 Página {{ meta.page }} de {{ meta.totalPages }}
               </template>
             </span>
-            <USelect v-model="selectedSort" :items="sortOptions" class="w-48" />
+            <USelect
+              v-model="selectedSort"
+              :items="sortOptions"
+              class="w-48 cursor-pointer"
+            />
           </div>
 
           <ProfessionalsList
