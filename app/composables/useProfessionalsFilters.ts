@@ -1,24 +1,14 @@
-import { getProfessionalsFilters } from "~/services/filters.service";
-import type { ProfessionalsFacets } from "~/types";
+import { PROFESSIONALS_FACETS_URL } from "~/services/filters.service";
 
 export function useProfessionalsFilters() {
-  const facets = ref<ProfessionalsFacets | null>(null);
-  const loading = ref(false);
-  const error = ref<Error | null>(null);
+  const { data, status, error } = useFetch<ProfessionalsFacets>(
+    PROFESSIONALS_FACETS_URL,
+    { lazy: true, server: false },
+  );
 
-  async function fetchFacets() {
-    loading.value = true;
-    error.value = null;
-    try {
-      facets.value = await getProfessionalsFilters();
-    } catch (e) {
-      error.value = e as Error;
-    } finally {
-      loading.value = false;
-    }
-  }
-
-  onMounted(fetchFacets);
-
-  return { facets, loading, error };
+  return {
+    facets: data,
+    loading: computed(() => status.value === "pending"),
+    error,
+  };
 }
