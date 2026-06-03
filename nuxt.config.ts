@@ -13,7 +13,9 @@ export default defineNuxtConfig({
     enabled: true,
   },
   routeRules: {
-    "/api/**": { cache: false },
+    "/api/professionals": { cache: false },
+    "/api/professionals/**": { cache: false },
+    "/api/professionals/facets": { cache: { maxAge: 3600 } },
   },
   experimental: {
     payloadExtraction: false,
