@@ -12,4 +12,10 @@ export default defineNuxtConfig({
   devtools: {
     enabled: true,
   },
+  routeRules: {
+    "/api/**": { cache: false },
+  },
+  experimental: {
+    payloadExtraction: false,
+  },
 });

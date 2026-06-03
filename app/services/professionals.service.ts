@@ -1,8 +1,4 @@
-import type {
-  Professional,
-  ProfessionalsQuery,
-  ProfessionalsResponse,
-} from "~/types";
+import type { Professional, ProfessionalsQuery } from "~/types";
 
 type ProfessionalsApiQuery = {
   search?: string;
@@ -18,9 +14,7 @@ type ProfessionalsApiQuery = {
   perPage?: number;
 };
 
-function buildProfessionalsApiQuery(
-  query: ProfessionalsQuery,
-): ProfessionalsApiQuery {
+function buildApiParams(query: ProfessionalsQuery): ProfessionalsApiQuery {
   const params: ProfessionalsApiQuery = {
     sortField: query.sort.field,
     sortDirection: query.sort.direction,
@@ -41,17 +35,19 @@ function buildProfessionalsApiQuery(
     params.available = query.filters.available;
   return params;
 }
-export async function getProfessionals(
-  query: ProfessionalsQuery,
-  signal?: AbortSignal,
-): Promise<ProfessionalsResponse> {
-  const built = buildProfessionalsApiQuery(query);
-  return await $fetch<ProfessionalsResponse>("/api/professionals", {
-    query: built,
-    signal,
-  });
+
+export function buildProfessionalsUrl(query: ProfessionalsQuery): string {
+  const params = buildApiParams(query);
+  const qs = new URLSearchParams(
+    Object.entries(params)
+      .filter(([, v]) => v !== undefined)
+      .map(([k, v]) => [k, String(v)]),
+  ).toString();
+  return `/api/professionals?${qs}`;
 }
 
 export async function getProfessionalById(id: string): Promise<Professional> {
-  return await $fetch<Professional>(`/api/professionals/${id}`);
+  return await $fetch<Professional>(
+    `/api/professionals/${encodeURIComponent(id)}`,
+  );
 }

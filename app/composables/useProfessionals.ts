@@ -1,12 +1,4 @@
-import { getProfessionals } from "~/services/professionals.service";
-import type {
-  ProfessionalsFilters,
-  ProfessionalsResponse,
-  ProfessionalsSort,
-  ProfessionalsQuery,
-  SortField,
-  SortDirection,
-} from "~/types";
+import { buildProfessionalsUrl } from "~/services/professionals.service";
 
 const DEFAULT_FILTERS: ProfessionalsFilters = {
   search: "",
@@ -30,128 +22,39 @@ const VALID_FIELDS: SortField[] = [
 ];
 const VALID_DIRECTIONS: SortDirection[] = ["asc", "desc"];
 
-function filtersFromQuery(
-  q: Record<string, string | string[]>,
-): ProfessionalsFilters {
-  return {
-    search: String(q.search ?? ""),
-    professions: q.professions ? String(q.professions).split(",") : [],
-    priceRange: {
-      min: q.minPrice ? Number(q.minPrice) : null,
-      max: q.maxPrice ? Number(q.maxPrice) : null,
-    },
-    minRating: q.minRating ? Number(q.minRating) : null,
-    city: q.city ? String(q.city) : null,
-    available: q.available === "true" ? true : null,
-  };
-}
-
-function sortFromQuery(
-  q: Record<string, string | string[]>,
-): ProfessionalsSort {
-  if (!q.sort) return { field: "rating", direction: "desc" };
-  const [field, direction] = String(q.sort).split(":") as [
-    SortField,
-    SortDirection,
-  ];
-  return {
-    field: VALID_FIELDS.includes(field) ? field : "rating",
-    direction: VALID_DIRECTIONS.includes(direction) ? direction : "desc",
-  };
-}
 export function useProfessionals() {
   const route = useRoute();
   const router = useRouter();
-  const result = ref<ProfessionalsResponse | null>(null);
-  const loading = ref(false);
-  const error = ref<Error | null>(null);
-  const filters = reactive<ProfessionalsFilters>(filtersFromQuery(route.query));
+
+  const filters = reactive<ProfessionalsFilters>({
+    ...DEFAULT_FILTERS,
+    ...filtersFromQuery(route.query),
+  });
   const sort = reactive<ProfessionalsSort>(sortFromQuery(route.query));
   const pagination = reactive({
     page: Number(route.query.page) || 1,
     perPage: 12,
   });
-  const query = computed<ProfessionalsQuery>(() => ({
-    filters: { ...filters, priceRange: { ...filters.priceRange } },
-    sort: { ...sort },
+
+  const apiQuery = computed<ProfessionalsQuery>(() => ({
+    filters: {
+      search: filters.search,
+      professions: [...filters.professions],
+      priceRange: { min: filters.priceRange.min, max: filters.priceRange.max },
+      minRating: filters.minRating,
+      city: filters.city,
+      available: filters.available,
+    },
+    sort: { field: sort.field, direction: sort.direction },
     pagination: { page: pagination.page, perPage: pagination.perPage },
   }));
 
-  let abortController: AbortController | null = null;
-
-  async function fetchProfessionals() {
-    abortController?.abort();
-    abortController = new AbortController();
-
-    loading.value = true;
-    error.value = null;
-    try {
-      result.value = await getProfessionals(
-        query.value,
-        abortController.signal,
-      );
-    } catch (e: any) {
-      if (e?.name === "AbortError" || e?.cause?.name === "AbortError") return;
-      error.value = e as Error;
-    } finally {
-      loading.value = false;
-    }
-  }
-  let initialized = false;
-
-  watch(
-    () => ({
-      ...query.value,
-      filters: { ...query.value.filters, search: undefined },
-    }),
-    () => {
-      if (!initialized) {
-        initialized = true;
-        fetchProfessionals();
-        return;
-      }
-      fetchProfessionals();
-      syncUrl();
-    },
-    { deep: true, immediate: true },
+  const { data, status, error, execute } = useFetch<ProfessionalsResponse>(() =>
+    buildProfessionalsUrl(apiQuery.value),
   );
-  let debounceTimer: ReturnType<typeof setTimeout>;
-  watch(
-    () => query.value.filters.search,
-    () => {
-      clearTimeout(debounceTimer);
-      debounceTimer = setTimeout(() => {
-        fetchProfessionals();
-        syncUrl();
-      }, 400);
-    },
-  );
-
-  function updateFilters(partial: Partial<ProfessionalsFilters>) {
-    Object.assign(filters, partial);
-    pagination.page = 1;
-  }
-
-  function updateSort(partial: Partial<ProfessionalsSort>) {
-    Object.assign(sort, partial);
-    pagination.page = 1;
-  }
-
-  function goToPage(page: number) {
-    pagination.page = page;
-  }
-
-  function clearFilters() {
-    Object.assign(filters, DEFAULT_FILTERS);
-    filters.professions = [];
-    filters.priceRange = { min: null, max: null };
-    Object.assign(sort, DEFAULT_SORT);
-    pagination.page = 1;
-  }
 
   function syncUrl() {
     const q: Record<string, string> = {};
-
     if (filters.search) q.search = filters.search;
     if (filters.professions.length)
       q.professions = filters.professions.join(",");
@@ -169,20 +72,60 @@ export function useProfessionals() {
       q.sort = `${sort.field}:${sort.direction}`;
     }
     if (pagination.page > 1) q.page = String(pagination.page);
-
     router.replace({ query: q });
   }
-  onMounted(() => {
-    nextTick(() => {
-      Object.assign(filters, filtersFromQuery(route.query));
-      Object.assign(sort, sortFromQuery(route.query));
-      pagination.page = Number(route.query.page) || 1;
-    });
-  });
+
+  function updateFilters(partial: Partial<ProfessionalsFilters>) {
+    if (partial.search !== undefined) filters.search = partial.search;
+    if (partial.professions !== undefined)
+      filters.professions = [...partial.professions];
+    if (partial.priceRange !== undefined)
+      filters.priceRange = { ...partial.priceRange };
+    if (partial.minRating !== undefined) filters.minRating = partial.minRating;
+    if (partial.city !== undefined) filters.city = partial.city;
+    if (partial.available !== undefined) filters.available = partial.available;
+    pagination.page = 1;
+  }
+
+  function updateSort(partial: Partial<ProfessionalsSort>) {
+    if (partial.field && VALID_FIELDS.includes(partial.field))
+      sort.field = partial.field;
+    if (partial.direction && VALID_DIRECTIONS.includes(partial.direction))
+      sort.direction = partial.direction;
+    pagination.page = 1;
+  }
+
+  function goToPage(page: number) {
+    pagination.page = Math.max(1, page);
+  }
+
+  function clearFilters() {
+    filters.search = "";
+    filters.professions = [];
+    filters.priceRange = { min: null, max: null };
+    filters.minRating = null;
+    filters.city = null;
+    filters.available = null;
+    sort.field = DEFAULT_SORT.field;
+    sort.direction = DEFAULT_SORT.direction;
+    pagination.page = 1;
+  }
+
+  onMounted(() => execute());
+
+  watch(
+    apiQuery,
+    () => {
+      syncUrl();
+      execute();
+    },
+    { flush: "post" },
+  );
+
   return {
-    professionals: computed(() => result.value?.data ?? []),
-    meta: computed(() => result.value?.meta ?? null),
-    loading,
+    professionals: computed(() => data.value?.data ?? []),
+    meta: computed(() => data.value?.meta ?? null),
+    loading: computed(() => status.value === "pending"),
     error,
     filters,
     sort,
@@ -190,5 +133,42 @@ export function useProfessionals() {
     updateSort,
     goToPage,
     clearFilters,
+  };
+}
+
+function filtersFromQuery(
+  q: Record<string, string | string[]>,
+): Partial<ProfessionalsFilters> {
+  return {
+    search: q.search ? String(q.search) : "",
+    professions: q.professions
+      ? String(q.professions)
+          .split(",")
+          .map((p) => p.trim())
+          .filter(Boolean)
+      : [],
+    priceRange: {
+      min: q.minPrice ? Number(q.minPrice) : null,
+      max: q.maxPrice ? Number(q.maxPrice) : null,
+    },
+    minRating: q.minRating ? Number(q.minRating) : null,
+    city: q.city ? String(q.city) : null,
+    available: q.available === "true" ? true : null,
+  };
+}
+
+function sortFromQuery(
+  q: Record<string, string | string[]>,
+): ProfessionalsSort {
+  if (!q.sort) return { ...DEFAULT_SORT };
+  const [field, direction] = String(q.sort).split(":") as [
+    SortField,
+    SortDirection,
+  ];
+  return {
+    field: VALID_FIELDS.includes(field) ? field : DEFAULT_SORT.field,
+    direction: VALID_DIRECTIONS.includes(direction)
+      ? direction
+      : DEFAULT_SORT.direction,
   };
 }
