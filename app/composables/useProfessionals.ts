@@ -98,7 +98,6 @@ export function useProfessionals() {
   });
 
   const debouncedSearch = ref(filters.search);
-  let searchDebounce: ReturnType<typeof setTimeout> | null = null;
   const sort = reactive<ProfessionalsSort>(sortFromQuery(route.query));
 
   const pagination = reactive({
@@ -176,12 +175,8 @@ export function useProfessionals() {
     filters.minRating = null;
     filters.city = null;
     filters.available = null;
-    sort.field = DEFAULT_SORT.field;
-    sort.direction = DEFAULT_SORT.direction;
     pagination.page = 1;
   }
-
-  onMounted(() => execute());
 
   watch(
     apiQuery,
@@ -192,18 +187,22 @@ export function useProfessionals() {
     { flush: "post" },
   );
 
+  let searchDebounce: ReturnType<typeof setTimeout> | null = null;
+
   watch(
     () => filters.search,
     (value) => {
-      if (searchDebounce) {
-        clearTimeout(searchDebounce);
-      }
+      if (searchDebounce) clearTimeout(searchDebounce);
       searchDebounce = setTimeout(() => {
         debouncedSearch.value = value;
         searchDebounce = null;
       }, 1000);
     },
   );
+
+  onUnmounted(() => {
+    if (searchDebounce) clearTimeout(searchDebounce);
+  });
 
   return {
     professionals: computed(() => data.value?.data ?? []),
