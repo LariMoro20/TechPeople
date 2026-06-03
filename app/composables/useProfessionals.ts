@@ -28,6 +28,32 @@ const VALID_FIELDS: SortField[] = [
 ];
 const VALID_DIRECTIONS: SortDirection[] = ["asc", "desc"];
 
+function numberFromQuery(value: string | string[] | undefined) {
+  if (!value) return null;
+  const number = Number(String(value));
+  return Number.isFinite(number) ? number : null;
+}
+
+function priceRangeFromQuery(query: Record<string, string | string[]>) {
+  const min = numberFromQuery(query.minPrice);
+  const max = numberFromQuery(query.maxPrice);
+  if (min !== null && max !== null && max < min) {
+    return {
+      min,
+      max: null,
+    };
+  }
+  return {
+    min,
+    max,
+  };
+}
+function ratingFromQuery(value: string | string[] | undefined) {
+  const rating = numberFromQuery(value);
+  if (rating === null) return null;
+  return rating >= 0 && rating <= 5 ? rating : null;
+}
+
 function filtersFromQuery(
   query: Record<string, string | string[]>,
 ): Partial<ProfessionalsFilters> {
@@ -39,11 +65,8 @@ function filtersFromQuery(
           .map((p) => p.trim())
           .filter(Boolean)
       : [],
-    priceRange: {
-      min: query.minPrice ? Number(query.minPrice) : null,
-      max: query.maxPrice ? Number(query.maxPrice) : null,
-    },
-    minRating: query.minRating ? Number(query.minRating) : null,
+    priceRange: priceRangeFromQuery(query),
+    minRating: ratingFromQuery(query.minRating),
     city: query.city ? String(query.city) : null,
     available: query.available === "true" ? true : null,
   };
