@@ -1201,7 +1201,7 @@
   },
   {
     "id": "prof-061",
-    "name": "Ana Silva",
+    "name": "Ana Fernandes Cunha",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 257,
@@ -1221,7 +1221,7 @@
   },
   {
     "id": "prof-062",
-    "name": "Bruno Santos",
+    "name": "Bruno Teixeira Pinto",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 294,
@@ -1241,7 +1241,7 @@
   },
   {
     "id": "prof-063",
-    "name": "Carla Costa",
+    "name": "Carla Reis Pereira",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 341,
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "prof-064",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Macedo Campos",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 108,
@@ -1281,7 +1281,7 @@
   },
   {
     "id": "prof-065",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Leal Cardoso",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 155,
@@ -1301,7 +1301,7 @@
   },
   {
     "id": "prof-066",
-    "name": "Felipe Mendes",
+    "name": "Felipe Leal Gonçalves",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 202,
@@ -1321,7 +1321,7 @@
   },
   {
     "id": "prof-067",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Souza Vieira",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 249,
@@ -1341,7 +1341,7 @@
   },
   {
     "id": "prof-068",
-    "name": "Henrique Souza",
+    "name": "Henrique Medeiros Correia",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 226,
@@ -1361,7 +1361,7 @@
   },
   {
     "id": "prof-069",
-    "name": "Isabela Pereira",
+    "name": "Isabela Ferreira Tavares",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 313,
@@ -1381,7 +1381,7 @@
   },
   {
     "id": "prof-070",
-    "name": "João Ferreira",
+    "name": "João Bezerra Amaral",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 290,
@@ -1401,7 +1401,7 @@
   },
   {
     "id": "prof-071",
-    "name": "Karen Carvalho",
+    "name": "Karen Reis Nogueira",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 237,
@@ -1421,7 +1421,7 @@
   },
   {
     "id": "prof-072",
-    "name": "Lucas Rocha",
+    "name": "Lucas Rangel Nascimento",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 294,
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "prof-073",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Melo Carvalho",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 411,
@@ -1461,7 +1461,7 @@
   },
   {
     "id": "prof-074",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Duarte Carvalho",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 408,
@@ -1481,7 +1481,7 @@
   },
   {
     "id": "prof-075",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Santos Farias",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 215,
@@ -1501,7 +1501,7 @@
   },
   {
     "id": "prof-076",
-    "name": "Pedro Lima",
+    "name": "Pedro Oliveira Miranda",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 152,
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "prof-077",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Souza Machado",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 189,
@@ -1541,7 +1541,7 @@
   },
   {
     "id": "prof-078",
-    "name": "Rafael Gomes",
+    "name": "Rafael Braga Farias",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 236,
@@ -1561,7 +1561,7 @@
   },
   {
     "id": "prof-079",
-    "name": "Sofia Dias",
+    "name": "Sofia Marques Silva",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 183,
@@ -1581,7 +1581,7 @@
   },
   {
     "id": "prof-080",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Campos Vieira",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 230,
@@ -1601,7 +1601,7 @@
   },
   {
     "id": "prof-081",
-    "name": "Ursula Silva",
+    "name": "Ursula Cordeiro Carvalho",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 277,
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "prof-082",
-    "name": "Victor Santos",
+    "name": "Victor Medeiros Silva",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 324,
@@ -1641,7 +1641,7 @@
   },
   {
     "id": "prof-083",
-    "name": "Wesley Costa",
+    "name": "Wesley Souza Camargo",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 301,
@@ -1661,7 +1661,7 @@
   },
   {
     "id": "prof-084",
-    "name": "Yasmin Ribeiro",
+    "name": "Yasmin Azevedo Brito",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 388,
@@ -1681,7 +1681,7 @@
   },
   {
     "id": "prof-085",
-    "name": "Caio Martins",
+    "name": "Caio Pacheco Melo",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 185,
@@ -1701,7 +1701,7 @@
   },
   {
     "id": "prof-086",
-    "name": "Bianca Mendes",
+    "name": "Bianca Melo Braga",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 132,
@@ -1721,7 +1721,7 @@
   },
   {
     "id": "prof-087",
-    "name": "Matheus Teixeira",
+    "name": "Matheus Guimarães Andrade",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 189,
@@ -1741,7 +1741,7 @@
   },
   {
     "id": "prof-088",
-    "name": "Larissa Souza",
+    "name": "Larissa Bezerra Valente",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 306,
@@ -1761,7 +1761,7 @@
   },
   {
     "id": "prof-089",
-    "name": "Gustavo Pereira",
+    "name": "Gustavo Vargas Reis",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 303,
@@ -1781,7 +1781,7 @@
   },
   {
     "id": "prof-090",
-    "name": "Fernanda Ferreira",
+    "name": "Fernanda Almeida Dantas",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 290,
@@ -1801,7 +1801,7 @@
   },
   {
     "id": "prof-091",
-    "name": "Ana Carvalho",
+    "name": "Ana Moraes Duarte",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 227,
@@ -1821,7 +1821,7 @@
   },
   {
     "id": "prof-092",
-    "name": "Bruno Rocha",
+    "name": "Bruno Monteiro Andrade",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 264,
@@ -1841,7 +1841,7 @@
   },
   {
     "id": "prof-093",
-    "name": "Carla Barbosa",
+    "name": "Carla Rocha Vieira",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 311,
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "prof-094",
-    "name": "Daniel Moreira",
+    "name": "Daniel Araújo Aguiar",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 258,
@@ -1881,7 +1881,7 @@
   },
   {
     "id": "prof-095",
-    "name": "Eduarda Oliveira",
+    "name": "Eduarda Leal Martins",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 305,
@@ -1901,7 +1901,7 @@
   },
   {
     "id": "prof-096",
-    "name": "Felipe Lima",
+    "name": "Felipe Andrade Miranda",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 172,
@@ -1921,7 +1921,7 @@
   },
   {
     "id": "prof-097",
-    "name": "Gabriela Almeida",
+    "name": "Gabriela Borges Vargas",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 219,
@@ -1941,7 +1941,7 @@
   },
   {
     "id": "prof-098",
-    "name": "Henrique Gomes",
+    "name": "Henrique Garcia Soares",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 196,
@@ -1961,7 +1961,7 @@
   },
   {
     "id": "prof-099",
-    "name": "Isabela Dias",
+    "name": "Isabela Aguiar Vasconcelos",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 283,
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "prof-100",
-    "name": "João Cardoso",
+    "name": "João Campos Santos",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 260,
@@ -2001,7 +2001,7 @@
   },
   {
     "id": "prof-101",
-    "name": "Karen Silva",
+    "name": "Karen Bezerra Coelho",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 207,
@@ -2021,7 +2021,7 @@
   },
   {
     "id": "prof-102",
-    "name": "Lucas Santos",
+    "name": "Lucas Carvalho Batista",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 264,
@@ -2041,7 +2041,7 @@
   },
   {
     "id": "prof-103",
-    "name": "Mariana Costa",
+    "name": "Mariana Lima Leal",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 381,
@@ -2061,7 +2061,7 @@
   },
   {
     "id": "prof-104",
-    "name": "Nicolas Ribeiro",
+    "name": "Nicolas Figueiredo Soares",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 378,
@@ -2081,7 +2081,7 @@
   },
   {
     "id": "prof-105",
-    "name": "Olivia Martins",
+    "name": "Olivia Couto Castro",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 365,
@@ -2101,7 +2101,7 @@
   },
   {
     "id": "prof-106",
-    "name": "Pedro Mendes",
+    "name": "Pedro Lima Sales",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 122,
@@ -2121,7 +2121,7 @@
   },
   {
     "id": "prof-107",
-    "name": "Quitéria Teixeira",
+    "name": "Quitéria Aguiar Lopes",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 159,
@@ -2141,7 +2141,7 @@
   },
   {
     "id": "prof-108",
-    "name": "Rafael Souza",
+    "name": "Rafael Medeiros Lacerda",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 206,
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "prof-109",
-    "name": "Sofia Pereira",
+    "name": "Sofia Fernandes Azevedo",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 153,
@@ -2181,7 +2181,7 @@
   },
   {
     "id": "prof-110",
-    "name": "Thiago Ferreira",
+    "name": "Thiago Melo Leal",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 200,
@@ -2201,7 +2201,7 @@
   },
   {
     "id": "prof-111",
-    "name": "Ursula Carvalho",
+    "name": "Ursula Borges Barros",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 247,
@@ -2221,7 +2221,7 @@
   },
   {
     "id": "prof-112",
-    "name": "Victor Rocha",
+    "name": "Victor Gomes Cordeiro",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 294,
@@ -2241,7 +2241,7 @@
   },
   {
     "id": "prof-113",
-    "name": "Wesley Barbosa",
+    "name": "Wesley Mendes Silva",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 271,
@@ -2261,7 +2261,7 @@
   },
   {
     "id": "prof-114",
-    "name": "Yasmin Moreira",
+    "name": "Yasmin Gonçalves Garcia",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 358,
@@ -2281,7 +2281,7 @@
   },
   {
     "id": "prof-115",
-    "name": "Caio Oliveira",
+    "name": "Caio Queiroz Peixoto",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 335,
@@ -2301,7 +2301,7 @@
   },
   {
     "id": "prof-116",
-    "name": "Bianca Lima",
+    "name": "Bianca Rangel Mendes",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 282,
@@ -2321,7 +2321,7 @@
   },
   {
     "id": "prof-117",
-    "name": "Matheus Almeida",
+    "name": "Matheus Aguiar Pereira",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 159,
@@ -2341,7 +2341,7 @@
   },
   {
     "id": "prof-118",
-    "name": "Larissa Gomes",
+    "name": "Larissa Braga Lima",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 276,
@@ -2361,7 +2361,7 @@
   },
   {
     "id": "prof-119",
-    "name": "Gustavo Dias",
+    "name": "Gustavo Bezerra Melo",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 273,
@@ -2381,7 +2381,7 @@
   },
   {
     "id": "prof-120",
-    "name": "Fernanda Cardoso",
+    "name": "Fernanda Pinto Rodrigues",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 260,
@@ -2401,7 +2401,7 @@
   },
   {
     "id": "prof-121",
-    "name": "Ana Silva",
+    "name": "Ana Almeida Braga",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 197,
@@ -2421,7 +2421,7 @@
   },
   {
     "id": "prof-122",
-    "name": "Bruno Santos",
+    "name": "Bruno Machado Santos",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 234,
@@ -2441,7 +2441,7 @@
   },
   {
     "id": "prof-123",
-    "name": "Carla Costa",
+    "name": "Carla Leal Soares",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 281,
@@ -2461,7 +2461,7 @@
   },
   {
     "id": "prof-124",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Lacerda Sales",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 228,
@@ -2481,7 +2481,7 @@
   },
   {
     "id": "prof-125",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Dantas Santos",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 275,
@@ -2501,7 +2501,7 @@
   },
   {
     "id": "prof-126",
-    "name": "Felipe Mendes",
+    "name": "Felipe Borges Matos",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 322,
@@ -2521,7 +2521,7 @@
   },
   {
     "id": "prof-127",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Moreira Coelho",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 369,
@@ -2541,7 +2541,7 @@
   },
   {
     "id": "prof-128",
-    "name": "Henrique Souza",
+    "name": "Henrique Figueiredo Teixeira",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 166,
@@ -2561,7 +2561,7 @@
   },
   {
     "id": "prof-129",
-    "name": "Isabela Pereira",
+    "name": "Isabela Lopes Cunha",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 253,
@@ -2581,7 +2581,7 @@
   },
   {
     "id": "prof-130",
-    "name": "João Ferreira",
+    "name": "João Duarte Correia",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 230,
@@ -2601,7 +2601,7 @@
   },
   {
     "id": "prof-131",
-    "name": "Karen Carvalho",
+    "name": "Karen Ramos Rocha",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 177,
@@ -2621,7 +2621,7 @@
   },
   {
     "id": "prof-132",
-    "name": "Lucas Rocha",
+    "name": "Lucas Amaral Melo",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 234,
@@ -2641,7 +2641,7 @@
   },
   {
     "id": "prof-133",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Freitas Costa",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 351,
@@ -2661,7 +2661,7 @@
   },
   {
     "id": "prof-134",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Neves Barbosa",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 348,
@@ -2681,7 +2681,7 @@
   },
   {
     "id": "prof-135",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Fonseca Ferreira",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 335,
@@ -2701,7 +2701,7 @@
   },
   {
     "id": "prof-136",
-    "name": "Pedro Lima",
+    "name": "Pedro Teixeira Vargas",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 272,
@@ -2721,7 +2721,7 @@
   },
   {
     "id": "prof-137",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Araújo Peixoto",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 309,
@@ -2741,7 +2741,7 @@
   },
   {
     "id": "prof-138",
-    "name": "Rafael Gomes",
+    "name": "Rafael Vieira Queiroz",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 176,
@@ -2761,7 +2761,7 @@
   },
   {
     "id": "prof-139",
-    "name": "Sofia Dias",
+    "name": "Sofia Gomes Lacerda",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 123,
@@ -2781,7 +2781,7 @@
   },
   {
     "id": "prof-140",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Ribeiro Silva",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 170,
@@ -2801,7 +2801,7 @@
   },
   {
     "id": "prof-141",
-    "name": "Ursula Silva",
+    "name": "Ursula Mendes Vasconcelos",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 217,
@@ -2821,7 +2821,7 @@
   },
   {
     "id": "prof-142",
-    "name": "Victor Santos",
+    "name": "Victor Pinto Cunha",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 264,
@@ -2841,7 +2841,7 @@
   },
   {
     "id": "prof-143",
-    "name": "Wesley Costa",
+    "name": "Wesley Cunha Barros",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 241,
@@ -2861,7 +2861,7 @@
   },
   {
     "id": "prof-144",
-    "name": "Yasmin Ribeiro",
+    "name": "Yasmin Ferreira Couto",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 328,
@@ -2881,7 +2881,7 @@
   },
   {
     "id": "prof-145",
-    "name": "Caio Martins",
+    "name": "Caio Castro Aguiar",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 305,
@@ -2901,7 +2901,7 @@
   },
   {
     "id": "prof-146",
-    "name": "Bianca Mendes",
+    "name": "Bianca Nogueira Andrade",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 252,
@@ -2921,7 +2921,7 @@
   },
   {
     "id": "prof-147",
-    "name": "Matheus Teixeira",
+    "name": "Matheus Barbosa Lacerda",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 309,
@@ -2941,7 +2941,7 @@
   },
   {
     "id": "prof-148",
-    "name": "Larissa Souza",
+    "name": "Larissa Costa Siqueira",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 426,
@@ -2961,7 +2961,7 @@
   },
   {
     "id": "prof-149",
-    "name": "Gustavo Pereira",
+    "name": "Gustavo Soares Prado",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 243,
@@ -2981,7 +2981,7 @@
   },
   {
     "id": "prof-150",
-    "name": "Fernanda Ferreira",
+    "name": "Fernanda Rodrigues Freitas",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 230,
@@ -3001,7 +3001,7 @@
   },
   {
     "id": "prof-151",
-    "name": "Ana Carvalho",
+    "name": "Ana Mendes Nascimento",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 167,
@@ -3021,7 +3021,7 @@
   },
   {
     "id": "prof-152",
-    "name": "Bruno Rocha",
+    "name": "Bruno Tavares Leal",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 204,
@@ -3041,7 +3041,7 @@
   },
   {
     "id": "prof-153",
-    "name": "Carla Barbosa",
+    "name": "Carla Nogueira Farias",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 251,
@@ -3061,7 +3061,7 @@
   },
   {
     "id": "prof-154",
-    "name": "Daniel Moreira",
+    "name": "Daniel Andrade Amaral",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 198,
@@ -3081,7 +3081,7 @@
   },
   {
     "id": "prof-155",
-    "name": "Eduarda Oliveira",
+    "name": "Eduarda Bezerra Couto",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 245,
@@ -3101,7 +3101,7 @@
   },
   {
     "id": "prof-156",
-    "name": "Felipe Lima",
+    "name": "Felipe Seixas Porto",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 292,
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "prof-157",
-    "name": "Gabriela Almeida",
+    "name": "Gabriela Vargas Silva",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 339,
@@ -3141,7 +3141,7 @@
   },
   {
     "id": "prof-158",
-    "name": "Henrique Gomes",
+    "name": "Henrique Souza Rangel",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 316,
@@ -3161,7 +3161,7 @@
   },
   {
     "id": "prof-159",
-    "name": "Isabela Dias",
+    "name": "Isabela Andrade Rezende",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 223,
@@ -3181,7 +3181,7 @@
   },
   {
     "id": "prof-160",
-    "name": "João Cardoso",
+    "name": "João Vargas Braga",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 200,
@@ -3201,7 +3201,7 @@
   },
   {
     "id": "prof-161",
-    "name": "Karen Silva",
+    "name": "Karen Mendes Tavares",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 147,
@@ -3221,7 +3221,7 @@
   },
   {
     "id": "prof-162",
-    "name": "Lucas Santos",
+    "name": "Lucas Camargo Ramos",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 204,
@@ -3241,7 +3241,7 @@
   },
   {
     "id": "prof-163",
-    "name": "Mariana Costa",
+    "name": "Mariana Vieira Seixas",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 321,
@@ -3261,7 +3261,7 @@
   },
   {
     "id": "prof-164",
-    "name": "Nicolas Ribeiro",
+    "name": "Nicolas Andrade Barros",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 318,
@@ -3281,7 +3281,7 @@
   },
   {
     "id": "prof-165",
-    "name": "Olivia Martins",
+    "name": "Olivia Rodrigues Seixas",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 305,
@@ -3301,7 +3301,7 @@
   },
   {
     "id": "prof-166",
-    "name": "Pedro Mendes",
+    "name": "Pedro Souza Cordeiro",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 242,
@@ -3321,7 +3321,7 @@
   },
   {
     "id": "prof-167",
-    "name": "Quitéria Teixeira",
+    "name": "Quitéria Dantas Figueiredo",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 279,
@@ -3341,7 +3341,7 @@
   },
   {
     "id": "prof-168",
-    "name": "Rafael Souza",
+    "name": "Rafael Xavier Rangel",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 326,
@@ -3361,7 +3361,7 @@
   },
   {
     "id": "prof-169",
-    "name": "Sofia Pereira",
+    "name": "Sofia Batista Porto",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 273,
@@ -3381,7 +3381,7 @@
   },
   {
     "id": "prof-170",
-    "name": "Thiago Ferreira",
+    "name": "Thiago Sales Freitas",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 140,
@@ -3401,7 +3401,7 @@
   },
   {
     "id": "prof-171",
-    "name": "Ursula Carvalho",
+    "name": "Ursula Bezerra Brito",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 187,
@@ -3421,7 +3421,7 @@
   },
   {
     "id": "prof-172",
-    "name": "Victor Rocha",
+    "name": "Victor Medeiros Duarte",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 234,
@@ -3441,7 +3441,7 @@
   },
   {
     "id": "prof-173",
-    "name": "Wesley Barbosa",
+    "name": "Wesley Seixas Lacerda",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 211,
@@ -3461,7 +3461,7 @@
   },
   {
     "id": "prof-174",
-    "name": "Yasmin Moreira",
+    "name": "Yasmin Rodrigues Cunha",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 298,
@@ -3481,7 +3481,7 @@
   },
   {
     "id": "prof-175",
-    "name": "Caio Oliveira",
+    "name": "Caio Couto Macedo",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 275,
@@ -3501,7 +3501,7 @@
   },
   {
     "id": "prof-176",
-    "name": "Bianca Lima",
+    "name": "Bianca Amaral Oliveira",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 222,
@@ -3521,7 +3521,7 @@
   },
   {
     "id": "prof-177",
-    "name": "Matheus Almeida",
+    "name": "Matheus Gomes Pereira",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 279,
@@ -3541,7 +3541,7 @@
   },
   {
     "id": "prof-178",
-    "name": "Larissa Gomes",
+    "name": "Larissa Brito Coelho",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 396,
@@ -3561,7 +3561,7 @@
   },
   {
     "id": "prof-179",
-    "name": "Gustavo Dias",
+    "name": "Gustavo Dias Barbosa",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 393,
@@ -3581,7 +3581,7 @@
   },
   {
     "id": "prof-180",
-    "name": "Fernanda Cardoso",
+    "name": "Fernanda Sales Dias",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 200,
@@ -3601,7 +3601,7 @@
   },
   {
     "id": "prof-181",
-    "name": "Ana Silva",
+    "name": "Ana Ribeiro Lima",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 137,
@@ -3621,7 +3621,7 @@
   },
   {
     "id": "prof-182",
-    "name": "Bruno Santos",
+    "name": "Bruno Pacheco Soares",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 174,
@@ -3641,7 +3641,7 @@
   },
   {
     "id": "prof-183",
-    "name": "Carla Costa",
+    "name": "Carla Teixeira Moura",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 221,
@@ -3661,7 +3661,7 @@
   },
   {
     "id": "prof-184",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Almeida Nascimento",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 168,
@@ -3681,7 +3681,7 @@
   },
   {
     "id": "prof-185",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Peixoto Braga",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 215,
@@ -3701,7 +3701,7 @@
   },
   {
     "id": "prof-186",
-    "name": "Felipe Mendes",
+    "name": "Felipe Rezende Bezerra",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 262,
@@ -3721,7 +3721,7 @@
   },
   {
     "id": "prof-187",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Prado Freitas",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 309,
@@ -3741,7 +3741,7 @@
   },
   {
     "id": "prof-188",
-    "name": "Henrique Souza",
+    "name": "Henrique Coelho Aguiar",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 286,
@@ -3761,7 +3761,7 @@
   },
   {
     "id": "prof-189",
-    "name": "Isabela Pereira",
+    "name": "Isabela Machado Marques",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 373,
@@ -3781,7 +3781,7 @@
   },
   {
     "id": "prof-190",
-    "name": "João Ferreira",
+    "name": "João Xavier Matos",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 350,
@@ -3801,7 +3801,7 @@
   },
   {
     "id": "prof-191",
-    "name": "Karen Carvalho",
+    "name": "Karen Camargo Azevedo",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 117,
@@ -3821,7 +3821,7 @@
   },
   {
     "id": "prof-192",
-    "name": "Lucas Rocha",
+    "name": "Lucas Ramos Assis",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 174,
@@ -3841,7 +3841,7 @@
   },
   {
     "id": "prof-193",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Almeida Campos",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 291,
@@ -3861,7 +3861,7 @@
   },
   {
     "id": "prof-194",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Ramos Araújo",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 288,
@@ -3881,7 +3881,7 @@
   },
   {
     "id": "prof-195",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Borges Martins",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 275,
@@ -3901,7 +3901,7 @@
   },
   {
     "id": "prof-196",
-    "name": "Pedro Lima",
+    "name": "Pedro Batista Soares",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 212,
@@ -3921,7 +3921,7 @@
   },
   {
     "id": "prof-197",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Lacerda Teixeira",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 249,
@@ -3941,7 +3941,7 @@
   },
   {
     "id": "prof-198",
-    "name": "Rafael Gomes",
+    "name": "Rafael Assis Castro",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 296,
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "prof-199",
-    "name": "Sofia Dias",
+    "name": "Sofia Coelho Melo",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 243,
@@ -3981,7 +3981,7 @@
   },
   {
     "id": "prof-200",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Cavalcante Freitas",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 290,
@@ -4001,7 +4001,7 @@
   },
   {
     "id": "prof-201",
-    "name": "Ursula Silva",
+    "name": "Ursula Nascimento Bezerra",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 337,
@@ -4021,7 +4021,7 @@
   },
   {
     "id": "prof-202",
-    "name": "Victor Santos",
+    "name": "Victor Costa Ferreira",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 204,
@@ -4041,7 +4041,7 @@
   },
   {
     "id": "prof-203",
-    "name": "Wesley Costa",
+    "name": "Wesley Matos Campos",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 181,
@@ -4061,7 +4061,7 @@
   },
   {
     "id": "prof-204",
-    "name": "Yasmin Ribeiro",
+    "name": "Yasmin Moreira Valente",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 268,
@@ -4081,7 +4081,7 @@
   },
   {
     "id": "prof-205",
-    "name": "Caio Martins",
+    "name": "Caio Tavares Gomes",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 245,
@@ -4101,7 +4101,7 @@
   },
   {
     "id": "prof-206",
-    "name": "Bianca Mendes",
+    "name": "Bianca Fonseca Couto",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 192,
@@ -4121,7 +4121,7 @@
   },
   {
     "id": "prof-207",
-    "name": "Matheus Teixeira",
+    "name": "Matheus Monteiro Siqueira",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 249,
@@ -4141,7 +4141,7 @@
   },
   {
     "id": "prof-208",
-    "name": "Larissa Souza",
+    "name": "Larissa Xavier Barbosa",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 366,
@@ -4161,7 +4161,7 @@
   },
   {
     "id": "prof-209",
-    "name": "Gustavo Pereira",
+    "name": "Gustavo Nascimento Souza",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 363,
@@ -4181,7 +4181,7 @@
   },
   {
     "id": "prof-210",
-    "name": "Fernanda Ferreira",
+    "name": "Fernanda Borges Neves",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 350,
@@ -4201,7 +4201,7 @@
   },
   {
     "id": "prof-211",
-    "name": "Ana Carvalho",
+    "name": "Ana Pereira Lopes",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 287,
@@ -4221,7 +4221,7 @@
   },
   {
     "id": "prof-212",
-    "name": "Bruno Rocha",
+    "name": "Bruno Machado Medeiros",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 144,
@@ -4241,7 +4241,7 @@
   },
   {
     "id": "prof-213",
-    "name": "Carla Barbosa",
+    "name": "Carla Machado Peixoto",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 191,
@@ -4261,7 +4261,7 @@
   },
   {
     "id": "prof-214",
-    "name": "Daniel Moreira",
+    "name": "Daniel Prado Leal",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 138,
@@ -4281,7 +4281,7 @@
   },
   {
     "id": "prof-215",
-    "name": "Eduarda Oliveira",
+    "name": "Eduarda Coelho Borges",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 185,
@@ -4301,7 +4301,7 @@
   },
   {
     "id": "prof-216",
-    "name": "Felipe Lima",
+    "name": "Felipe Borges Rodrigues",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 232,
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "prof-217",
-    "name": "Gabriela Almeida",
+    "name": "Gabriela Couto Moraes",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 279,
@@ -4341,7 +4341,7 @@
   },
   {
     "id": "prof-218",
-    "name": "Henrique Gomes",
+    "name": "Henrique Rezende Fernandes",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 256,
@@ -4361,7 +4361,7 @@
   },
   {
     "id": "prof-219",
-    "name": "Isabela Dias",
+    "name": "Isabela Gonçalves Barbosa",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 343,
@@ -4381,7 +4381,7 @@
   },
   {
     "id": "prof-220",
-    "name": "João Cardoso",
+    "name": "João Neves Campos",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 320,
@@ -4401,7 +4401,7 @@
   },
   {
     "id": "prof-221",
-    "name": "Karen Silva",
+    "name": "Karen Leal Matos",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 267,
@@ -4421,7 +4421,7 @@
   },
   {
     "id": "prof-222",
-    "name": "Lucas Santos",
+    "name": "Lucas Cardoso Leal",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 324,
@@ -4441,7 +4441,7 @@
   },
   {
     "id": "prof-223",
-    "name": "Mariana Costa",
+    "name": "Mariana Souza Seixas",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 261,
@@ -4461,7 +4461,7 @@
   },
   {
     "id": "prof-224",
-    "name": "Nicolas Ribeiro",
+    "name": "Nicolas Fonseca Teixeira",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 258,
@@ -4481,7 +4481,7 @@
   },
   {
     "id": "prof-225",
-    "name": "Olivia Martins",
+    "name": "Olivia Cavalcante Peixoto",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 245,
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "prof-226",
-    "name": "Pedro Mendes",
+    "name": "Pedro Porto Fonseca",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 182,
@@ -4521,7 +4521,7 @@
   },
   {
     "id": "prof-227",
-    "name": "Quitéria Teixeira",
+    "name": "Quitéria Castro Dias",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 219,
@@ -4541,7 +4541,7 @@
   },
   {
     "id": "prof-228",
-    "name": "Rafael Souza",
+    "name": "Rafael Mendes Camargo",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 266,
@@ -4561,7 +4561,7 @@
   },
   {
     "id": "prof-229",
-    "name": "Sofia Pereira",
+    "name": "Sofia Matos Fonseca",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 213,
@@ -4581,7 +4581,7 @@
   },
   {
     "id": "prof-230",
-    "name": "Thiago Ferreira",
+    "name": "Thiago Pinto Vargas",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 260,
@@ -4601,7 +4601,7 @@
   },
   {
     "id": "prof-231",
-    "name": "Ursula Carvalho",
+    "name": "Ursula Silva Batista",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 307,
@@ -4621,7 +4621,7 @@
   },
   {
     "id": "prof-232",
-    "name": "Victor Rocha",
+    "name": "Victor Ribeiro Queiroz",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 354,
@@ -4641,7 +4641,7 @@
   },
   {
     "id": "prof-233",
-    "name": "Wesley Barbosa",
+    "name": "Wesley Cavalcante Ramos",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 151,
@@ -4661,7 +4661,7 @@
   },
   {
     "id": "prof-234",
-    "name": "Yasmin Moreira",
+    "name": "Yasmin Teixeira Azevedo",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 238,
@@ -4681,7 +4681,7 @@
   },
   {
     "id": "prof-235",
-    "name": "Caio Oliveira",
+    "name": "Caio Figueiredo Bezerra",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 215,
@@ -4701,7 +4701,7 @@
   },
   {
     "id": "prof-236",
-    "name": "Bianca Lima",
+    "name": "Bianca Ribeiro Ferreira",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 162,
@@ -4721,7 +4721,7 @@
   },
   {
     "id": "prof-237",
-    "name": "Matheus Almeida",
+    "name": "Matheus Duarte Prado",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 219,
@@ -4741,7 +4741,7 @@
   },
   {
     "id": "prof-238",
-    "name": "Larissa Gomes",
+    "name": "Larissa Macedo Braga",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 336,
@@ -4761,7 +4761,7 @@
   },
   {
     "id": "prof-239",
-    "name": "Gustavo Dias",
+    "name": "Gustavo Prado Fernandes",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 333,
@@ -4781,7 +4781,7 @@
   },
   {
     "id": "prof-240",
-    "name": "Fernanda Cardoso",
+    "name": "Fernanda Costa Lacerda",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 320,
@@ -4801,7 +4801,7 @@
   },
   {
     "id": "prof-241",
-    "name": "Ana Silva",
+    "name": "Ana Duarte Ribeiro",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 257,
@@ -4821,7 +4821,7 @@
   },
   {
     "id": "prof-242",
-    "name": "Bruno Santos",
+    "name": "Bruno Gomes Dias",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 294,
@@ -4841,7 +4841,7 @@
   },
   {
     "id": "prof-243",
-    "name": "Carla Costa",
+    "name": "Carla Almeida Souza",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 341,
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "prof-244",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Dantas Aguiar",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 108,
@@ -4881,7 +4881,7 @@
   },
   {
     "id": "prof-245",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Reis Barbosa",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 155,
@@ -4901,7 +4901,7 @@
   },
   {
     "id": "prof-246",
-    "name": "Felipe Mendes",
+    "name": "Felipe Vargas Couto",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 202,
@@ -4921,7 +4921,7 @@
   },
   {
     "id": "prof-247",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Pacheco Fonseca",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 249,
@@ -4941,7 +4941,7 @@
   },
   {
     "id": "prof-248",
-    "name": "Henrique Souza",
+    "name": "Henrique Brito Cardoso",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 226,
@@ -4961,7 +4961,7 @@
   },
   {
     "id": "prof-249",
-    "name": "Isabela Pereira",
+    "name": "Isabela Campos Coelho",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 313,
@@ -4981,7 +4981,7 @@
   },
   {
     "id": "prof-250",
-    "name": "João Ferreira",
+    "name": "João Carvalho Azevedo",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 290,
@@ -5001,7 +5001,7 @@
   },
   {
     "id": "prof-251",
-    "name": "Karen Carvalho",
+    "name": "Karen Ferreira Reis",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 237,
@@ -5021,7 +5021,7 @@
   },
   {
     "id": "prof-252",
-    "name": "Lucas Rocha",
+    "name": "Lucas Moura Lacerda",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 294,
@@ -5041,7 +5041,7 @@
   },
   {
     "id": "prof-253",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Vieira Moura",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 411,
@@ -5061,7 +5061,7 @@
   },
   {
     "id": "prof-254",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Teixeira Soares",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 408,
@@ -5081,7 +5081,7 @@
   },
   {
     "id": "prof-255",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Carvalho Vasconcelos",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 215,
@@ -5101,7 +5101,7 @@
   },
   {
     "id": "prof-256",
-    "name": "Pedro Lima",
+    "name": "Pedro Lopes Seixas",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 152,
@@ -5121,7 +5121,7 @@
   },
   {
     "id": "prof-257",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Fernandes Santos",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 189,
@@ -5141,7 +5141,7 @@
   },
   {
     "id": "prof-258",
-    "name": "Rafael Gomes",
+    "name": "Rafael Ferreira Correia",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 236,
@@ -5161,7 +5161,7 @@
   },
   {
     "id": "prof-259",
-    "name": "Sofia Dias",
+    "name": "Sofia Garcia Carvalho",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 183,
@@ -5181,7 +5181,7 @@
   },
   {
     "id": "prof-260",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Monteiro Souza",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 230,
@@ -5201,7 +5201,7 @@
   },
   {
     "id": "prof-261",
-    "name": "Ursula Silva",
+    "name": "Ursula Valente Freitas",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 277,
@@ -5221,7 +5221,7 @@
   },
   {
     "id": "prof-262",
-    "name": "Victor Santos",
+    "name": "Victor Cardoso Gonçalves",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 324,
@@ -5241,7 +5241,7 @@
   },
   {
     "id": "prof-263",
-    "name": "Wesley Costa",
+    "name": "Wesley Almeida Coelho",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 301,
@@ -5261,7 +5261,7 @@
   },
   {
     "id": "prof-264",
-    "name": "Yasmin Ribeiro",
+    "name": "Yasmin Ramos Marques",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 388,
@@ -5281,7 +5281,7 @@
   },
   {
     "id": "prof-265",
-    "name": "Caio Martins",
+    "name": "Caio Machado Braga",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 185,
@@ -5301,7 +5301,7 @@
   },
   {
     "id": "prof-266",
-    "name": "Bianca Mendes",
+    "name": "Bianca Souza Fonseca",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 132,
@@ -5321,7 +5321,7 @@
   },
   {
     "id": "prof-267",
-    "name": "Matheus Teixeira",
+    "name": "Matheus Silva Medeiros",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 189,
@@ -5341,7 +5341,7 @@
   },
   {
     "id": "prof-268",
-    "name": "Larissa Souza",
+    "name": "Larissa Almeida Machado",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 306,
@@ -5361,7 +5361,7 @@
   },
   {
     "id": "prof-269",
-    "name": "Gustavo Pereira",
+    "name": "Gustavo Dantas Duarte",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 303,
@@ -5381,7 +5381,7 @@
   },
   {
     "id": "prof-270",
-    "name": "Fernanda Ferreira",
+    "name": "Fernanda Queiroz Farias",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 290,
@@ -5401,7 +5401,7 @@
   },
   {
     "id": "prof-271",
-    "name": "Ana Carvalho",
+    "name": "Ana Queiroz Cavalcante",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 227,
@@ -5421,7 +5421,7 @@
   },
   {
     "id": "prof-272",
-    "name": "Bruno Rocha",
+    "name": "Bruno Nogueira Azevedo",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 264,
@@ -5441,7 +5441,7 @@
   },
   {
     "id": "prof-273",
-    "name": "Carla Barbosa",
+    "name": "Carla Guimarães Souza",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 311,
@@ -5461,7 +5461,7 @@
   },
   {
     "id": "prof-274",
-    "name": "Daniel Moreira",
+    "name": "Daniel Machado Sales",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 258,
@@ -5481,7 +5481,7 @@
   },
   {
     "id": "prof-275",
-    "name": "Eduarda Oliveira",
+    "name": "Eduarda Duarte Cordeiro",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 305,
@@ -5501,7 +5501,7 @@
   },
   {
     "id": "prof-276",
-    "name": "Felipe Lima",
+    "name": "Felipe Santos Rangel",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 172,
@@ -5521,7 +5521,7 @@
   },
   {
     "id": "prof-277",
-    "name": "Gabriela Almeida",
+    "name": "Gabriela Lima Melo",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 219,
@@ -5541,7 +5541,7 @@
   },
   {
     "id": "prof-278",
-    "name": "Henrique Gomes",
+    "name": "Henrique Martins Marques",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 196,
@@ -5561,7 +5561,7 @@
   },
   {
     "id": "prof-279",
-    "name": "Isabela Dias",
+    "name": "Isabela Macedo Moura",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 283,
@@ -5581,7 +5581,7 @@
   },
   {
     "id": "prof-280",
-    "name": "João Cardoso",
+    "name": "João Peixoto Prado",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 260,
@@ -5601,7 +5601,7 @@
   },
   {
     "id": "prof-281",
-    "name": "Karen Silva",
+    "name": "Karen Miranda Medeiros",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 207,
@@ -5621,7 +5621,7 @@
   },
   {
     "id": "prof-282",
-    "name": "Lucas Santos",
+    "name": "Lucas Queiroz Assis",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 264,
@@ -5641,7 +5641,7 @@
   },
   {
     "id": "prof-283",
-    "name": "Mariana Costa",
+    "name": "Mariana Medeiros Siqueira",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 381,
@@ -5661,7 +5661,7 @@
   },
   {
     "id": "prof-284",
-    "name": "Nicolas Ribeiro",
+    "name": "Nicolas Rezende Vargas",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 378,
@@ -5681,7 +5681,7 @@
   },
   {
     "id": "prof-285",
-    "name": "Olivia Martins",
+    "name": "Olivia Batista Peixoto",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 365,
@@ -5701,7 +5701,7 @@
   },
   {
     "id": "prof-286",
-    "name": "Pedro Mendes",
+    "name": "Pedro Ribeiro Vasconcelos",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 122,
@@ -5721,7 +5721,7 @@
   },
   {
     "id": "prof-287",
-    "name": "Quitéria Teixeira",
+    "name": "Quitéria Fonseca Castro",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 159,
@@ -5741,7 +5741,7 @@
   },
   {
     "id": "prof-288",
-    "name": "Rafael Souza",
+    "name": "Rafael Barbosa Coelho",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 206,
@@ -5761,7 +5761,7 @@
   },
   {
     "id": "prof-289",
-    "name": "Sofia Pereira",
+    "name": "Sofia Teixeira Braga",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 153,
@@ -5781,7 +5781,7 @@
   },
   {
     "id": "prof-290",
-    "name": "Thiago Ferreira",
+    "name": "Thiago Vasconcelos Fernandes",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 200,
@@ -5801,7 +5801,7 @@
   },
   {
     "id": "prof-291",
-    "name": "Ursula Carvalho",
+    "name": "Ursula Almeida Reis",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 247,
@@ -5821,7 +5821,7 @@
   },
   {
     "id": "prof-292",
-    "name": "Victor Rocha",
+    "name": "Victor Cordeiro Pereira",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 294,
@@ -5841,7 +5841,7 @@
   },
   {
     "id": "prof-293",
-    "name": "Wesley Barbosa",
+    "name": "Wesley Ribeiro Fonseca",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 271,
@@ -5861,7 +5861,7 @@
   },
   {
     "id": "prof-294",
-    "name": "Yasmin Moreira",
+    "name": "Yasmin Xavier Reis",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 358,
@@ -5881,7 +5881,7 @@
   },
   {
     "id": "prof-295",
-    "name": "Caio Oliveira",
+    "name": "Caio Camargo Castro",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 335,
@@ -5901,7 +5901,7 @@
   },
   {
     "id": "prof-296",
-    "name": "Bianca Lima",
+    "name": "Bianca Barros Borges",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 282,
@@ -5921,7 +5921,7 @@
   },
   {
     "id": "prof-297",
-    "name": "Matheus Almeida",
+    "name": "Matheus Vieira Barbosa",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 159,
@@ -5941,7 +5941,7 @@
   },
   {
     "id": "prof-298",
-    "name": "Larissa Gomes",
+    "name": "Larissa Martins Nascimento",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 276,
@@ -5961,7 +5961,7 @@
   },
   {
     "id": "prof-299",
-    "name": "Gustavo Dias",
+    "name": "Gustavo Couto Cordeiro",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 273,
@@ -5981,7 +5981,7 @@
   },
   {
     "id": "prof-300",
-    "name": "Fernanda Cardoso",
+    "name": "Fernanda Teixeira Brito",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 260,
@@ -6001,7 +6001,7 @@
   },
   {
     "id": "prof-301",
-    "name": "Ana Silva",
+    "name": "Ana Oliveira Dantas",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 197,
@@ -6021,7 +6021,7 @@
   },
   {
     "id": "prof-302",
-    "name": "Bruno Santos",
+    "name": "Bruno Figueiredo Andrade",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 234,
@@ -6041,7 +6041,7 @@
   },
   {
     "id": "prof-303",
-    "name": "Carla Costa",
+    "name": "Carla Sales Pinto",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 281,
@@ -6061,7 +6061,7 @@
   },
   {
     "id": "prof-304",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Soares Freitas",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 228,
@@ -6081,7 +6081,7 @@
   },
   {
     "id": "prof-305",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Neves Ferreira",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 275,
@@ -6101,7 +6101,7 @@
   },
   {
     "id": "prof-306",
-    "name": "Felipe Mendes",
+    "name": "Felipe Campos Sales",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 322,
@@ -6121,7 +6121,7 @@
   },
   {
     "id": "prof-307",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Gomes Marques",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 369,
@@ -6141,7 +6141,7 @@
   },
   {
     "id": "prof-308",
-    "name": "Henrique Souza",
+    "name": "Henrique Santos Oliveira",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 166,
@@ -6161,7 +6161,7 @@
   },
   {
     "id": "prof-309",
-    "name": "Isabela Pereira",
+    "name": "Isabela Braga Miranda",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 253,
@@ -6181,7 +6181,7 @@
   },
   {
     "id": "prof-310",
-    "name": "João Ferreira",
+    "name": "João Garcia Ribeiro",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 230,
@@ -6201,7 +6201,7 @@
   },
   {
     "id": "prof-311",
-    "name": "Karen Carvalho",
+    "name": "Karen Reis Dantas",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 177,
@@ -6221,7 +6221,7 @@
   },
   {
     "id": "prof-312",
-    "name": "Lucas Rocha",
+    "name": "Lucas Guimarães Braga",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 234,
@@ -6241,7 +6241,7 @@
   },
   {
     "id": "prof-313",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Macedo Barbosa",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 351,
@@ -6261,7 +6261,7 @@
   },
   {
     "id": "prof-314",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Santos Leal",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 348,
@@ -6281,7 +6281,7 @@
   },
   {
     "id": "prof-315",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Guimarães Oliveira",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 335,
@@ -6301,7 +6301,7 @@
   },
   {
     "id": "prof-316",
-    "name": "Pedro Lima",
+    "name": "Pedro Reis Cavalcante",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 272,
@@ -6321,7 +6321,7 @@
   },
   {
     "id": "prof-317",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Machado Assis",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 309,
@@ -6341,7 +6341,7 @@
   },
   {
     "id": "prof-318",
-    "name": "Rafael Gomes",
+    "name": "Rafael Carvalho Siqueira",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 176,
@@ -6361,7 +6361,7 @@
   },
   {
     "id": "prof-319",
-    "name": "Sofia Dias",
+    "name": "Sofia Correia Medeiros",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 123,
@@ -6381,7 +6381,7 @@
   },
   {
     "id": "prof-320",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Coelho Macedo",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 170,
@@ -6401,7 +6401,7 @@
   },
   {
     "id": "prof-321",
-    "name": "Ursula Silva",
+    "name": "Ursula Seixas Moreira",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 217,
@@ -6421,7 +6421,7 @@
   },
   {
     "id": "prof-322",
-    "name": "Victor Santos",
+    "name": "Victor Pacheco Nogueira",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 264,
@@ -6441,7 +6441,7 @@
   },
   {
     "id": "prof-323",
-    "name": "Wesley Costa",
+    "name": "Wesley Barros Ramos",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 241,
@@ -6461,7 +6461,7 @@
   },
   {
     "id": "prof-324",
-    "name": "Yasmin Ribeiro",
+    "name": "Yasmin Melo Azevedo",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 328,
@@ -6481,7 +6481,7 @@
   },
   {
     "id": "prof-325",
-    "name": "Caio Martins",
+    "name": "Caio Lima Vasconcelos",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 305,
@@ -6501,7 +6501,7 @@
   },
   {
     "id": "prof-326",
-    "name": "Bianca Mendes",
+    "name": "Bianca Teixeira Medeiros",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 252,
@@ -6521,7 +6521,7 @@
   },
   {
     "id": "prof-327",
-    "name": "Matheus Teixeira",
+    "name": "Matheus Duarte Souza",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 309,
@@ -6541,7 +6541,7 @@
   },
   {
     "id": "prof-328",
-    "name": "Larissa Souza",
+    "name": "Larissa Cordeiro Rezende",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 426,
@@ -6561,7 +6561,7 @@
   },
   {
     "id": "prof-329",
-    "name": "Gustavo Pereira",
+    "name": "Gustavo Campos Rangel",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 243,
@@ -6581,7 +6581,7 @@
   },
   {
     "id": "prof-330",
-    "name": "Fernanda Ferreira",
+    "name": "Fernanda Teixeira Marques",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 230,
@@ -6601,7 +6601,7 @@
   },
   {
     "id": "prof-331",
-    "name": "Ana Carvalho",
+    "name": "Ana Freitas Souza",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 167,
@@ -6621,7 +6621,7 @@
   },
   {
     "id": "prof-332",
-    "name": "Bruno Rocha",
+    "name": "Bruno Ferreira Sousa",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 204,
@@ -6641,7 +6641,7 @@
   },
   {
     "id": "prof-333",
-    "name": "Carla Barbosa",
+    "name": "Carla Martins Aguiar",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 251,
@@ -6661,7 +6661,7 @@
   },
   {
     "id": "prof-334",
-    "name": "Daniel Moreira",
+    "name": "Daniel Marques Rodrigues",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 198,
@@ -6681,7 +6681,7 @@
   },
   {
     "id": "prof-335",
-    "name": "Eduarda Oliveira",
+    "name": "Eduarda Gonçalves Peixoto",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 245,
@@ -6701,7 +6701,7 @@
   },
   {
     "id": "prof-336",
-    "name": "Felipe Lima",
+    "name": "Felipe Barbosa Garcia",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 292,
@@ -6721,7 +6721,7 @@
   },
   {
     "id": "prof-337",
-    "name": "Gabriela Almeida",
+    "name": "Gabriela Campos Araújo",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 339,
@@ -6741,7 +6741,7 @@
   },
   {
     "id": "prof-338",
-    "name": "Henrique Gomes",
+    "name": "Henrique Batista Valente",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 316,
@@ -6761,7 +6761,7 @@
   },
   {
     "id": "prof-339",
-    "name": "Isabela Dias",
+    "name": "Isabela Miranda Silva",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 223,
@@ -6781,7 +6781,7 @@
   },
   {
     "id": "prof-340",
-    "name": "João Cardoso",
+    "name": "João Fernandes Souza",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 200,
@@ -6801,7 +6801,7 @@
   },
   {
     "id": "prof-341",
-    "name": "Karen Silva",
+    "name": "Karen Fernandes Lacerda",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 147,
@@ -6821,7 +6821,7 @@
   },
   {
     "id": "prof-342",
-    "name": "Lucas Santos",
+    "name": "Lucas Marques Duarte",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 204,
@@ -6841,7 +6841,7 @@
   },
   {
     "id": "prof-343",
-    "name": "Mariana Costa",
+    "name": "Mariana Fernandes Camargo",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 321,
@@ -6861,7 +6861,7 @@
   },
   {
     "id": "prof-344",
-    "name": "Nicolas Ribeiro",
+    "name": "Nicolas Araújo Moraes",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 318,
@@ -6881,7 +6881,7 @@
   },
   {
     "id": "prof-345",
-    "name": "Olivia Martins",
+    "name": "Olivia Ferreira Cavalcante",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 305,
@@ -6901,7 +6901,7 @@
   },
   {
     "id": "prof-346",
-    "name": "Pedro Mendes",
+    "name": "Pedro Souza Cavalcante",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 242,
@@ -6921,7 +6921,7 @@
   },
   {
     "id": "prof-347",
-    "name": "Quitéria Teixeira",
+    "name": "Quitéria Vieira Soares",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 279,
@@ -6941,7 +6941,7 @@
   },
   {
     "id": "prof-348",
-    "name": "Rafael Souza",
+    "name": "Rafael Almeida Pacheco",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 326,
@@ -6961,7 +6961,7 @@
   },
   {
     "id": "prof-349",
-    "name": "Sofia Pereira",
+    "name": "Sofia Santos Matos",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 273,
@@ -6981,7 +6981,7 @@
   },
   {
     "id": "prof-350",
-    "name": "Thiago Ferreira",
+    "name": "Thiago Sales Santos",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 140,
@@ -7001,7 +7001,7 @@
   },
   {
     "id": "prof-351",
-    "name": "Ursula Carvalho",
+    "name": "Ursula Farias Dantas",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 187,
@@ -7021,7 +7021,7 @@
   },
   {
     "id": "prof-352",
-    "name": "Victor Rocha",
+    "name": "Victor Rangel Gomes",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 234,
@@ -7041,7 +7041,7 @@
   },
   {
     "id": "prof-353",
-    "name": "Wesley Barbosa",
+    "name": "Wesley Camargo Mendes",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 211,
@@ -7061,7 +7061,7 @@
   },
   {
     "id": "prof-354",
-    "name": "Yasmin Moreira",
+    "name": "Yasmin Almeida Batista",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 298,
@@ -7081,7 +7081,7 @@
   },
   {
     "id": "prof-355",
-    "name": "Caio Oliveira",
+    "name": "Caio Peixoto Freitas",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 275,
@@ -7101,7 +7101,7 @@
   },
   {
     "id": "prof-356",
-    "name": "Bianca Lima",
+    "name": "Bianca Ferreira Garcia",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 222,
@@ -7121,7 +7121,7 @@
   },
   {
     "id": "prof-357",
-    "name": "Matheus Almeida",
+    "name": "Matheus Sousa Lacerda",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 279,
@@ -7141,7 +7141,7 @@
   },
   {
     "id": "prof-358",
-    "name": "Larissa Gomes",
+    "name": "Larissa Ferreira Soares",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 396,
@@ -7161,7 +7161,7 @@
   },
   {
     "id": "prof-359",
-    "name": "Gustavo Dias",
+    "name": "Gustavo Queiroz Souza",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 393,
@@ -7181,7 +7181,7 @@
   },
   {
     "id": "prof-360",
-    "name": "Fernanda Cardoso",
+    "name": "Fernanda Costa Gonçalves",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 200,
@@ -7201,7 +7201,7 @@
   },
   {
     "id": "prof-361",
-    "name": "Ana Silva",
+    "name": "Ana Gonçalves Cordeiro",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 137,
@@ -7221,7 +7221,7 @@
   },
   {
     "id": "prof-362",
-    "name": "Bruno Santos",
+    "name": "Bruno Coelho Campos",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 174,
@@ -7241,7 +7241,7 @@
   },
   {
     "id": "prof-363",
-    "name": "Carla Costa",
+    "name": "Carla Ribeiro Araújo",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 221,
@@ -7261,7 +7261,7 @@
   },
   {
     "id": "prof-364",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Porto Fernandes",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 168,
@@ -7281,7 +7281,7 @@
   },
   {
     "id": "prof-365",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Gomes Moraes",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 215,
@@ -7301,7 +7301,7 @@
   },
   {
     "id": "prof-366",
-    "name": "Felipe Mendes",
+    "name": "Felipe Batista Guimarães",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 262,
@@ -7321,7 +7321,7 @@
   },
   {
     "id": "prof-367",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Garcia Silva",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 309,
@@ -7341,7 +7341,7 @@
   },
   {
     "id": "prof-368",
-    "name": "Henrique Souza",
+    "name": "Henrique Campos Lopes",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 286,
@@ -7361,7 +7361,7 @@
   },
   {
     "id": "prof-369",
-    "name": "Isabela Pereira",
+    "name": "Isabela Vasconcelos Coelho",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 373,
@@ -7381,7 +7381,7 @@
   },
   {
     "id": "prof-370",
-    "name": "João Ferreira",
+    "name": "João Freitas Mendes",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 350,
@@ -7401,7 +7401,7 @@
   },
   {
     "id": "prof-371",
-    "name": "Karen Carvalho",
+    "name": "Karen Gonçalves Rezende",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 117,
@@ -7421,7 +7421,7 @@
   },
   {
     "id": "prof-372",
-    "name": "Lucas Rocha",
+    "name": "Lucas Barros Souza",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 174,
@@ -7441,7 +7441,7 @@
   },
   {
     "id": "prof-373",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Andrade Costa",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 291,
@@ -7461,7 +7461,7 @@
   },
   {
     "id": "prof-374",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Lopes Figueiredo",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 288,
@@ -7481,7 +7481,7 @@
   },
   {
     "id": "prof-375",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Soares Rodrigues",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 275,
@@ -7501,7 +7501,7 @@
   },
   {
     "id": "prof-376",
-    "name": "Pedro Lima",
+    "name": "Pedro Monteiro Queiroz",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 212,
@@ -7521,7 +7521,7 @@
   },
   {
     "id": "prof-377",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Guimarães Medeiros",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 249,
@@ -7541,7 +7541,7 @@
   },
   {
     "id": "prof-378",
-    "name": "Rafael Gomes",
+    "name": "Rafael Castro Lacerda",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 296,
@@ -7561,7 +7561,7 @@
   },
   {
     "id": "prof-379",
-    "name": "Sofia Dias",
+    "name": "Sofia Xavier Lopes",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 243,
@@ -7581,7 +7581,7 @@
   },
   {
     "id": "prof-380",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Barros Miranda",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 290,
@@ -7601,7 +7601,7 @@
   },
   {
     "id": "prof-381",
-    "name": "Ursula Silva",
+    "name": "Ursula Azevedo Leal",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 337,
@@ -7621,7 +7621,7 @@
   },
   {
     "id": "prof-382",
-    "name": "Victor Santos",
+    "name": "Victor Freitas Vargas",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 204,
@@ -7641,7 +7641,7 @@
   },
   {
     "id": "prof-383",
-    "name": "Wesley Costa",
+    "name": "Wesley Macedo Araújo",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 181,
@@ -7661,7 +7661,7 @@
   },
   {
     "id": "prof-384",
-    "name": "Yasmin Ribeiro",
+    "name": "Yasmin Machado Cunha",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 268,
@@ -7681,7 +7681,7 @@
   },
   {
     "id": "prof-385",
-    "name": "Caio Martins",
+    "name": "Caio Batista Rezende",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 245,
@@ -7701,7 +7701,7 @@
   },
   {
     "id": "prof-386",
-    "name": "Bianca Mendes",
+    "name": "Bianca Barbosa Ramos",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 192,
@@ -7721,7 +7721,7 @@
   },
   {
     "id": "prof-387",
-    "name": "Matheus Teixeira",
+    "name": "Matheus Couto Ribeiro",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 249,
@@ -7741,7 +7741,7 @@
   },
   {
     "id": "prof-388",
-    "name": "Larissa Souza",
+    "name": "Larissa Santos Miranda",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 366,
@@ -7761,7 +7761,7 @@
   },
   {
     "id": "prof-389",
-    "name": "Gustavo Pereira",
+    "name": "Gustavo Bezerra Vieira",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 363,
@@ -7781,7 +7781,7 @@
   },
   {
     "id": "prof-390",
-    "name": "Fernanda Ferreira",
+    "name": "Fernanda Monteiro Coelho",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 350,
@@ -7801,7 +7801,7 @@
   },
   {
     "id": "prof-391",
-    "name": "Ana Carvalho",
+    "name": "Ana Barros Valente",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 287,
@@ -7821,7 +7821,7 @@
   },
   {
     "id": "prof-392",
-    "name": "Bruno Rocha",
+    "name": "Bruno Couto Lacerda",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 144,
@@ -7841,7 +7841,7 @@
   },
   {
     "id": "prof-393",
-    "name": "Carla Barbosa",
+    "name": "Carla Brito Figueiredo",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 191,
@@ -7861,7 +7861,7 @@
   },
   {
     "id": "prof-394",
-    "name": "Daniel Moreira",
+    "name": "Daniel Medeiros Moreira",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 138,
@@ -7881,7 +7881,7 @@
   },
   {
     "id": "prof-395",
-    "name": "Eduarda Oliveira",
+    "name": "Eduarda Cunha Camargo",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 185,
@@ -7901,7 +7901,7 @@
   },
   {
     "id": "prof-396",
-    "name": "Felipe Lima",
+    "name": "Felipe Prado Moura",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 232,
@@ -7921,7 +7921,7 @@
   },
   {
     "id": "prof-397",
-    "name": "Gabriela Almeida",
+    "name": "Gabriela Neves Brito",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 279,
@@ -7941,7 +7941,7 @@
   },
   {
     "id": "prof-398",
-    "name": "Henrique Gomes",
+    "name": "Henrique Figueiredo Reis",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 256,
@@ -7961,7 +7961,7 @@
   },
   {
     "id": "prof-399",
-    "name": "Isabela Dias",
+    "name": "Isabela Duarte Coelho",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 343,
@@ -7981,7 +7981,7 @@
   },
   {
     "id": "prof-400",
-    "name": "João Cardoso",
+    "name": "João Martins Cavalcante",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 320,
@@ -8001,7 +8001,7 @@
   },
   {
     "id": "prof-401",
-    "name": "Karen Silva",
+    "name": "Karen Bezerra Martins",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 267,
@@ -8021,7 +8021,7 @@
   },
   {
     "id": "prof-402",
-    "name": "Lucas Santos",
+    "name": "Lucas Macedo Lacerda",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 324,
@@ -8041,7 +8041,7 @@
   },
   {
     "id": "prof-403",
-    "name": "Mariana Costa",
+    "name": "Mariana Santos Aguiar",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 261,
@@ -8061,7 +8061,7 @@
   },
   {
     "id": "prof-404",
-    "name": "Nicolas Ribeiro",
+    "name": "Nicolas Nascimento Neves",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 258,
@@ -8081,7 +8081,7 @@
   },
   {
     "id": "prof-405",
-    "name": "Olivia Martins",
+    "name": "Olivia Ribeiro Teixeira",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 245,
@@ -8101,7 +8101,7 @@
   },
   {
     "id": "prof-406",
-    "name": "Pedro Mendes",
+    "name": "Pedro Valente Camargo",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 182,
@@ -8121,7 +8121,7 @@
   },
   {
     "id": "prof-407",
-    "name": "Quitéria Teixeira",
+    "name": "Quitéria Costa Melo",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 219,
@@ -8141,7 +8141,7 @@
   },
   {
     "id": "prof-408",
-    "name": "Rafael Souza",
+    "name": "Rafael Prado Monteiro",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 266,
@@ -8161,7 +8161,7 @@
   },
   {
     "id": "prof-409",
-    "name": "Sofia Pereira",
+    "name": "Sofia Cavalcante Rocha",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 213,
@@ -8181,7 +8181,7 @@
   },
   {
     "id": "prof-410",
-    "name": "Thiago Ferreira",
+    "name": "Thiago Cavalcante Camargo",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 260,
@@ -8201,7 +8201,7 @@
   },
   {
     "id": "prof-411",
-    "name": "Ursula Carvalho",
+    "name": "Ursula Fonseca Duarte",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 307,
@@ -8221,7 +8221,7 @@
   },
   {
     "id": "prof-412",
-    "name": "Victor Rocha",
+    "name": "Victor Rodrigues Coelho",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 354,
@@ -8241,7 +8241,7 @@
   },
   {
     "id": "prof-413",
-    "name": "Wesley Barbosa",
+    "name": "Wesley Borges Machado",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 151,
@@ -8261,7 +8261,7 @@
   },
   {
     "id": "prof-414",
-    "name": "Yasmin Moreira",
+    "name": "Yasmin Amaral Siqueira",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 238,
@@ -8281,7 +8281,7 @@
   },
   {
     "id": "prof-415",
-    "name": "Caio Oliveira",
+    "name": "Caio Cordeiro Borges",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 215,
@@ -8301,7 +8301,7 @@
   },
   {
     "id": "prof-416",
-    "name": "Bianca Lima",
+    "name": "Bianca Vasconcelos Monteiro",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 162,
@@ -8321,7 +8321,7 @@
   },
   {
     "id": "prof-417",
-    "name": "Matheus Almeida",
+    "name": "Matheus Siqueira Peixoto",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 219,
@@ -8341,7 +8341,7 @@
   },
   {
     "id": "prof-418",
-    "name": "Larissa Gomes",
+    "name": "Larissa Queiroz Rocha",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 336,
@@ -8361,7 +8361,7 @@
   },
   {
     "id": "prof-419",
-    "name": "Gustavo Dias",
+    "name": "Gustavo Pereira Marques",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 333,
@@ -8381,7 +8381,7 @@
   },
   {
     "id": "prof-420",
-    "name": "Fernanda Cardoso",
+    "name": "Fernanda Gonçalves Almeida",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 320,
@@ -8401,7 +8401,7 @@
   },
   {
     "id": "prof-421",
-    "name": "Ana Silva",
+    "name": "Ana Aguiar Gomes",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 257,
@@ -8421,7 +8421,7 @@
   },
   {
     "id": "prof-422",
-    "name": "Bruno Santos",
+    "name": "Bruno Neves Moreira",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 294,
@@ -8441,7 +8441,7 @@
   },
   {
     "id": "prof-423",
-    "name": "Carla Costa",
+    "name": "Carla Barros Macedo",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 341,
@@ -8461,7 +8461,7 @@
   },
   {
     "id": "prof-424",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Almeida Andrade",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 108,
@@ -8481,7 +8481,7 @@
   },
   {
     "id": "prof-425",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Campos Melo",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 155,
@@ -8501,7 +8501,7 @@
   },
   {
     "id": "prof-426",
-    "name": "Felipe Mendes",
+    "name": "Felipe Pereira Camargo",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 202,
@@ -8521,7 +8521,7 @@
   },
   {
     "id": "prof-427",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Cardoso Lima",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 249,
@@ -8541,7 +8541,7 @@
   },
   {
     "id": "prof-428",
-    "name": "Henrique Souza",
+    "name": "Henrique Marques Correia",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 226,
@@ -8561,7 +8561,7 @@
   },
   {
     "id": "prof-429",
-    "name": "Isabela Pereira",
+    "name": "Isabela Moreira Vargas",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 313,
@@ -8581,7 +8581,7 @@
   },
   {
     "id": "prof-430",
-    "name": "João Ferreira",
+    "name": "João Cunha Duarte",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 290,
@@ -8601,7 +8601,7 @@
   },
   {
     "id": "prof-431",
-    "name": "Karen Carvalho",
+    "name": "Karen Valente Fernandes",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 237,
@@ -8621,7 +8621,7 @@
   },
   {
     "id": "prof-432",
-    "name": "Lucas Rocha",
+    "name": "Lucas Queiroz Prado",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 294,
@@ -8641,7 +8641,7 @@
   },
   {
     "id": "prof-433",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Castro Farias",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 411,
@@ -8661,7 +8661,7 @@
   },
   {
     "id": "prof-434",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Correia Amaral",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 408,
@@ -8681,7 +8681,7 @@
   },
   {
     "id": "prof-435",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Rodrigues Borges",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 215,
@@ -8701,7 +8701,7 @@
   },
   {
     "id": "prof-436",
-    "name": "Pedro Lima",
+    "name": "Pedro Campos Dantas",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 152,
@@ -8721,7 +8721,7 @@
   },
   {
     "id": "prof-437",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Oliveira Vargas",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 189,
@@ -8741,7 +8741,7 @@
   },
   {
     "id": "prof-438",
-    "name": "Rafael Gomes",
+    "name": "Rafael Batista Marques",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 236,
@@ -8761,7 +8761,7 @@
   },
   {
     "id": "prof-439",
-    "name": "Sofia Dias",
+    "name": "Sofia Moreira Borges",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 183,
@@ -8781,7 +8781,7 @@
   },
   {
     "id": "prof-440",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Melo Soares",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 230,
@@ -8801,7 +8801,7 @@
   },
   {
     "id": "prof-441",
-    "name": "Ursula Silva",
+    "name": "Ursula Tavares Xavier",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 277,
@@ -8821,7 +8821,7 @@
   },
   {
     "id": "prof-442",
-    "name": "Victor Santos",
+    "name": "Victor Camargo Borges",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 324,
@@ -8841,7 +8841,7 @@
   },
   {
     "id": "prof-443",
-    "name": "Wesley Costa",
+    "name": "Wesley Rezende Freitas",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 301,
@@ -8861,7 +8861,7 @@
   },
   {
     "id": "prof-444",
-    "name": "Yasmin Ribeiro",
+    "name": "Yasmin Vieira Medeiros",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 388,
@@ -8881,7 +8881,7 @@
   },
   {
     "id": "prof-445",
-    "name": "Caio Martins",
+    "name": "Caio Barros Moura",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 185,
@@ -8901,7 +8901,7 @@
   },
   {
     "id": "prof-446",
-    "name": "Bianca Mendes",
+    "name": "Bianca Braga Cavalcante",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 132,
@@ -8921,7 +8921,7 @@
   },
   {
     "id": "prof-447",
-    "name": "Matheus Teixeira",
+    "name": "Matheus Vieira Monteiro",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 189,
@@ -8941,7 +8941,7 @@
   },
   {
     "id": "prof-448",
-    "name": "Larissa Souza",
+    "name": "Larissa Rangel Tavares",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 306,
@@ -8961,7 +8961,7 @@
   },
   {
     "id": "prof-449",
-    "name": "Gustavo Pereira",
+    "name": "Gustavo Cardoso Lacerda",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 303,
@@ -8981,7 +8981,7 @@
   },
   {
     "id": "prof-450",
-    "name": "Fernanda Ferreira",
+    "name": "Fernanda Carvalho Coelho",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 290,
@@ -9001,7 +9001,7 @@
   },
   {
     "id": "prof-451",
-    "name": "Ana Carvalho",
+    "name": "Ana Vargas Costa",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 227,
@@ -9021,7 +9021,7 @@
   },
   {
     "id": "prof-452",
-    "name": "Bruno Rocha",
+    "name": "Bruno Ramos Andrade",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 264,
@@ -9041,7 +9041,7 @@
   },
   {
     "id": "prof-453",
-    "name": "Carla Barbosa",
+    "name": "Carla Reis Dias",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 311,
@@ -9061,7 +9061,7 @@
   },
   {
     "id": "prof-454",
-    "name": "Daniel Moreira",
+    "name": "Daniel Tavares Neves",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 258,
@@ -9081,7 +9081,7 @@
   },
   {
     "id": "prof-455",
-    "name": "Eduarda Oliveira",
+    "name": "Eduarda Queiroz Soares",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 305,
@@ -9101,7 +9101,7 @@
   },
   {
     "id": "prof-456",
-    "name": "Felipe Lima",
+    "name": "Felipe Rodrigues Bezerra",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 172,
@@ -9121,7 +9121,7 @@
   },
   {
     "id": "prof-457",
-    "name": "Gabriela Almeida",
+    "name": "Gabriela Duarte Couto",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 219,
@@ -9141,7 +9141,7 @@
   },
   {
     "id": "prof-458",
-    "name": "Henrique Gomes",
+    "name": "Henrique Cardoso Araújo",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 196,
@@ -9161,7 +9161,7 @@
   },
   {
     "id": "prof-459",
-    "name": "Isabela Dias",
+    "name": "Isabela Couto Braga",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 283,
@@ -9181,7 +9181,7 @@
   },
   {
     "id": "prof-460",
-    "name": "João Cardoso",
+    "name": "João Cordeiro Ferreira",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 260,
@@ -9201,7 +9201,7 @@
   },
   {
     "id": "prof-461",
-    "name": "Karen Silva",
+    "name": "Karen Mendes Assis",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 207,
@@ -9221,7 +9221,7 @@
   },
   {
     "id": "prof-462",
-    "name": "Lucas Santos",
+    "name": "Lucas Costa Garcia",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 264,
@@ -9241,7 +9241,7 @@
   },
   {
     "id": "prof-463",
-    "name": "Mariana Costa",
+    "name": "Mariana Andrade Batista",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 381,
@@ -9261,7 +9261,7 @@
   },
   {
     "id": "prof-464",
-    "name": "Nicolas Ribeiro",
+    "name": "Nicolas Dias Barros",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 378,
@@ -9281,7 +9281,7 @@
   },
   {
     "id": "prof-465",
-    "name": "Olivia Martins",
+    "name": "Olivia Pinto Marques",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 365,
@@ -9301,7 +9301,7 @@
   },
   {
     "id": "prof-466",
-    "name": "Pedro Mendes",
+    "name": "Pedro Ferreira Borges",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 122,
@@ -9321,7 +9321,7 @@
   },
   {
     "id": "prof-467",
-    "name": "Quitéria Teixeira",
+    "name": "Quitéria Miranda Bezerra",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 159,
@@ -9341,7 +9341,7 @@
   },
   {
     "id": "prof-468",
-    "name": "Rafael Souza",
+    "name": "Rafael Neves Aguiar",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 206,
@@ -9361,7 +9361,7 @@
   },
   {
     "id": "prof-469",
-    "name": "Sofia Pereira",
+    "name": "Sofia Valente Guimarães",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 153,
@@ -9381,7 +9381,7 @@
   },
   {
     "id": "prof-470",
-    "name": "Thiago Ferreira",
+    "name": "Thiago Sousa Seixas",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 200,
@@ -9401,7 +9401,7 @@
   },
   {
     "id": "prof-471",
-    "name": "Ursula Carvalho",
+    "name": "Ursula Garcia Miranda",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 247,
@@ -9421,7 +9421,7 @@
   },
   {
     "id": "prof-472",
-    "name": "Victor Rocha",
+    "name": "Victor Mendes Gomes",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 294,
@@ -9441,7 +9441,7 @@
   },
   {
     "id": "prof-473",
-    "name": "Wesley Barbosa",
+    "name": "Wesley Xavier Cunha",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 271,
@@ -9461,7 +9461,7 @@
   },
   {
     "id": "prof-474",
-    "name": "Yasmin Moreira",
+    "name": "Yasmin Reis Moraes",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 358,
@@ -9481,7 +9481,7 @@
   },
   {
     "id": "prof-475",
-    "name": "Caio Oliveira",
+    "name": "Caio Porto Teixeira",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 335,
@@ -9501,7 +9501,7 @@
   },
   {
     "id": "prof-476",
-    "name": "Bianca Lima",
+    "name": "Bianca Cunha Assis",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 282,
@@ -9521,7 +9521,7 @@
   },
   {
     "id": "prof-477",
-    "name": "Matheus Almeida",
+    "name": "Matheus Fernandes Teixeira",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 159,
@@ -9541,7 +9541,7 @@
   },
   {
     "id": "prof-478",
-    "name": "Larissa Gomes",
+    "name": "Larissa Moura Duarte",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 276,
@@ -9561,7 +9561,7 @@
   },
   {
     "id": "prof-479",
-    "name": "Gustavo Dias",
+    "name": "Gustavo Batista Bezerra",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 273,
@@ -9581,7 +9581,7 @@
   },
   {
     "id": "prof-480",
-    "name": "Fernanda Cardoso",
+    "name": "Fernanda Brito Rangel",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 260,
@@ -9601,7 +9601,7 @@
   },
   {
     "id": "prof-481",
-    "name": "Ana Silva",
+    "name": "Ana Marques Miranda",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 197,
@@ -9621,7 +9621,7 @@
   },
   {
     "id": "prof-482",
-    "name": "Bruno Santos",
+    "name": "Bruno Rangel Almeida",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 234,
@@ -9641,7 +9641,7 @@
   },
   {
     "id": "prof-483",
-    "name": "Carla Costa",
+    "name": "Carla Santos Souza",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 281,
@@ -9661,7 +9661,7 @@
   },
   {
     "id": "prof-484",
-    "name": "Daniel Ribeiro",
+    "name": "Daniel Vieira Cavalcante",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 228,
@@ -9681,7 +9681,7 @@
   },
   {
     "id": "prof-485",
-    "name": "Eduarda Martins",
+    "name": "Eduarda Ferreira Santos",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 275,
@@ -9701,7 +9701,7 @@
   },
   {
     "id": "prof-486",
-    "name": "Felipe Mendes",
+    "name": "Felipe Pacheco Vieira",
     "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 322,
@@ -9721,7 +9721,7 @@
   },
   {
     "id": "prof-487",
-    "name": "Gabriela Teixeira",
+    "name": "Gabriela Costa Queiroz",
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 369,
@@ -9741,7 +9741,7 @@
   },
   {
     "id": "prof-488",
-    "name": "Henrique Souza",
+    "name": "Henrique Rezende Coelho",
     "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 166,
@@ -9761,7 +9761,7 @@
   },
   {
     "id": "prof-489",
-    "name": "Isabela Pereira",
+    "name": "Isabela Martins Amaral",
     "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 253,
@@ -9781,7 +9781,7 @@
   },
   {
     "id": "prof-490",
-    "name": "João Ferreira",
+    "name": "João Freitas Rezende",
     "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 230,
@@ -9801,7 +9801,7 @@
   },
   {
     "id": "prof-491",
-    "name": "Karen Carvalho",
+    "name": "Karen Marques Braga",
     "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 177,
@@ -9821,7 +9821,7 @@
   },
   {
     "id": "prof-492",
-    "name": "Lucas Rocha",
+    "name": "Lucas Bezerra Braga",
     "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 234,
@@ -9841,7 +9841,7 @@
   },
   {
     "id": "prof-493",
-    "name": "Mariana Barbosa",
+    "name": "Mariana Melo Andrade",
     "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 351,
@@ -9861,7 +9861,7 @@
   },
   {
     "id": "prof-494",
-    "name": "Nicolas Moreira",
+    "name": "Nicolas Medeiros Nascimento",
     "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 348,
@@ -9881,7 +9881,7 @@
   },
   {
     "id": "prof-495",
-    "name": "Olivia Oliveira",
+    "name": "Olivia Marques Souza",
     "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 335,
@@ -9901,7 +9901,7 @@
   },
   {
     "id": "prof-496",
-    "name": "Pedro Lima",
+    "name": "Pedro Cardoso Dantas",
     "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 272,
@@ -9921,7 +9921,7 @@
   },
   {
     "id": "prof-497",
-    "name": "Quitéria Almeida",
+    "name": "Quitéria Machado Bezerra",
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 309,
@@ -9941,7 +9941,7 @@
   },
   {
     "id": "prof-498",
-    "name": "Rafael Gomes",
+    "name": "Rafael Fonseca Farias",
     "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 176,
@@ -9961,7 +9961,7 @@
   },
   {
     "id": "prof-499",
-    "name": "Sofia Dias",
+    "name": "Sofia Miranda Xavier",
     "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 123,
@@ -9981,7 +9981,7 @@
   },
   {
     "id": "prof-500",
-    "name": "Thiago Cardoso",
+    "name": "Thiago Silva Cardoso",
     "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 170,
