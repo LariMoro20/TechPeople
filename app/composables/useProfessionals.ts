@@ -1,4 +1,10 @@
 import { buildProfessionalsUrl } from "~/services/professionals.service";
+import type {
+  ProfessionalsSort,
+  ProfessionalsFilters,
+  SortField,
+  SortDirection,
+} from "~/types";
 
 const DEFAULT_FILTERS: ProfessionalsFilters = {
   search: "",
@@ -22,6 +28,43 @@ const VALID_FIELDS: SortField[] = [
 ];
 const VALID_DIRECTIONS: SortDirection[] = ["asc", "desc"];
 
+function filtersFromQuery(
+  query: Record<string, string | string[]>,
+): Partial<ProfessionalsFilters> {
+  return {
+    search: query.search ? String(query.search) : "",
+    professions: query.professions
+      ? String(query.professions)
+          .split(",")
+          .map((p) => p.trim())
+          .filter(Boolean)
+      : [],
+    priceRange: {
+      min: query.minPrice ? Number(query.minPrice) : null,
+      max: query.maxPrice ? Number(query.maxPrice) : null,
+    },
+    minRating: query.minRating ? Number(query.minRating) : null,
+    city: query.city ? String(query.city) : null,
+    available: query.available === "true" ? true : null,
+  };
+}
+
+function sortFromQuery(
+  query: Record<string, string | string[]>,
+): ProfessionalsSort {
+  if (!query.sort) return { ...DEFAULT_SORT };
+  const [field, direction] = String(query.sort).split(":") as [
+    SortField,
+    SortDirection,
+  ];
+  return {
+    field: VALID_FIELDS.includes(field) ? field : DEFAULT_SORT.field,
+    direction: VALID_DIRECTIONS.includes(direction)
+      ? direction
+      : DEFAULT_SORT.direction,
+  };
+}
+
 export function useProfessionals() {
   const route = useRoute();
   const router = useRouter();
@@ -30,7 +73,11 @@ export function useProfessionals() {
     ...DEFAULT_FILTERS,
     ...filtersFromQuery(route.query),
   });
+
+  const debouncedSearch = ref(filters.search);
+  let searchDebounce: ReturnType<typeof setTimeout> | null = null;
   const sort = reactive<ProfessionalsSort>(sortFromQuery(route.query));
+
   const pagination = reactive({
     page: Number(route.query.page) || 1,
     perPage: 12,
@@ -38,7 +85,7 @@ export function useProfessionals() {
 
   const apiQuery = computed<ProfessionalsQuery>(() => ({
     filters: {
-      search: filters.search,
+      search: debouncedSearch.value,
       professions: [...filters.professions],
       priceRange: { min: filters.priceRange.min, max: filters.priceRange.max },
       minRating: filters.minRating,
@@ -122,6 +169,19 @@ export function useProfessionals() {
     { flush: "post" },
   );
 
+  watch(
+    () => filters.search,
+    (value) => {
+      if (searchDebounce) {
+        clearTimeout(searchDebounce);
+      }
+      searchDebounce = setTimeout(() => {
+        debouncedSearch.value = value;
+        searchDebounce = null;
+      }, 1000);
+    },
+  );
+
   return {
     professionals: computed(() => data.value?.data ?? []),
     meta: computed(() => data.value?.meta ?? null),
@@ -133,42 +193,5 @@ export function useProfessionals() {
     updateSort,
     goToPage,
     clearFilters,
-  };
-}
-
-function filtersFromQuery(
-  q: Record<string, string | string[]>,
-): Partial<ProfessionalsFilters> {
-  return {
-    search: q.search ? String(q.search) : "",
-    professions: q.professions
-      ? String(q.professions)
-          .split(",")
-          .map((p) => p.trim())
-          .filter(Boolean)
-      : [],
-    priceRange: {
-      min: q.minPrice ? Number(q.minPrice) : null,
-      max: q.maxPrice ? Number(q.maxPrice) : null,
-    },
-    minRating: q.minRating ? Number(q.minRating) : null,
-    city: q.city ? String(q.city) : null,
-    available: q.available === "true" ? true : null,
-  };
-}
-
-function sortFromQuery(
-  q: Record<string, string | string[]>,
-): ProfessionalsSort {
-  if (!q.sort) return { ...DEFAULT_SORT };
-  const [field, direction] = String(q.sort).split(":") as [
-    SortField,
-    SortDirection,
-  ];
-  return {
-    field: VALID_FIELDS.includes(field) ? field : DEFAULT_SORT.field,
-    direction: VALID_DIRECTIONS.includes(direction)
-      ? direction
-      : DEFAULT_SORT.direction,
   };
 }
