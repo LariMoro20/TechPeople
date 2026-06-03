@@ -12,18 +12,15 @@
         :alt="professional.name"
         class="w-9 h-9 sm:w-12 sm:h-12 rounded-full object-cover shrink-0"
       />
-
       <div class="min-w-0 flex-1">
         <h3
           class="font-semibold text-sm sm:text-base leading-tight text-gray-900 dark:text-white truncate"
         >
           {{ professional.name }}
         </h3>
-
         <p class="text-xs sm:text-sm text-gray-500 dark:text-gray-400 truncate">
           {{ professional.profession }}
         </p>
-
         <UBadge
           v-if="professional.available"
           color="success"
@@ -35,23 +32,40 @@
         </UBadge>
       </div>
 
-      <UBadge
-        v-if="professional.available"
-        color="success"
-        variant="subtle"
-        size="xs"
-        class="hidden sm:inline-flex ml-auto shrink-0"
-      >
-        Disponível
-      </UBadge>
+      <div class="flex shrink-0 items-start gap-1">
+        <UBadge
+          v-if="professional.available"
+          color="success"
+          variant="subtle"
+          size="xs"
+          class="hidden sm:inline-flex"
+        >
+          Disponível
+        </UBadge>
+        <UButton
+          color="neutral"
+          variant="ghost"
+          size="xs"
+          :icon="isFavorite ? 'i-heroicons-heart-solid' : 'i-heroicons-heart'"
+          :aria-label="
+            isFavorite ? 'Remove from favorites' : 'Add to favorites'
+          "
+          :class="
+            isFavorite
+              ? 'text-red-500 hover:text-red-600'
+              : 'text-gray-400 hover:text-red-500'
+          "
+          @click.stop="
+            favoriteProfessionalsStore.toggleFavorite(professional.id)
+          "
+        />
+      </div>
     </div>
-
     <p
       class="text-xs sm:text-sm leading-relaxed text-gray-600 dark:text-gray-400 line-clamp-2 mb-2 sm:mb-3"
     >
       {{ professional.bio }}
     </p>
-
     <div class="flex flex-wrap gap-1 mb-2 sm:mb-3">
       <UBadge
         v-for="(tag, index) in professional.tags.slice(0, 3)"
@@ -76,19 +90,15 @@
           name="i-heroicons-star-solid"
           class="text-yellow-400 w-3.5 h-3.5 sm:w-4 sm:h-4"
         />
-
         <span class="font-medium text-gray-900 dark:text-white">
           {{ professional.rating }}
         </span>
-
         <span class="text-gray-400"> ({{ professional.reviewCount }}) </span>
       </div>
-
       <div class="text-xs sm:text-sm leading-tight">
         <span class="font-semibold text-gray-900 dark:text-white">
           R$ {{ professional.servicePrice }}
         </span>
-
         <span class="block sm:inline text-gray-400"> /sessão </span>
       </div>
     </div>
@@ -98,11 +108,17 @@
 <script setup lang="ts">
 import type { Professional } from "~/types";
 
-defineProps<{
+const props = defineProps<{
   professional: Professional;
 }>();
 
 const emit = defineEmits<{
   select: [professional: Professional];
 }>();
+
+const favoriteProfessionalsStore = useFavoriteProfessionalsStore();
+
+const isFavorite = computed(() =>
+  favoriteProfessionalsStore.isFavorite(props.professional.id),
+);
 </script>

@@ -10,10 +10,16 @@
     />
 
     <div
-      class="grid grid-cols-1 min-[420px]:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4"
+      class="grid grid-cols-1 min-[480px]:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4"
     >
       <template v-if="loading">
-        <UCard v-for="i in 6" :key="i">
+        <UCard
+          v-for="i in 6"
+          :key="i"
+          :ui="{
+            body: 'p-3 sm:p-4',
+          }"
+        >
           <div class="flex items-center gap-3 mb-4">
             <USkeleton class="w-12 h-12 rounded-full" />
             <div class="flex-1 space-y-2">
@@ -34,11 +40,6 @@
             :key="professional.id"
             :professional="professional"
             @select="openProfessionalModal"
-          />
-
-          <ProfessionalDetailsModal
-            v-model:open="isProfessionalModalOpen"
-            :professional="selectedProfessional"
           />
         </template>
 
@@ -61,18 +62,17 @@
         @update:page="emit('update:page', $event)"
       />
     </div>
+
+    <ProfessionalDetailsModal
+      v-model:open="isProfessionalModalOpen"
+      :professional="selectedProfessional"
+    />
   </div>
 </template>
 
 <script setup lang="ts">
 import type { PaginationMeta, Professional } from "~/types";
-const selectedProfessional = ref<Professional | null>(null);
-const isProfessionalModalOpen = ref(false);
 
-function openProfessionalModal(professional: Professional) {
-  selectedProfessional.value = professional;
-  isProfessionalModalOpen.value = true;
-}
 defineProps<{
   professionals: Professional[];
   meta: PaginationMeta | null;
@@ -80,7 +80,19 @@ defineProps<{
   error: Error | null;
 }>();
 
+onMounted(() => {
+  favoriteProfessionalsStore.hydrate();
+});
 const emit = defineEmits<{
   "update:page": [page: number];
 }>();
+
+const favoriteProfessionalsStore = useFavoriteProfessionalsStore();
+const selectedProfessional = ref<Professional | null>(null);
+const isProfessionalModalOpen = ref(false);
+
+function openProfessionalModal(professional: Professional) {
+  selectedProfessional.value = professional;
+  isProfessionalModalOpen.value = true;
+}
 </script>
