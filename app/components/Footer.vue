@@ -1,25 +1,3 @@
-<script setup lang="ts">
-import type { NavigationMenuItem } from "@nuxt/ui";
-
-const items: NavigationMenuItem[] = [
-  {
-    label: "Figma Kit",
-    to: "https://go.nuxt.com/figma-ui",
-    target: "_blank",
-  },
-  {
-    label: "Playground",
-    to: "https://stackblitz.com/edit/nuxt-ui",
-    target: "_blank",
-  },
-  {
-    label: "Releases",
-    to: "https://github.com/nuxt/ui/releases",
-    target: "_blank",
-  },
-];
-</script>
-
 <template>
   <UFooter>
     <template #left>
@@ -32,20 +10,20 @@ const items: NavigationMenuItem[] = [
 
     <template #right>
       <UButton
-        icon="i-simple-icons-discord"
+        icon="i-simple-icons-linkedin"
         color="neutral"
         variant="ghost"
-        to="https://go.nuxt.com/discord"
+        to="https://www.linkedin.com/in/lari-moro-ss/"
         target="_blank"
-        aria-label="Discord"
+        aria-label="Linkedin"
       />
       <UButton
-        icon="i-simple-icons-x"
+        icon="i-simple-icons-instagram"
         color="neutral"
         variant="ghost"
-        to="https://go.nuxt.com/x"
+        to="https://www.instagram.com/larisantos.dev/"
         target="_blank"
-        aria-label="X"
+        aria-label="Instagram"
       />
       <UButton
         icon="i-simple-icons-github"
@@ -58,3 +36,22 @@ const items: NavigationMenuItem[] = [
     </template>
   </UFooter>
 </template>
+
+<script setup lang="ts">
+import type { NavigationMenuItem } from "@nuxt/ui";
+
+const items: NavigationMenuItem[] = [
+  {
+    label: "Início",
+    to: "/",
+  },
+  {
+    label: "Profissionais",
+    to: "/professionals",
+  },
+  {
+    label: "Sobre",
+    to: "/about",
+  },
+];
+</script>
