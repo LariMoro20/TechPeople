@@ -97,7 +97,7 @@
       </div>
       <div class="text-xs sm:text-sm leading-tight">
         <span class="font-semibold text-gray-900 dark:text-white">
-          R$ {{ professional.servicePrice }}
+          {{ formatCurrency(professional.servicePrice) }}
         </span>
         <span class="block sm:inline text-gray-400"> /sessão </span>
       </div>
