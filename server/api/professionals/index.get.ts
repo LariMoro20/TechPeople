@@ -44,46 +44,52 @@ function sortProfessionals(
 }
 
 export default defineEventHandler((event): ProfessionalsResponse => {
-  const params = professionalsQuerySchema.parse(getQuery(event));
+  const result = professionalsQuerySchema.safeParse(getQuery(event));
 
-  let result = professionals;
+  if (!result.success) {
+    throw createError({ statusCode: 400, message: "Parâmetros inválidos" });
+  }
+
+  const params = result.data;
+
+  let filtered = professionals;
 
   if (params.search) {
     const term = normalize(params.search);
-    result = result.filter((p) => searchIndex.get(p.id)!.includes(term));
+    filtered = filtered.filter((p) => searchIndex.get(p.id)!.includes(term));
   }
 
   if (params.professions.length) {
-    result = result.filter((p) => params.professions.includes(p.profession));
+    filtered = filtered.filter((p) => params.professions.includes(p.profession));
   }
 
   if (params.city) {
     const city = normalize(params.city);
-    result = result.filter((p) => normalize(p.city) === city);
+    filtered = filtered.filter((p) => normalize(p.city) === city);
   }
 
   if (params.minPrice !== undefined) {
-    result = result.filter((p) => p.servicePrice >= params.minPrice!);
+    filtered = filtered.filter((p) => p.servicePrice >= params.minPrice!);
   }
 
   if (params.maxPrice !== undefined) {
-    result = result.filter((p) => p.servicePrice <= params.maxPrice!);
+    filtered = filtered.filter((p) => p.servicePrice <= params.maxPrice!);
   }
 
   if (params.minRating !== undefined) {
-    result = result.filter((p) => p.rating >= params.minRating!);
+    filtered = filtered.filter((p) => p.rating >= params.minRating!);
   }
 
   if (params.available !== undefined) {
-    result = result.filter((p) => p.available === params.available);
+    filtered = filtered.filter((p) => p.available === params.available);
   }
 
-  result = sortProfessionals(result, params.sortField, params.sortDirection);
+  filtered = sortProfessionals(filtered, params.sortField, params.sortDirection);
 
-  const total = result.length;
+  const total = filtered.length;
   const totalPages = Math.ceil(total / params.perPage);
   const start = (params.page - 1) * params.perPage;
-  const data = result.slice(start, start + params.perPage);
+  const data = filtered.slice(start, start + params.perPage);
 
   return {
     data,
