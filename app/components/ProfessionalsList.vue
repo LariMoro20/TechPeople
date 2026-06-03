@@ -45,7 +45,7 @@
 
     <div v-if="meta && meta.totalPages > 1" class="flex justify-center mt-8">
       <UPagination
-        :model-value="meta.page"
+        v-model:page="meta.page"
         :total="meta.total"
         :page-count="meta.perPage"
         @update:model-value="emit('update:page', $event)"
@@ -55,8 +55,6 @@
 </template>
 
 <script setup lang="ts">
-import type { Professional, PaginationMeta } from "~/types";
-
 defineProps<{
   professionals: Professional[];
   meta: PaginationMeta | null;

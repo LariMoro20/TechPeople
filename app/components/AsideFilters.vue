@@ -2,7 +2,10 @@
   <aside class="w-full lg:w-72 shrink-0">
     <UCard>
       <div class="flex items-center justify-between mb-4">
-        <span class="font-semibold text-gray-900 dark:text-white">Filtros</span>
+        <span class="font-semibold text-gray-900 dark:text-white">
+          Filtros
+        </span>
+
         <UButton
           v-if="hasActiveFilters"
           variant="ghost"
@@ -21,11 +24,12 @@
           >
             Busca
           </label>
+
           <UInput
             :model-value="filters.search"
             placeholder="Nome ou especialidade..."
             icon="i-heroicons-magnifying-glass"
-            @update:model-value="emit('update:filters', { search: $event })"
+            @update:model-value="updateSearch"
           />
         </div>
 
@@ -35,15 +39,12 @@
           >
             Profissão
           </label>
-          <div class="space-y-2">
-            <UCheckboxGroup
-              :model-value="filters.professions"
-              :items="professionOptions"
-              @update:model-value="
-                emit('update:filters', { professions: $event })
-              "
-            />
-          </div>
+
+          <UCheckboxGroup
+            :model-value="filters.professions"
+            :items="professionOptions"
+            @update:model-value="updateProfessions"
+          />
         </div>
 
         <div v-if="cityOptions.length">
@@ -52,10 +53,11 @@
           >
             Cidade
           </label>
+
           <USelect
             :model-value="filters.city"
             :items="cityOptions"
-            @update:model-value="emit('update:filters', { city: $event })"
+            @update:model-value="updateCity"
           />
         </div>
 
@@ -65,6 +67,7 @@
           >
             Avaliação mínima
           </label>
+
           <div class="flex gap-2">
             <UButton
               v-for="opt in ratingOptions"
@@ -72,49 +75,37 @@
               size="xs"
               :variant="filters.minRating === opt.value ? 'solid' : 'outline'"
               :color="filters.minRating === opt.value ? 'primary' : 'neutral'"
-              @click="emit('update:filters', { minRating: opt.value })"
+              @click="updateRating(opt.value)"
             >
               {{ opt.label }}
             </UButton>
           </div>
         </div>
 
-        <div v-if="facets">
+        <div v-if="hasPriceRange">
           <label
             class="text-sm font-medium text-gray-700 dark:text-gray-300 mb-3 block"
           >
             Faixa de preço
           </label>
-          <URange
-            :model-value="[
-              filters.priceRange.min ?? facets.priceRange.min,
-              filters.priceRange.max ?? facets.priceRange.max,
-            ]"
-            :min="facets.priceRange.min"
-            :max="facets.priceRange.max"
+
+          <USlider
+            v-model="priceRangeModel"
+            :min="priceRangeMin"
+            :max="priceRangeMax"
             :step="10"
-            @update:model-value="
-              emit('update:filters', {
-                priceRange: { min: $event[0], max: $event[1] },
-              })
-            "
           />
+
           <div class="flex justify-between mt-1 text-xs text-gray-500">
-            <span
-              >R$ {{ filters.priceRange.min ?? facets.priceRange.min }}</span
-            >
-            <span
-              >R$ {{ filters.priceRange.max ?? facets.priceRange.max }}</span
-            >
+            <span>R$ {{ priceRangeModel[0] }}</span>
+            <span>R$ {{ priceRangeModel[1] }}</span>
           </div>
         </div>
 
         <UCheckbox
-          :model-value="filters.available ?? false"
+          :model-value="filters.available === true"
           label="Somente disponíveis"
-          @update:model-value="
-            emit('update:filters', { available: $event || null })
-          "
+          @update:model-value="updateAvailable"
         />
       </div>
     </UCard>
@@ -122,10 +113,10 @@
 </template>
 
 <script setup lang="ts">
+import type { ProfessionalsFilters } from "~/types";
+
 const props = defineProps<{
   filters: ProfessionalsFilters;
-  facets: ProfessionalsFacets | null;
-  hasActiveFilters: boolean;
 }>();
 
 const emit = defineEmits<{
@@ -133,18 +124,22 @@ const emit = defineEmits<{
   clear: [];
 }>();
 
-const ratingOptions = [
-  { label: "Qualquer", value: null },
-  { label: "4+", value: 4 },
-  { label: "4.5+", value: 4.5 },
-];
-
-const cityOptions = computed(() => [
-  { label: "Todas", value: null },
-  ...(props.facets?.cities ?? []).map((c) => ({ label: c, value: c })),
-]);
-
-const professionOptions = computed(() =>
-  (props.facets?.professions ?? []).map((p) => ({ label: p, value: p })),
-);
+const {
+  ratingOptions,
+  cityOptions,
+  professionOptions,
+  hasPriceRange,
+  priceRangeMin,
+  priceRangeMax,
+  priceRangeModel,
+  hasActiveFilters,
+  updateSearch,
+  updateProfessions,
+  updateCity,
+  updateRating,
+  updateAvailable,
+} = useProfessionalsFilters({
+  filters: props.filters,
+  updateFilters: (partial) => emit("update:filters", partial),
+});
 </script>

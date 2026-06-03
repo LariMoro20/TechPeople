@@ -13,12 +13,9 @@
       <div class="flex flex-col lg:flex-row gap-6">
         <AsideFilters
           :filters="filters"
-          :facets="facets"
-          :has-active-filters="hasActiveFilters"
           @update:filters="updateFilters"
           @clear="clearFilters"
         />
-
         <div class="flex-1 min-w-0">
           <div class="flex items-center justify-between mb-4">
             <span class="text-sm text-gray-500 dark:text-gray-400">
@@ -42,8 +39,6 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { SortField, SortDirection } from "~/types";
-
 const {
   professionals,
   meta,
@@ -56,8 +51,6 @@ const {
   goToPage,
   clearFilters,
 } = useProfessionals();
-
-const { facets } = useProfessionalsFilters();
 
 const sortOptions = [
   { label: "Melhor avaliação", value: "rating:desc" },
@@ -73,17 +66,6 @@ const selectedSort = computed({
     updateSort({ field, direction });
   },
 });
-
-const hasActiveFilters = computed(
-  () =>
-    !!(
-      filters.search ||
-      filters.professions.length ||
-      filters.city ||
-      filters.minRating ||
-      filters.available
-    ),
-);
 
 useSeoMeta({
   titleTemplate: "%s",
