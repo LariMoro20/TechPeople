@@ -76,7 +76,7 @@
                 </div>
                 <div>
                   <span class="font-semibold text-gray-900 dark:text-white">
-                    R$ {{ props.professional.servicePrice }}
+                    {{ formatCurrency(props.professional.servicePrice) }}
                   </span>
                   <span class="text-gray-500 dark:text-gray-400">
                     /sessão
@@ -166,7 +166,7 @@
             >
               <p class="text-xs text-gray-500 dark:text-gray-400">Valor</p>
               <p class="mt-1 font-semibold text-gray-900 dark:text-white">
-                R$ {{ props.professional.servicePrice }}
+                {{ formatCurrency(props.professional.servicePrice) }}
               </p>
             </div>
           </div>
