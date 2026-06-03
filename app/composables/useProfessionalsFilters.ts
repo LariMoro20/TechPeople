@@ -3,7 +3,7 @@ import type { ProfessionalsFacets, ProfessionalsFilters } from "~/types";
 
 type UseProfessionalsFiltersOptions = {
   filters: ProfessionalsFilters;
-  updateFilters: (partial: Partial<ProfessionalsFilters>) => void;
+  onUpdate: (partial: Partial<ProfessionalsFilters>) => void;
 };
 
 const DEFAULT_FACETS: ProfessionalsFacets = {
@@ -17,7 +17,7 @@ const DEFAULT_FACETS: ProfessionalsFacets = {
 
 export function useProfessionalsFilters({
   filters,
-  updateFilters,
+  onUpdate,
 }: UseProfessionalsFiltersOptions) {
   const { data, status, error } = useFetch<ProfessionalsFacets>(
     PROFESSIONALS_FACETS_URL,
@@ -33,6 +33,7 @@ export function useProfessionalsFilters({
     { label: "4+", value: 4 },
     { label: "4.5+", value: 4.5 },
   ];
+
   const cityOptions = computed(() => [
     { label: "Todas", value: null },
     ...facets.value.cities.map((city) => ({
@@ -48,82 +49,77 @@ export function useProfessionalsFilters({
     })),
   );
 
-  const hasPriceRange = computed(() => {
-    return facets.value.priceRange.max > facets.value.priceRange.min;
+  const hasPriceRange = computed(
+    () => facets.value.priceRange.max > facets.value.priceRange.min,
+  );
+
+  const priceRangeModel = ref<number[]>([
+    filters.priceRange.min ?? priceRangeMin.value,
+    filters.priceRange.max ?? priceRangeMax.value,
+  ]);
+
+  watch([priceRangeMin, priceRangeMax], ([min, max]) => {
+    priceRangeModel.value = [
+      filters.priceRange.min ?? min,
+      filters.priceRange.max ?? max,
+    ];
   });
 
-  const priceRangeModel = computed<number[]>({
-    get() {
-      return [
-        filters.priceRange.min ?? priceRangeMin.value,
-        filters.priceRange.max ?? priceRangeMax.value,
-      ];
-    },
-    set(value) {
+  let priceDebounce: ReturnType<typeof setTimeout> | null = null;
+
+  watch(priceRangeModel, (value) => {
+    if (priceDebounce) clearTimeout(priceDebounce);
+    priceDebounce = setTimeout(() => {
       updatePriceRange(value);
-    },
+      priceDebounce = null;
+    }, 400);
   });
 
-  const hasActiveFilters = computed(() => {
-    return Boolean(
-      filters.search ||
-      filters.professions.length ||
-      filters.city ||
-      filters.minRating ||
-      filters.available ||
-      filters.priceRange.min !== null ||
-      filters.priceRange.max !== null,
-    );
+  onUnmounted(() => {
+    if (priceDebounce) clearTimeout(priceDebounce);
   });
+
+  const hasActiveFilters = computed(() =>
+    Boolean(
+      filters.search ||
+        filters.professions.length ||
+        filters.city ||
+        filters.minRating ||
+        filters.available ||
+        filters.priceRange.min !== null ||
+        filters.priceRange.max !== null,
+    ),
+  );
 
   function updateSearch(value: string | number) {
-    updateFilters({
-      search: String(value ?? ""),
-    });
+    onUpdate({ search: String(value ?? "") });
   }
 
   function updateProfessions(value: unknown) {
     const professions = Array.isArray(value) ? value.map(String) : [];
-    updateFilters({
-      professions,
-    });
+    onUpdate({ professions });
   }
 
   function updateCity(value: unknown) {
-    updateFilters({
-      city: typeof value === "string" && value ? value : null,
-    });
+    onUpdate({ city: typeof value === "string" && value ? value : null });
   }
 
   function updateRating(value: number | null) {
-    updateFilters({
-      minRating: value,
-    });
+    onUpdate({ minRating: value });
   }
 
   function updatePriceRange(value: unknown) {
-    if (!Array.isArray(value)) {
-      return;
-    }
+    if (!Array.isArray(value)) return;
     const min = Number(value[0] ?? priceRangeMin.value);
     const max = Number(value[1] ?? priceRangeMax.value);
-
-    updateFilters({
-      priceRange: {
-        min,
-        max,
-      },
-    });
+    onUpdate({ priceRange: { min, max } });
   }
 
   function updateAvailable(value: boolean) {
-    updateFilters({
-      available: value ? true : null,
-    });
+    onUpdate({ available: value ? true : null });
   }
 
   return {
-    facets,
     loading,
     error,
     ratingOptions,
@@ -138,7 +134,6 @@ export function useProfessionalsFilters({
     updateProfessions,
     updateCity,
     updateRating,
-    updatePriceRange,
     updateAvailable,
   };
 }
