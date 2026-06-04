@@ -99,6 +99,10 @@ Filtros, ordenação e paginação são refletidos na URL em tempo real. A ideia
 
 A interface foi construída com abordagem mobile-first, partindo sempre do layout para telas menores e expandindo progressivamente para desktop. O Tailwind CSS foi utilizado para controle preciso do layout responsivo com breakpoints semânticos (`sm`, `lg`, `xl`). O Nuxt UI forneceu os componentes base (cards, badges, modais, paginação, sliders) já acessíveis e responsivos, reduzindo a quantidade de código necessário e mantendo consistência visual em todas as telas.
 
+**Tipagem global com imports explícitos**
+
+Os tipos da aplicação estão declarados em `app/types/index.d.ts` e incluídos globalmente via `tsconfig.json`, o que os tornaria disponíveis em qualquer arquivo sem necessidade de import. Ainda assim, optei por manter os imports explícitos (`import type { Professional } from '~/types'`) para deixar claro a origem de cada tipo ao ler o código, facilitando a navegação e o entendimento por outros desenvolvedores.
+
 **NuxtSEO**
 
 O módulo NuxtSEO foi utilizado para configurar meta tags, Open Graph e dados estruturados (JSON-LD) de forma profissional e consistente em todas as páginas.
@@ -159,6 +163,10 @@ O perfil atual é exibido em modal. Uma página dedicada (`/professionals/:id`) 
 
 Implementar um fluxo de cadastro onde o próprio profissional cria e gerencia seu perfil, com autenticação, edição de dados e controle de disponibilidade. Isso transformaria o projeto de um catálogo estático em uma plataforma de dois lados.
 
+**Mapa de localização**
+
+Adicionar um mapa interativo no perfil do profissional exibindo sua localidade, aproveitando o campo `city` já disponível nos dados. Com coordenadas reais seria possível também ativar a ordenação por distância, já preparada na API mas ainda sem dados geográficos para suportar.
+
 **Backend próprio com Supabase**
 
 O projeto já foi pensado com essa evolução em mente. Toda a comunicação com dados passa pelos arquivos em `app/services/`, que hoje apontam para a API local Nitro. Migrar para um backend real com Supabase (banco de dados, autenticação e storage) exigiria apenas alterar esses services, sem impacto nos composables, componentes ou páginas.
@@ -167,4 +175,6 @@ O projeto já foi pensado com essa evolução em mente. Toda a comunicação com
 
 ## Uso de IA
 
-Utilizei Claude Code como assistente durante o desenvolvimento para auxilio em decisões técnicas, resolução de problemas, revisão de código e escrita eficiente de componentes.
+O Claude Code foi utilizado como assistente durante o desenvolvimento para auxílio em decisões técnicas, resolução de problemas, revisão de código, escrita eficiente de componentes e geração das informações de SEO como keywords e descrições.
+
+O ChatGPT foi utilizado para geração das logos do projeto e dos dados fictícios de profissionais (nomes, bios, especialidades, avaliações e demais informações do JSON de mock).
