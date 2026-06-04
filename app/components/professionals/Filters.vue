@@ -39,6 +39,8 @@
                 ? 'i-heroicons-chevron-up'
                 : 'i-heroicons-chevron-down'
             "
+            :aria-label="showMobileFilters ? 'Ocultar filtros' : 'Mostrar filtros'"
+            :aria-expanded="showMobileFilters"
             @click="showMobileFilters = !showMobileFilters"
           >
             {{ showMobileFilters ? "Ocultar" : "Mostrar" }}
@@ -119,6 +121,7 @@
                 size="xs"
                 :variant="filters.minRating === opt.value ? 'solid' : 'outline'"
                 :color="filters.minRating === opt.value ? 'primary' : 'neutral'"
+                :aria-pressed="filters.minRating === opt.value"
                 @click="updateRating(opt.value)"
               >
                 {{ opt.label }}

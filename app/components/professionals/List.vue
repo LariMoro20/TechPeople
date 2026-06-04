@@ -47,6 +47,7 @@
           <UIcon
             name="i-heroicons-user-group"
             class="w-12 h-12 mx-auto mb-3 opacity-40"
+            aria-hidden="true"
           />
           <p class="text-lg font-medium">Nenhum profissional encontrado</p>
           <p class="text-sm mt-1">Tente ajustar os filtros</p>

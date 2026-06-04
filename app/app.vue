@@ -5,7 +5,7 @@
     </NuxtLayout>
   </UApp>
 </template>
-<script setup>
+<script setup lang="ts">
 useSeoMeta({
   title: "TechPeople — Catálogo de Profissionais de Tecnologia",
   ogTitle: "TechPeople — Catálogo de Profissionais de Tecnologia",

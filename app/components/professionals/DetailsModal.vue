@@ -71,7 +71,7 @@
                     ({{ props.professional.reviewCount }} avaliações)
                   </span>
                 </div>
-                <div class="hidden sm:block text-gray-300 dark:text-gray-700">
+                <div class="hidden sm:block text-gray-300 dark:text-gray-700" aria-hidden="true">
                   •
                 </div>
                 <div>
@@ -82,7 +82,7 @@
                     /sessão
                   </span>
                 </div>
-                <div class="hidden sm:block text-gray-300 dark:text-gray-700">
+                <div class="hidden sm:block text-gray-300 dark:text-gray-700" aria-hidden="true">
                   •
                 </div>
                 <div class="flex items-center gap-1 text-gray-500 dark:text-gray-400">

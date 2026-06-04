@@ -23,7 +23,9 @@
                 Página {{ meta.page }} de {{ meta.totalPages }}
               </template>
             </span>
+            <label for="sort-select" class="sr-only">Ordenar por</label>
             <USelect
+              id="sort-select"
               v-model="selectedSort"
               :items="sortOptions"
               class="w-48 cursor-pointer"
