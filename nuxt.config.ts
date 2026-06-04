@@ -24,8 +24,8 @@ export default defineNuxtConfig({
   nitro: {
     preset: "vercel",
     prerender: {
-      crawlLinks: true,
       routes: ["/", "/professionals"],
+      ignore: ["/_og/**"],
     },
     routeRules: {
       "/_ipx/**": { headers: { "cache-control": "max-age=604800, public" } },
