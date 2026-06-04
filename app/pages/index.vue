@@ -14,7 +14,8 @@
         height="338"
         format="webp"
         quality="80"
-        loading="lazy"
+        loading="eager"
+        fetchpriority="high"
         sizes="(max-width: 640px) 380px, 600px"
         class="rounded-lg shadow-2xl ring ring-default"
       />
