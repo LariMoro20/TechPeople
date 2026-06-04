@@ -43,6 +43,16 @@ export default defineNuxtConfig({
     domains: ["i.pravatar.cc"],
   },
 
+  ogImage: {
+    enabled: true,
+    defaults: {
+      width: 1200,
+      height: 630,
+      component: "OgSiteImage",
+      renderer: "satori",
+    },
+  },
+
   ui: {
     colorMode: true,
   },
