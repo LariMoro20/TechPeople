@@ -6,6 +6,14 @@
   </UApp>
 </template>
 <script setup lang="ts">
+defineOgImageComponent("OgSiteImage", {
+  title: "TechPeople — Catálogo de Profissionais de Tecnologia",
+  description:
+    "Explore um catálogo fictício de profissionais de tecnologia com perfis detalhados, especialidades, senioridade, stacks técnicas e disponibilidade.",
+  image: "/images/image_app.png",
+  tags: ["Frontend", "Backend", "Fullstack", "UI/UX", "DevOps"],
+});
+
 useSeoMeta({
   title: "TechPeople — Catálogo de Profissionais de Tecnologia",
   ogTitle: "TechPeople — Catálogo de Profissionais de Tecnologia",
@@ -16,12 +24,10 @@ useSeoMeta({
   ogUrl: "https://techpeople-larisantos.vercel.app",
   ogType: "website",
   ogLocale: "pt_BR",
-  ogImage: "https://techpeople-larisantos.vercel.app/og-image.png",
   twitterCard: "summary_large_image",
   twitterTitle: "TechPeople — Catálogo de Profissionais de Tecnologia",
   twitterDescription:
     "Catálogo fictício de profissionais de tecnologia com perfis detalhados, stacks técnicas, senioridade e disponibilidade.",
-  twitterImage: "https://techpeople-larisantos.vercel.app/og-image.png",
   robots: "index, follow",
 });
 
