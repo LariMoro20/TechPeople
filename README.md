@@ -147,6 +147,10 @@ Com 500 profissionais, o scroll infinito geraria uma experiência sem fim e sem 
 
 ## Melhorias futuras
 
+**Páginas institucionais**
+
+Implementar as páginas `/about`, `/services`, `/contact` e `/privacy-policy`, completando a estrutura de navegação já prevista no header e footer da aplicação.
+
 **Substituição do `useFetch` por Pinia Colada**
 
 Atualmente o `useFetch` do Nuxt gerencia as requisições à API. Uma evolução natural seria migrar para o [Pinia Colada](https://pinia-colada.esm.dev/), biblioteca de data fetching integrada ao Pinia. A principal vantagem é o sistema de cache baseado em chave: cada combinação de filtros gera uma key única, e respostas já buscadas são reutilizadas sem nova requisição. Isso elimina fetches redundantes ao navegar entre páginas de resultados ou desfazer filtros, melhorando performance e experiência percebida.
@@ -170,6 +174,14 @@ Adicionar um mapa interativo no perfil do profissional exibindo sua localidade, 
 **Backend próprio com Supabase**
 
 O projeto já foi pensado com essa evolução em mente. Toda a comunicação com dados passa pelos arquivos em `app/services/`, que hoje apontam para a API local Nitro. Migrar para um backend real com Supabase (banco de dados, autenticação e storage) exigiria apenas alterar esses services, sem impacto nos composables, componentes ou páginas.
+
+---
+
+## Ferramentas utilizadas
+
+- [OpenGraph.xyz](https://www.opengraph.xyz/) — validação e preview das meta tags Open Graph
+- [Favicon.io](https://favicon.io/) — geração dos favicons e arquivos de ícone
+- [PageSpeed Insights](https://pagespeed.web.dev/) — análise de performance e Core Web Vitals
 
 ---
 
