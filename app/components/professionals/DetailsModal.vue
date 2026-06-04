@@ -82,6 +82,13 @@
                     /sessão
                   </span>
                 </div>
+                <div class="hidden sm:block text-gray-300 dark:text-gray-700">
+                  •
+                </div>
+                <div class="flex items-center gap-1 text-gray-500 dark:text-gray-400">
+                  <UIcon name="i-heroicons-map-pin" class="h-4 w-4 shrink-0" />
+                  <span>{{ props.professional.city }}</span>
+                </div>
               </div>
             </div>
 
