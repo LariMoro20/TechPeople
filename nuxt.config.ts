@@ -48,7 +48,6 @@ export default defineNuxtConfig({
     defaults: {
       width: 1200,
       height: 630,
-      component: "OgSiteImage",
       renderer: "satori",
     },
   },
