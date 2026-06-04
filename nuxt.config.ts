@@ -22,7 +22,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    preset: "vercel",
+    preset: process.env.NODE_ENV === "production" ? "vercel" : undefined,
     routeRules: {
       "/_ipx/**": { headers: { "cache-control": "max-age=604800, public" } },
     },
