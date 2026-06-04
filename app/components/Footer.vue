@@ -52,9 +52,9 @@ const items: NavigationMenuItem[] = [
     label: "Profissionais",
     to: "/professionals",
   },
-  {
-    label: "Sobre",
-    to: "/about",
-  },
+  // {
+  //   label: "Sobre",
+  //   to: "/about",
+  // },
 ];
 </script>
