@@ -103,9 +103,9 @@ A interface foi construída com abordagem mobile-first, partindo sempre do layou
 
 Os tipos da aplicação estão declarados em `app/types/index.d.ts` e incluídos globalmente via `tsconfig.json`, o que os tornaria disponíveis em qualquer arquivo sem necessidade de import. Ainda assim, optei por manter os imports explícitos (`import type { Professional } from '~/types'`) para deixar claro a origem de cada tipo ao ler o código, facilitando a navegação e o entendimento por outros desenvolvedores.
 
-**NuxtSEO**
+**NuxtSEO e OG Image dinâmica**
 
-O módulo NuxtSEO foi utilizado para configurar meta tags, Open Graph e dados estruturados (JSON-LD) de forma profissional e consistente em todas as páginas.
+O módulo NuxtSEO foi utilizado para configurar meta tags, Open Graph e dados estruturados (JSON-LD) de forma profissional e consistente em todas as páginas. A imagem de Open Graph é gerada dinamicamente via `defineOgImageComponent`, que renderiza um componente Vue (`OgImage/OgSiteImage.vue`) com as cores e identidade visual da aplicação. O componente aceita `title`, `description`, `image` e `tags` como props, permitindo personalização por página sem necessidade de gerar imagens estáticas manualmente.
 
 ---
 
