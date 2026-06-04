@@ -127,9 +127,9 @@ O campo de busca e o slider de faixa de preço têm debounce antes de disparar r
 
 O endpoint de facets é cacheado por 1 hora no servidor, eliminando processamento repetido para dados que não mudam. O endpoint de listagem não é cacheado pois os resultados variam por filtros.
 
-**Otimização de imagens**
+**Otimização de imagens com NuxtImg**
 
-O módulo `@nuxt/image` está instalado e disponível para otimização automática de imagens com lazy loading e geração de formatos modernos como WebP.
+Todas as imagens da aplicação utilizam o componente `<NuxtImg>` do módulo `@nuxt/image`. As vantagens em relação ao `<img>` nativo são a conversão automática para WebP (formato moderno com melhor compressão), controle de qualidade, lazy loading nativo e redimensionamento sob demanda. Isso reduz o peso das imagens transferidas e contribui diretamente para um LCP menor e melhor pontuação no Core Web Vitals.
 
 **Acessibilidade**
 
