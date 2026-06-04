@@ -29,11 +29,6 @@ useHead({
       rel: "canonical",
       href: "https://techpeople-larisantos.vercel.app",
     },
-    {
-      rel: "preload",
-      as: "image",
-      href: "/images/og-image.png",
-    },
   ],
   script: [
     {
