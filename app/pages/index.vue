@@ -7,9 +7,14 @@
       orientation="horizontal"
       :links="links"
     >
-      <img
+      <NuxtImg
         src="/images/image_app.png"
         alt="App screenshot"
+        width="600"
+        height="338"
+        format="webp"
+        quality="80"
+        loading="lazy"
         class="rounded-lg shadow-2xl ring ring-default"
       />
     </UPageHero>

@@ -16,9 +16,14 @@
       >
         <template #header>
           <div class="flex items-start gap-4">
-            <img
+            <NuxtImg
               :src="props.professional.avatar"
               :alt="props.professional.name"
+              width="64"
+              height="64"
+              format="webp"
+              quality="80"
+              loading="lazy"
               class="h-14 w-14 sm:h-16 sm:w-16 rounded-full object-cover shrink-0"
             />
             <div class="min-w-0 flex-1">
