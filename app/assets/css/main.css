@@ -31,17 +31,17 @@
   --ui-bg: var(--color-background-light);
   --ui-text: var(--color-text-light);
 
-  --ui-color-primary-50: #f0eeff;
-  --ui-color-primary-100: #e4e0ff;
-  --ui-color-primary-200: #ccc5ff;
-  --ui-color-primary-300: #aa9dff;
-  --ui-color-primary-400: #8a6fff;
-  --ui-color-primary-500: #6c58fe;
-  --ui-color-primary-600: #5a3ff5;
-  --ui-color-primary-700: #4a2de0;
-  --ui-color-primary-800: #3d26b8;
-  --ui-color-primary-900: #332293;
-  --ui-color-primary-950: #1e1360;
+  --ui-color-primary-50: #effaf4;
+  --ui-color-primary-100: #daf6e7;
+  --ui-color-primary-200: #b3efcf;
+  --ui-color-primary-300: #74e7aa;
+  --ui-color-primary-400: #1ce379;
+  --ui-color-primary-500: #04884b;
+  --ui-color-primary-600: #036d35;
+  --ui-color-primary-700: #045229;
+  --ui-color-primary-800: #053d1f;
+  --ui-color-primary-900: #052e18;
+  --ui-color-primary-950: #041f11;
 
   --ui-color-secondary-50: #e0fbff;
   --ui-color-secondary-100: #b3f5ff;
