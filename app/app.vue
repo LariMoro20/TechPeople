@@ -6,14 +6,6 @@
   </UApp>
 </template>
 <script setup lang="ts">
-defineOgImageComponent("OgSiteImage", {
-  title: "TechPeople — Catálogo de Profissionais de Tecnologia",
-  description:
-    "Explore um catálogo fictício de profissionais de tecnologia com perfis detalhados, especialidades, senioridade, stacks técnicas e disponibilidade.",
-  image: "/images/image_app.png",
-  tags: ["Frontend", "Backend", "Fullstack", "UI/UX", "DevOps"],
-});
-
 useSeoMeta({
   title: "TechPeople — Catálogo de Profissionais de Tecnologia",
   ogTitle: "TechPeople — Catálogo de Profissionais de Tecnologia",

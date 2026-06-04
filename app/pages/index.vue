@@ -23,6 +23,13 @@
 <script setup lang="ts">
 import type { ButtonProps } from "@nuxt/ui";
 
+defineOgImageComponent("OgSiteImage", {
+  title: "TechPeople — Catálogo de Profissionais de Tecnologia",
+  description:
+    "Explore um catálogo fictício de profissionais de tecnologia com perfis detalhados, especialidades, senioridade, stacks técnicas e disponibilidade.",
+  tags: ["Frontend", "Backend", "Fullstack", "UI/UX", "DevOps"],
+});
+
 useSeoMeta({
   titleTemplate: "%s",
   title: "TechPeople — Catálogo de Profissionais de Tecnologia",

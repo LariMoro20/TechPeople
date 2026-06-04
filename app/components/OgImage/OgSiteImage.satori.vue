@@ -1,123 +1,112 @@
 <template>
   <div
-    class="w-[1200px] h-[630px] flex flex-row"
-    :style="{
-      background: '#0f172b',
-      color: '#e8e4dc',
-    }"
+    style="
+      width: 1200px;
+      height: 630px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #0f172b;
+      color: #e8e4dc;
+      padding: 64px;
+    "
   >
-    <div
-      class="flex-1 p-[64px] flex flex-col justify-between"
-      :style="{
-        background: `
-          radial-gradient(600px 400px at 0% 0%, rgba(6,173,94,.15), transparent 70%),
-          radial-gradient(400px 400px at 0% 100%, rgba(0,202,241,.08), transparent 70%)
-        `,
-      }"
-    >
-      <div class="flex flex-row items-center gap-3">
-        <div
-          class="w-[8px] h-[8px] rounded-full"
-          :style="{ background: '#06ad5e' }"
-        />
-        <div
-          class="text-[16px] font-[700]"
-          :style="{ color: 'rgba(232,228,220,.5)' }"
-        >
-          techpeople-larisantos.vercel.app
-        </div>
-      </div>
-
-      <div class="flex flex-col gap-5">
-        <div class="flex flex-row flex-wrap gap-2">
-          <div
-            v-for="tag in props.tags"
-            :key="tag"
-            class="px-3 py-1 rounded-full text-[13px] font-[700]"
-            :style="{
-              border: '1px solid rgba(6,173,94,.35)',
-              background: 'rgba(6,173,94,.1)',
-              color: '#06ad5e',
-            }"
-          >
-            {{ tag }}
-          </div>
-        </div>
-
-        <div
-          class="text-[52px] leading-[1.1] font-[950] tracking-[-1.5px]"
-          style="
-            display: -webkit-box;
-            -webkit-line-clamp: 3;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-          "
-        >
-          {{ props.title }}
-        </div>
-
-        <div
-          class="text-[20px] leading-[1.5]"
-          :style="{ opacity: '.65' }"
-          style="
-            display: -webkit-box;
-            -webkit-line-clamp: 2;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-          "
-        >
-          {{ props.description }}
-        </div>
-      </div>
-
-      <div class="flex flex-row items-center justify-between">
-        <div
-          class="text-[15px] font-[600]"
-          :style="{ color: 'rgba(232,228,220,.4)' }"
-        >
-          Catálogo de Profissionais de Tecnologia
-        </div>
-        <div class="text-[15px] font-[700]" :style="{ color: '#00caf1' }">
-          Larissa Santos
-        </div>
+    <!-- URL -->
+    <div style="display: flex; flex-direction: row; align-items: center; gap: 12px">
+      <div style="width: 7px; height: 7px; border-radius: 50%; background: #06ad5e; flex-shrink: 0" />
+      <div style="font-size: 15px; font-weight: 700; color: rgba(232,228,220,.45); display: flex">
+        techpeople-larisantos.vercel.app
       </div>
     </div>
 
-    <div
-      class="w-[420px] shrink-0 flex flex-col items-center justify-center gap-6"
-      :style="{
-        borderLeft: '1px solid rgba(6,173,94,.15)',
-        background: 'rgba(6,173,94,.04)',
-      }"
-    >
-      <template v-if="props.image">
-        <img
-          :src="props.image"
-          alt=""
-          class="w-full h-full object-cover"
-          :style="{ opacity: '0.85' }"
-        />
-      </template>
-      <template v-else>
+    <!-- Tech People -->
+    <div style="display: flex; flex-direction: row; align-items: flex-end; gap: 32px">
+      <div
+        style="
+          font-size: 155px;
+          font-weight: 950;
+          letter-spacing: -8px;
+          line-height: 1;
+          color: #e8e4dc;
+          display: flex;
+        "
+      >
+        Tech
+      </div>
+      <div
+        style="
+          font-size: 155px;
+          font-weight: 950;
+          letter-spacing: -8px;
+          line-height: 1;
+          color: #06ad5e;
+          display: flex;
+        "
+      >
+        People
+      </div>
+      <div
+        style="font-size: 100px; font-weight: 950; letter-spacing: -3px; line-height: 1; color: rgba(232,228,220,.2); display: flex; align-self: flex-end; margin-bottom: 6px;"
+      >
+        &lt;/&gt;
+      </div>
+    </div>
+
+    <!-- Tags + título -->
+    <div style="display: flex; flex-direction: column; gap: 16px">
+      <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 8px">
         <div
-          class="text-[96px] font-[950] tracking-[-4px]"
-          :style="{ color: '#06ad5e' }"
+          v-for="tag in props.tags"
+          :key="tag"
+          style="
+            padding: 4px 14px;
+            border-radius: 9999px;
+            font-size: 13px;
+            font-weight: 700;
+            border: 1px solid rgba(6,173,94,.35);
+            background: rgba(6,173,94,.1);
+            color: #06ad5e;
+            display: flex;
+            align-items: center;
+          "
         >
-          Tech
+          {{ tag }}
         </div>
-        <div
-          class="text-[96px] font-[950] tracking-[-4px] mt-[-32px]"
-          :style="{ color: '#00caf1' }"
-        >
-          People
-        </div>
-        <div
-          class="text-[15px] font-[500] text-center px-8"
-          :style="{ color: 'rgba(232,228,220,.3)' }"
-        >
-          500+ profissionais cadastrados
-        </div>
-      </template>
+      </div>
+
+      <div
+        style="
+          font-size: 18px;
+          font-weight: 600;
+          color: rgba(232,228,220,.7);
+          display: flex;
+          overflow: hidden;
+        "
+      >
+        {{ props.title }}
+      </div>
+
+      <div
+        style="
+          font-size: 17px;
+          font-weight: 400;
+          color: rgba(232,228,220,.45);
+          display: flex;
+          overflow: hidden;
+        "
+      >
+        {{ props.description }}
+      </div>
+    </div>
+
+    <!-- Rodapé -->
+    <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
+      <div style="font-size: 14px; font-weight: 600; color: rgba(232,228,220,.35); display: flex">
+        Catálogo de Profissionais de Tecnologia
+      </div>
+      <div style="font-size: 14px; font-weight: 700; color: #06ad5e; display: flex">
+        Larissa Santos
+      </div>
     </div>
   </div>
 </template>
@@ -127,7 +116,6 @@ const props = withDefaults(
   defineProps<{
     title: string;
     description: string;
-    image?: string;
     tags?: string[];
   }>(),
   {
