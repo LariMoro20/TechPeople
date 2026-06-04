@@ -20,6 +20,17 @@ export default defineNuxtConfig({
   experimental: {
     payloadExtraction: false,
   },
+
+  nitro: {
+    preset: "vercel",
+    prerender: {
+      crawlLinks: true,
+      routes: ["/", "/professionals"],
+    },
+    routeRules: {
+      "/_ipx/**": { headers: { "cache-control": "max-age=604800, public" } },
+    },
+  },
   colorMode: {
     preference: "light",
     fallback: "light",
