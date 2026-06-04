@@ -18,6 +18,8 @@
           light="/images/logo_light.png"
           dark="/images/logo_dark.png"
           alt="TechPeople - Catalogo de freelas"
+          width="160"
+          height="40"
           class="h-10 w-auto"
           loading="eager"
         />
