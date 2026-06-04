@@ -52,7 +52,8 @@ useHead({
         inLanguage: "pt-BR",
         creator: {
           "@type": "Person",
-          name: "Daniel Ferreira",
+          name: "Larissa Santos",
+          url: "https://larisantos.vercel.app",
         },
         featureList: [
           "Listagem de profissionais de tecnologia",
@@ -76,6 +77,41 @@ useHead({
           "DevOps",
           "Data Engineering",
           "Technology Professionals",
+        ],
+      }),
+    },
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Larissa Santos",
+        url: "https://larisantos.vercel.app",
+        jobTitle: "Desenvolvedora Frontend",
+        description:
+          "Desenvolvedora Frontend com 9+ anos de experiência, especialista em Vue.js, Quasar e Nuxt. Fullstack com background em PHP e Laravel.",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "São José",
+          addressRegion: "SC",
+          addressCountry: "BR",
+        },
+        sameAs: [
+          "https://linkedin.com/in/lari-moro-ss",
+          "https://github.com/LariMoro20",
+        ],
+        knowsAbout: [
+          "Vue.js",
+          "Nuxt.js",
+          "Quasar Framework",
+          "TypeScript",
+          "JavaScript",
+          "PHP",
+          "Laravel",
+          "Pinia",
+          "Tailwind CSS",
+          "REST APIs",
+          "Frontend Development",
         ],
       }),
     },
