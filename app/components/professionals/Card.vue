@@ -7,9 +7,14 @@
     @click="emit('select', professional)"
   >
     <div class="flex items-start gap-2 sm:gap-3 mb-2 sm:mb-3">
-      <img
+      <NuxtImg
         :src="professional.avatar"
         :alt="professional.name"
+        width="48"
+        height="48"
+        format="webp"
+        quality="80"
+        loading="lazy"
         class="w-9 h-9 sm:w-12 sm:h-12 rounded-full object-cover shrink-0"
       />
       <div class="min-w-0 flex-1">
