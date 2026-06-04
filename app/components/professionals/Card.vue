@@ -85,15 +85,22 @@
     <div
       class="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between pt-2 sm:pt-3 border-t border-gray-100 dark:border-gray-800"
     >
-      <div class="flex items-center gap-1 text-xs sm:text-sm">
-        <UIcon
-          name="i-heroicons-star-solid"
-          class="text-yellow-400 w-3.5 h-3.5 sm:w-4 sm:h-4"
-        />
-        <span class="font-medium text-gray-900 dark:text-white">
-          {{ professional.rating }}
-        </span>
-        <span class="text-gray-400"> ({{ professional.reviewCount }}) </span>
+      <div class="flex items-center gap-2 text-xs sm:text-sm">
+        <div class="flex items-center gap-1">
+          <UIcon
+            name="i-heroicons-star-solid"
+            class="text-yellow-400 w-3.5 h-3.5 sm:w-4 sm:h-4"
+          />
+          <span class="font-medium text-gray-900 dark:text-white">
+            {{ professional.rating }}
+          </span>
+          <span class="text-gray-400"> ({{ professional.reviewCount }}) </span>
+        </div>
+        <span class="text-gray-300 dark:text-gray-700">·</span>
+        <div class="flex items-center gap-0.5 text-gray-400 truncate">
+          <UIcon name="i-heroicons-map-pin" class="w-3.5 h-3.5 shrink-0" />
+          <span class="truncate">{{ professional.city }}</span>
+        </div>
       </div>
       <div class="text-xs sm:text-sm leading-tight">
         <span class="font-semibold text-gray-900 dark:text-white">
