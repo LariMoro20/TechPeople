@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <main>
+    <main class="pt-(--ui-header-height)">
       <slot />
     </main>
     <Footer />

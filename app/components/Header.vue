@@ -1,10 +1,12 @@
 <template>
   <UHeader
+    sticky
     mode="slideover"
+    class="fixed top-0 left-0 w-full"
     :menu="{
       side: 'right',
       ui: {
-        content: 'w-[60vw] max-w-sm',
+        content: ' fixed top-0 ',
       },
     }"
   >
