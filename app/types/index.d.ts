@@ -54,6 +54,19 @@ export interface ProfessionalsResponse {
   meta: PaginationMeta;
 }
 
+export interface ProfessionCount {
+  name: string;
+  count: number;
+}
+
+export interface ProfessionalsStats {
+  total: number;
+  specialties: number;
+  cities: number;
+  available: number;
+  professions: ProfessionCount[];
+}
+
 export interface ProfessionalsFacets {
   professions: string[];
   cities: string[];
