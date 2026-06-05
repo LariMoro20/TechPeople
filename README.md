@@ -39,14 +39,19 @@ app/
 │   │   ├── List.vue         # Grade com skeleton, estado vazio e paginação
 │   │   ├── Filters.vue      # Painel de filtros (busca, profissão, cidade, preço, avaliação)
 │   │   └── DetailsModal.vue # Modal com perfil completo do profissional
+│   ├── OgImage/
+│   │   ├── OgSiteImage.satori.vue    # OG image das páginas institucionais
+│   │   └── OgProfessional.satori.vue # OG image personalizada por profissional
 │   ├── Header.vue
 │   └── Footer.vue
 ├── composables/
 │   ├── useProfessionals.ts        # Filtros, ordenação, paginação e sync com URL
 │   └── useProfessionalsFilters.ts # Dados e opções dos filtros (facets)
 ├── pages/
-│   ├── index.vue            # Landing page
-│   └── professionals.vue    # Página de listagem
+│   ├── index.vue               # Landing page
+│   ├── professionals.vue       # Página de listagem
+│   └── professional/
+│       └── [id].vue            # Perfil dedicado do profissional
 ├── stores/
 │   └── useFavoriteProfessionalsStore.ts  # Favoritos com persistência localStorage
 ├── plugins/
@@ -105,7 +110,11 @@ Os tipos da aplicação estão declarados em `app/types/index.d.ts` e incluídos
 
 **NuxtSEO e OG Image dinâmica**
 
-O módulo NuxtSEO foi utilizado para configurar meta tags, Open Graph e dados estruturados (JSON-LD) de forma profissional e consistente em todas as páginas. A imagem de Open Graph é gerada dinamicamente via `defineOgImageComponent`, que renderiza um componente Vue (`OgImage/OgSiteImage.vue`) com as cores e identidade visual da aplicação. O componente aceita `title`, `description`, `image` e `tags` como props, permitindo personalização por página sem necessidade de gerar imagens estáticas manualmente.
+O módulo NuxtSEO foi utilizado para configurar meta tags, Open Graph e dados estruturados (JSON-LD) de forma profissional e consistente em todas as páginas. A imagem de Open Graph é gerada dinamicamente via `defineOgImage`, que renderiza um componente Vue com as cores e identidade visual da aplicação. Há dois componentes distintos: `OgSiteImage.satori.vue` para as páginas institucionais e de listagem, e `OgProfessional.satori.vue` para a página de perfil — este exibe o nome do profissional em destaque no lugar do branding, com profissão, bio e especialidades. Ambos são renderizados via Satori no servidor, sem necessidade de gerar imagens estáticas manualmente.
+
+**Página dedicada por profissional**
+
+Além do modal de perfil rápido acessível pela listagem, cada profissional tem uma página dedicada em `/professional/:id`. Essa rota permite URLs compartilháveis por profissional, exibe avatar, stats, bio, especialidades e uma galeria de projetos recentes, e conta com OG image personalizada com o nome do profissional em destaque.
 
 ---
 
@@ -158,10 +167,6 @@ Atualmente o `useFetch` do Nuxt gerencia as requisições à API. Uma evolução
 **Dados de contato dos profissionais**
 
 Hoje o modal exibe as informações do perfil mas não oferece um caminho claro para contato. Adicionar email, WhatsApp ou link de agendamento transformaria o catálogo em uma ferramenta de conexão real entre cliente e profissional.
-
-**Página dedicada por profissional**
-
-O perfil atual é exibido em modal. Uma página dedicada (`/professionals/:id`) permitiria URLs compartilháveis por profissional, mais espaço para conteúdo como galeria de trabalhos, avaliações detalhadas e histórico, além de melhorar o SEO individual de cada perfil.
 
 **Área do profissional**
 
