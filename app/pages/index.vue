@@ -20,10 +20,20 @@
         class="rounded-lg shadow-2xl ring ring-default"
       />
     </UPageHero>
+
+    <HomeStats :stats="stats" />
+    <HomeSpecialties :professions="stats?.professions ?? []" />
+    <HomeHowItWorks />
+    <HomeLogos />
+    <HomeReviews />
+    <HomeCTA />
   </div>
 </template>
 <script setup lang="ts">
 import type { ButtonProps } from "@nuxt/ui";
+import type { ProfessionalsStats } from "~/types";
+
+const { stats } = useProfessionCounts();
 
 defineOgImage("OgSiteImage", {
   title: "TechPeople — Catálogo de Profissionais de Tecnologia",
