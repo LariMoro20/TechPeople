@@ -194,6 +194,15 @@
               @click="isOpen = false"
             />
             <UButton
+              color="neutral"
+              variant="subtle"
+              icon="i-heroicons-arrow-top-right-on-square"
+              label="Ver perfil completo"
+              class="justify-center"
+              :to="`/professional/${props.professional.id}`"
+              @click="isOpen = false"
+            />
+            <UButton
               color="primary"
               icon="i-heroicons-chat-bubble-left-right"
               label="Tenho interesse"
