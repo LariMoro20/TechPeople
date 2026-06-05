@@ -36,7 +36,7 @@ export default defineNuxtConfig({
   ssr: true,
 
   image: {
-    domains: ["i.pravatar.cc"],
+    domains: ["i.pravatar.cc", "picsum.photos"],
   },
 
   ogImage: {
