@@ -1,5 +1,5 @@
 import professionalsData from "../data/professionals.json";
-import type { Professional, ProfessionalsFacets } from "~/types";
+import type { Professional, ProfessionalsFacets, ProfessionCount, ProfessionalsStats } from "~/types";
 import { professionalSchema } from "./professionals.schema";
 import { normalize } from "./text";
 
@@ -29,6 +29,23 @@ export const facets: ProfessionalsFacets = {
     min: Math.min(...professionals.map((p) => p.servicePrice)),
     max: Math.max(...professionals.map((p) => p.servicePrice)),
   },
+};
+
+export const professionCounts: ProfessionCount[] = Object.entries(
+  professionals.reduce<Record<string, number>>((acc, p) => {
+    acc[p.profession] = (acc[p.profession] ?? 0) + 1;
+    return acc;
+  }, {}),
+)
+  .map(([name, count]) => ({ name, count }))
+  .sort((a, b) => a.name.localeCompare(b.name, "pt-BR"));
+
+export const professionalStats: ProfessionalsStats = {
+  total: professionals.length,
+  specialties: facets.professions.length,
+  cities: facets.cities.length,
+  available: professionals.filter((p) => p.available).length,
+  professions: professionCounts,
 };
 
 export function getProfessionalById(id: string): Professional | undefined {
