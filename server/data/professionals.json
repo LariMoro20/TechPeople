@@ -25,7 +25,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 174,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 30,
     "city": "Belo Horizonte",
     "distance": 3.4,
@@ -62,13 +62,13 @@
   {
     "id": "prof-004",
     "name": "Daniel Ribeiro",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 168,
     "rating": 4.9,
     "reviewCount": 52,
     "city": "Campinas",
-    "distance": 6.0,
+    "distance": 6,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -82,7 +82,7 @@
   {
     "id": "prof-005",
     "name": "Eduarda Martins",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 215,
     "rating": 4.1,
@@ -102,7 +102,7 @@
   {
     "id": "prof-006",
     "name": "Felipe Mendes",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 262,
     "rating": 4.8,
@@ -125,7 +125,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 309,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 85,
     "city": "Goiânia",
     "distance": 9.9,
@@ -142,7 +142,7 @@
   {
     "id": "prof-008",
     "name": "Henrique Souza",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 286,
     "rating": 4.7,
@@ -162,7 +162,7 @@
   {
     "id": "prof-009",
     "name": "Isabela Pereira",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 373,
     "rating": 3.9,
@@ -182,7 +182,7 @@
   {
     "id": "prof-010",
     "name": "João Ferreira",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 350,
     "rating": 4.6,
@@ -202,7 +202,7 @@
   {
     "id": "prof-011",
     "name": "Karen Carvalho",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 117,
     "rating": 3.8,
@@ -222,7 +222,7 @@
   {
     "id": "prof-012",
     "name": "Lucas Rocha",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 174,
     "rating": 4.5,
@@ -242,7 +242,7 @@
   {
     "id": "prof-013",
     "name": "Mariana Barbosa",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 291,
     "rating": 3.7,
@@ -262,13 +262,13 @@
   {
     "id": "prof-014",
     "name": "Nicolas Moreira",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 288,
     "rating": 4.4,
     "reviewCount": 162,
     "city": "Campinas",
-    "distance": 7.0,
+    "distance": 7,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -282,7 +282,7 @@
   {
     "id": "prof-015",
     "name": "Olivia Oliveira",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 275,
     "rating": 3.6,
@@ -325,7 +325,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 249,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 195,
     "city": "Goiânia",
     "distance": 10.9,
@@ -362,7 +362,7 @@
   {
     "id": "prof-019",
     "name": "Sofia Dias",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 243,
     "rating": 4.9,
@@ -382,7 +382,7 @@
   {
     "id": "prof-020",
     "name": "Thiago Cardoso",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 290,
     "rating": 4.1,
@@ -402,7 +402,7 @@
   {
     "id": "prof-021",
     "name": "Ursula Silva",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 337,
     "rating": 4.8,
@@ -425,7 +425,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 204,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 10,
     "city": "Belo Horizonte",
     "distance": 5.4,
@@ -442,7 +442,7 @@
   {
     "id": "prof-023",
     "name": "Wesley Costa",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 181,
     "rating": 4.7,
@@ -462,13 +462,13 @@
   {
     "id": "prof-024",
     "name": "Yasmin Ribeiro",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 268,
     "rating": 3.9,
     "reviewCount": 32,
     "city": "Campinas",
-    "distance": 8.0,
+    "distance": 8,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -482,7 +482,7 @@
   {
     "id": "prof-025",
     "name": "Caio Martins",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 245,
     "rating": 4.6,
@@ -502,7 +502,7 @@
   {
     "id": "prof-026",
     "name": "Bianca Mendes",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 192,
     "rating": 3.8,
@@ -522,7 +522,7 @@
   {
     "id": "prof-027",
     "name": "Matheus Teixeira",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 249,
     "rating": 4.5,
@@ -542,7 +542,7 @@
   {
     "id": "prof-028",
     "name": "Larissa Souza",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 366,
     "rating": 3.7,
@@ -562,7 +562,7 @@
   {
     "id": "prof-029",
     "name": "Gustavo Pereira",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 363,
     "rating": 4.4,
@@ -582,7 +582,7 @@
   {
     "id": "prof-030",
     "name": "Fernanda Ferreira",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 350,
     "rating": 3.6,
@@ -625,7 +625,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 144,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 120,
     "city": "Belo Horizonte",
     "distance": 6.4,
@@ -662,13 +662,13 @@
   {
     "id": "prof-034",
     "name": "Daniel Moreira",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 138,
     "rating": 4.9,
     "reviewCount": 142,
     "city": "Campinas",
-    "distance": 9.0,
+    "distance": 9,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -682,7 +682,7 @@
   {
     "id": "prof-035",
     "name": "Eduarda Oliveira",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 185,
     "rating": 4.1,
@@ -702,7 +702,7 @@
   {
     "id": "prof-036",
     "name": "Felipe Lima",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 232,
     "rating": 4.8,
@@ -725,7 +725,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 279,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 175,
     "city": "Goiânia",
     "distance": 0.9,
@@ -742,7 +742,7 @@
   {
     "id": "prof-038",
     "name": "Henrique Gomes",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 256,
     "rating": 4.7,
@@ -762,7 +762,7 @@
   {
     "id": "prof-039",
     "name": "Isabela Dias",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 343,
     "rating": 3.9,
@@ -782,7 +782,7 @@
   {
     "id": "prof-040",
     "name": "João Cardoso",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 320,
     "rating": 4.6,
@@ -802,7 +802,7 @@
   {
     "id": "prof-041",
     "name": "Karen Silva",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 267,
     "rating": 3.8,
@@ -822,7 +822,7 @@
   {
     "id": "prof-042",
     "name": "Lucas Santos",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 324,
     "rating": 4.5,
@@ -842,7 +842,7 @@
   {
     "id": "prof-043",
     "name": "Mariana Costa",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 261,
     "rating": 3.7,
@@ -862,13 +862,13 @@
   {
     "id": "prof-044",
     "name": "Nicolas Ribeiro",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 258,
     "rating": 4.4,
     "reviewCount": 12,
     "city": "Campinas",
-    "distance": 10.0,
+    "distance": 10,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -882,7 +882,7 @@
   {
     "id": "prof-045",
     "name": "Olivia Martins",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 245,
     "rating": 3.6,
@@ -925,7 +925,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 219,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 45,
     "city": "Goiânia",
     "distance": 1.9,
@@ -962,7 +962,7 @@
   {
     "id": "prof-049",
     "name": "Sofia Pereira",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 213,
     "rating": 4.9,
@@ -982,7 +982,7 @@
   {
     "id": "prof-050",
     "name": "Thiago Ferreira",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 260,
     "rating": 4.1,
@@ -1002,7 +1002,7 @@
   {
     "id": "prof-051",
     "name": "Ursula Carvalho",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 307,
     "rating": 4.8,
@@ -1025,7 +1025,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 354,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 100,
     "city": "Belo Horizonte",
     "distance": 8.4,
@@ -1042,7 +1042,7 @@
   {
     "id": "prof-053",
     "name": "Wesley Barbosa",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 151,
     "rating": 4.7,
@@ -1062,13 +1062,13 @@
   {
     "id": "prof-054",
     "name": "Yasmin Moreira",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 238,
     "rating": 3.9,
     "reviewCount": 122,
     "city": "Campinas",
-    "distance": 11.0,
+    "distance": 11,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -1082,7 +1082,7 @@
   {
     "id": "prof-055",
     "name": "Caio Oliveira",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 215,
     "rating": 4.6,
@@ -1102,7 +1102,7 @@
   {
     "id": "prof-056",
     "name": "Bianca Lima",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 162,
     "rating": 3.8,
@@ -1122,7 +1122,7 @@
   {
     "id": "prof-057",
     "name": "Matheus Almeida",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 219,
     "rating": 4.5,
@@ -1142,7 +1142,7 @@
   {
     "id": "prof-058",
     "name": "Larissa Gomes",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 336,
     "rating": 3.7,
@@ -1162,7 +1162,7 @@
   {
     "id": "prof-059",
     "name": "Gustavo Dias",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 333,
     "rating": 4.4,
@@ -1182,7 +1182,7 @@
   {
     "id": "prof-060",
     "name": "Fernanda Cardoso",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 320,
     "rating": 3.6,
@@ -1225,7 +1225,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 294,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 210,
     "city": "Belo Horizonte",
     "distance": 9.4,
@@ -1262,13 +1262,13 @@
   {
     "id": "prof-064",
     "name": "Daniel Macedo Campos",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 108,
     "rating": 4.9,
     "reviewCount": 232,
     "city": "Campinas",
-    "distance": 12.0,
+    "distance": 12,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -1282,7 +1282,7 @@
   {
     "id": "prof-065",
     "name": "Eduarda Leal Cardoso",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 155,
     "rating": 4.1,
@@ -1302,7 +1302,7 @@
   {
     "id": "prof-066",
     "name": "Felipe Leal Gonçalves",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 202,
     "rating": 4.8,
@@ -1325,7 +1325,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 249,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 25,
     "city": "Goiânia",
     "distance": 3.9,
@@ -1342,7 +1342,7 @@
   {
     "id": "prof-068",
     "name": "Henrique Medeiros Correia",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 226,
     "rating": 4.7,
@@ -1362,7 +1362,7 @@
   {
     "id": "prof-069",
     "name": "Isabela Ferreira Tavares",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 313,
     "rating": 3.9,
@@ -1382,7 +1382,7 @@
   {
     "id": "prof-070",
     "name": "João Bezerra Amaral",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 290,
     "rating": 4.6,
@@ -1402,7 +1402,7 @@
   {
     "id": "prof-071",
     "name": "Karen Reis Nogueira",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 237,
     "rating": 3.8,
@@ -1422,7 +1422,7 @@
   {
     "id": "prof-072",
     "name": "Lucas Rangel Nascimento",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 294,
     "rating": 4.5,
@@ -1442,7 +1442,7 @@
   {
     "id": "prof-073",
     "name": "Mariana Melo Carvalho",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 411,
     "rating": 3.7,
@@ -1462,13 +1462,13 @@
   {
     "id": "prof-074",
     "name": "Nicolas Duarte Carvalho",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 408,
     "rating": 4.4,
     "reviewCount": 102,
     "city": "Campinas",
-    "distance": 1.0,
+    "distance": 1,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -1482,7 +1482,7 @@
   {
     "id": "prof-075",
     "name": "Olivia Santos Farias",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 215,
     "rating": 3.6,
@@ -1525,7 +1525,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 189,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 135,
     "city": "Goiânia",
     "distance": 4.9,
@@ -1562,7 +1562,7 @@
   {
     "id": "prof-079",
     "name": "Sofia Marques Silva",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 183,
     "rating": 4.9,
@@ -1582,7 +1582,7 @@
   {
     "id": "prof-080",
     "name": "Thiago Campos Vieira",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 230,
     "rating": 4.1,
@@ -1602,7 +1602,7 @@
   {
     "id": "prof-081",
     "name": "Ursula Cordeiro Carvalho",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 277,
     "rating": 4.8,
@@ -1625,7 +1625,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 324,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 190,
     "city": "Belo Horizonte",
     "distance": 11.4,
@@ -1642,7 +1642,7 @@
   {
     "id": "prof-083",
     "name": "Wesley Souza Camargo",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 301,
     "rating": 4.7,
@@ -1662,13 +1662,13 @@
   {
     "id": "prof-084",
     "name": "Yasmin Azevedo Brito",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 388,
     "rating": 3.9,
     "reviewCount": 212,
     "city": "Campinas",
-    "distance": 2.0,
+    "distance": 2,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -1682,7 +1682,7 @@
   {
     "id": "prof-085",
     "name": "Caio Pacheco Melo",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 185,
     "rating": 4.6,
@@ -1702,7 +1702,7 @@
   {
     "id": "prof-086",
     "name": "Bianca Melo Braga",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 132,
     "rating": 3.8,
@@ -1722,7 +1722,7 @@
   {
     "id": "prof-087",
     "name": "Matheus Guimarães Andrade",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 189,
     "rating": 4.5,
@@ -1742,7 +1742,7 @@
   {
     "id": "prof-088",
     "name": "Larissa Bezerra Valente",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 306,
     "rating": 3.7,
@@ -1762,7 +1762,7 @@
   {
     "id": "prof-089",
     "name": "Gustavo Vargas Reis",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 303,
     "rating": 4.4,
@@ -1782,7 +1782,7 @@
   {
     "id": "prof-090",
     "name": "Fernanda Almeida Dantas",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 290,
     "rating": 3.6,
@@ -1825,7 +1825,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 264,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 60,
     "city": "Belo Horizonte",
     "distance": 12.4,
@@ -1862,13 +1862,13 @@
   {
     "id": "prof-094",
     "name": "Daniel Araújo Aguiar",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 258,
     "rating": 4.9,
     "reviewCount": 82,
     "city": "Campinas",
-    "distance": 3.0,
+    "distance": 3,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -1882,7 +1882,7 @@
   {
     "id": "prof-095",
     "name": "Eduarda Leal Martins",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 305,
     "rating": 4.1,
@@ -1902,7 +1902,7 @@
   {
     "id": "prof-096",
     "name": "Felipe Andrade Miranda",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 172,
     "rating": 4.8,
@@ -1925,7 +1925,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 219,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 115,
     "city": "Goiânia",
     "distance": 6.9,
@@ -1942,7 +1942,7 @@
   {
     "id": "prof-098",
     "name": "Henrique Garcia Soares",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 196,
     "rating": 4.7,
@@ -1962,7 +1962,7 @@
   {
     "id": "prof-099",
     "name": "Isabela Aguiar Vasconcelos",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 283,
     "rating": 3.9,
@@ -1982,7 +1982,7 @@
   {
     "id": "prof-100",
     "name": "João Campos Santos",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 260,
     "rating": 4.6,
@@ -2002,7 +2002,7 @@
   {
     "id": "prof-101",
     "name": "Karen Bezerra Coelho",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 207,
     "rating": 3.8,
@@ -2022,7 +2022,7 @@
   {
     "id": "prof-102",
     "name": "Lucas Carvalho Batista",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 264,
     "rating": 4.5,
@@ -2042,7 +2042,7 @@
   {
     "id": "prof-103",
     "name": "Mariana Lima Leal",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 381,
     "rating": 3.7,
@@ -2062,13 +2062,13 @@
   {
     "id": "prof-104",
     "name": "Nicolas Figueiredo Soares",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 378,
     "rating": 4.4,
     "reviewCount": 192,
     "city": "Campinas",
-    "distance": 4.0,
+    "distance": 4,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -2082,7 +2082,7 @@
   {
     "id": "prof-105",
     "name": "Olivia Couto Castro",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 365,
     "rating": 3.6,
@@ -2125,7 +2125,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 159,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 225,
     "city": "Goiânia",
     "distance": 7.9,
@@ -2162,7 +2162,7 @@
   {
     "id": "prof-109",
     "name": "Sofia Fernandes Azevedo",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 153,
     "rating": 4.9,
@@ -2182,7 +2182,7 @@
   {
     "id": "prof-110",
     "name": "Thiago Melo Leal",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 200,
     "rating": 4.1,
@@ -2202,7 +2202,7 @@
   {
     "id": "prof-111",
     "name": "Ursula Borges Barros",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 247,
     "rating": 4.8,
@@ -2225,7 +2225,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 294,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 40,
     "city": "Belo Horizonte",
     "distance": 2.4,
@@ -2242,7 +2242,7 @@
   {
     "id": "prof-113",
     "name": "Wesley Mendes Silva",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 271,
     "rating": 4.7,
@@ -2262,13 +2262,13 @@
   {
     "id": "prof-114",
     "name": "Yasmin Gonçalves Garcia",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 358,
     "rating": 3.9,
     "reviewCount": 62,
     "city": "Campinas",
-    "distance": 5.0,
+    "distance": 5,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -2282,7 +2282,7 @@
   {
     "id": "prof-115",
     "name": "Caio Queiroz Peixoto",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 335,
     "rating": 4.6,
@@ -2302,7 +2302,7 @@
   {
     "id": "prof-116",
     "name": "Bianca Rangel Mendes",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 282,
     "rating": 3.8,
@@ -2322,7 +2322,7 @@
   {
     "id": "prof-117",
     "name": "Matheus Aguiar Pereira",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 159,
     "rating": 4.5,
@@ -2342,7 +2342,7 @@
   {
     "id": "prof-118",
     "name": "Larissa Braga Lima",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 276,
     "rating": 3.7,
@@ -2362,7 +2362,7 @@
   {
     "id": "prof-119",
     "name": "Gustavo Bezerra Melo",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 273,
     "rating": 4.4,
@@ -2382,7 +2382,7 @@
   {
     "id": "prof-120",
     "name": "Fernanda Pinto Rodrigues",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 260,
     "rating": 3.6,
@@ -2425,7 +2425,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 234,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 150,
     "city": "Belo Horizonte",
     "distance": 3.4,
@@ -2462,13 +2462,13 @@
   {
     "id": "prof-124",
     "name": "Daniel Lacerda Sales",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 228,
     "rating": 4.9,
     "reviewCount": 172,
     "city": "Campinas",
-    "distance": 6.0,
+    "distance": 6,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -2482,7 +2482,7 @@
   {
     "id": "prof-125",
     "name": "Eduarda Dantas Santos",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 275,
     "rating": 4.1,
@@ -2502,7 +2502,7 @@
   {
     "id": "prof-126",
     "name": "Felipe Borges Matos",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 322,
     "rating": 4.8,
@@ -2525,7 +2525,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 369,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 205,
     "city": "Goiânia",
     "distance": 9.9,
@@ -2542,7 +2542,7 @@
   {
     "id": "prof-128",
     "name": "Henrique Figueiredo Teixeira",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 166,
     "rating": 4.7,
@@ -2562,7 +2562,7 @@
   {
     "id": "prof-129",
     "name": "Isabela Lopes Cunha",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 253,
     "rating": 3.9,
@@ -2582,7 +2582,7 @@
   {
     "id": "prof-130",
     "name": "João Duarte Correia",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 230,
     "rating": 4.6,
@@ -2602,7 +2602,7 @@
   {
     "id": "prof-131",
     "name": "Karen Ramos Rocha",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 177,
     "rating": 3.8,
@@ -2622,7 +2622,7 @@
   {
     "id": "prof-132",
     "name": "Lucas Amaral Melo",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 234,
     "rating": 4.5,
@@ -2642,7 +2642,7 @@
   {
     "id": "prof-133",
     "name": "Mariana Freitas Costa",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 351,
     "rating": 3.7,
@@ -2662,13 +2662,13 @@
   {
     "id": "prof-134",
     "name": "Nicolas Neves Barbosa",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 348,
     "rating": 4.4,
     "reviewCount": 42,
     "city": "Campinas",
-    "distance": 7.0,
+    "distance": 7,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -2682,7 +2682,7 @@
   {
     "id": "prof-135",
     "name": "Olivia Fonseca Ferreira",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 335,
     "rating": 3.6,
@@ -2725,7 +2725,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 309,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 75,
     "city": "Goiânia",
     "distance": 10.9,
@@ -2762,7 +2762,7 @@
   {
     "id": "prof-139",
     "name": "Sofia Gomes Lacerda",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 123,
     "rating": 4.9,
@@ -2782,7 +2782,7 @@
   {
     "id": "prof-140",
     "name": "Thiago Ribeiro Silva",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 170,
     "rating": 4.1,
@@ -2802,7 +2802,7 @@
   {
     "id": "prof-141",
     "name": "Ursula Mendes Vasconcelos",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 217,
     "rating": 4.8,
@@ -2825,7 +2825,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 264,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 130,
     "city": "Belo Horizonte",
     "distance": 5.4,
@@ -2842,7 +2842,7 @@
   {
     "id": "prof-143",
     "name": "Wesley Cunha Barros",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 241,
     "rating": 4.7,
@@ -2862,13 +2862,13 @@
   {
     "id": "prof-144",
     "name": "Yasmin Ferreira Couto",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 328,
     "rating": 3.9,
     "reviewCount": 152,
     "city": "Campinas",
-    "distance": 8.0,
+    "distance": 8,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -2882,7 +2882,7 @@
   {
     "id": "prof-145",
     "name": "Caio Castro Aguiar",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 305,
     "rating": 4.6,
@@ -2902,7 +2902,7 @@
   {
     "id": "prof-146",
     "name": "Bianca Nogueira Andrade",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 252,
     "rating": 3.8,
@@ -2922,7 +2922,7 @@
   {
     "id": "prof-147",
     "name": "Matheus Barbosa Lacerda",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 309,
     "rating": 4.5,
@@ -2942,7 +2942,7 @@
   {
     "id": "prof-148",
     "name": "Larissa Costa Siqueira",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 426,
     "rating": 3.7,
@@ -2962,7 +2962,7 @@
   {
     "id": "prof-149",
     "name": "Gustavo Soares Prado",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 243,
     "rating": 4.4,
@@ -2982,7 +2982,7 @@
   {
     "id": "prof-150",
     "name": "Fernanda Rodrigues Freitas",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 230,
     "rating": 3.6,
@@ -3025,7 +3025,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 204,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 240,
     "city": "Belo Horizonte",
     "distance": 6.4,
@@ -3062,13 +3062,13 @@
   {
     "id": "prof-154",
     "name": "Daniel Andrade Amaral",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 198,
     "rating": 4.9,
     "reviewCount": 22,
     "city": "Campinas",
-    "distance": 9.0,
+    "distance": 9,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -3082,7 +3082,7 @@
   {
     "id": "prof-155",
     "name": "Eduarda Bezerra Couto",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 245,
     "rating": 4.1,
@@ -3102,7 +3102,7 @@
   {
     "id": "prof-156",
     "name": "Felipe Seixas Porto",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 292,
     "rating": 4.8,
@@ -3125,7 +3125,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 339,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 55,
     "city": "Goiânia",
     "distance": 0.9,
@@ -3142,7 +3142,7 @@
   {
     "id": "prof-158",
     "name": "Henrique Souza Rangel",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 316,
     "rating": 4.7,
@@ -3162,7 +3162,7 @@
   {
     "id": "prof-159",
     "name": "Isabela Andrade Rezende",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 223,
     "rating": 3.9,
@@ -3182,7 +3182,7 @@
   {
     "id": "prof-160",
     "name": "João Vargas Braga",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 200,
     "rating": 4.6,
@@ -3202,7 +3202,7 @@
   {
     "id": "prof-161",
     "name": "Karen Mendes Tavares",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 147,
     "rating": 3.8,
@@ -3222,7 +3222,7 @@
   {
     "id": "prof-162",
     "name": "Lucas Camargo Ramos",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 204,
     "rating": 4.5,
@@ -3242,7 +3242,7 @@
   {
     "id": "prof-163",
     "name": "Mariana Vieira Seixas",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 321,
     "rating": 3.7,
@@ -3262,13 +3262,13 @@
   {
     "id": "prof-164",
     "name": "Nicolas Andrade Barros",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 318,
     "rating": 4.4,
     "reviewCount": 132,
     "city": "Campinas",
-    "distance": 10.0,
+    "distance": 10,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -3282,7 +3282,7 @@
   {
     "id": "prof-165",
     "name": "Olivia Rodrigues Seixas",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 305,
     "rating": 3.6,
@@ -3325,7 +3325,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 279,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 165,
     "city": "Goiânia",
     "distance": 1.9,
@@ -3362,7 +3362,7 @@
   {
     "id": "prof-169",
     "name": "Sofia Batista Porto",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 273,
     "rating": 4.9,
@@ -3382,7 +3382,7 @@
   {
     "id": "prof-170",
     "name": "Thiago Sales Freitas",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 140,
     "rating": 4.1,
@@ -3402,7 +3402,7 @@
   {
     "id": "prof-171",
     "name": "Ursula Bezerra Brito",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 187,
     "rating": 4.8,
@@ -3425,7 +3425,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 234,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 220,
     "city": "Belo Horizonte",
     "distance": 8.4,
@@ -3442,7 +3442,7 @@
   {
     "id": "prof-173",
     "name": "Wesley Seixas Lacerda",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 211,
     "rating": 4.7,
@@ -3462,13 +3462,13 @@
   {
     "id": "prof-174",
     "name": "Yasmin Rodrigues Cunha",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 298,
     "rating": 3.9,
     "reviewCount": 242,
     "city": "Campinas",
-    "distance": 11.0,
+    "distance": 11,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -3482,7 +3482,7 @@
   {
     "id": "prof-175",
     "name": "Caio Couto Macedo",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 275,
     "rating": 4.6,
@@ -3502,7 +3502,7 @@
   {
     "id": "prof-176",
     "name": "Bianca Amaral Oliveira",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 222,
     "rating": 3.8,
@@ -3522,7 +3522,7 @@
   {
     "id": "prof-177",
     "name": "Matheus Gomes Pereira",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 279,
     "rating": 4.5,
@@ -3542,7 +3542,7 @@
   {
     "id": "prof-178",
     "name": "Larissa Brito Coelho",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 396,
     "rating": 3.7,
@@ -3562,7 +3562,7 @@
   {
     "id": "prof-179",
     "name": "Gustavo Dias Barbosa",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 393,
     "rating": 4.4,
@@ -3582,7 +3582,7 @@
   {
     "id": "prof-180",
     "name": "Fernanda Sales Dias",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 200,
     "rating": 3.6,
@@ -3625,7 +3625,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 174,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 90,
     "city": "Belo Horizonte",
     "distance": 9.4,
@@ -3662,13 +3662,13 @@
   {
     "id": "prof-184",
     "name": "Daniel Almeida Nascimento",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 168,
     "rating": 4.9,
     "reviewCount": 112,
     "city": "Campinas",
-    "distance": 12.0,
+    "distance": 12,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -3682,7 +3682,7 @@
   {
     "id": "prof-185",
     "name": "Eduarda Peixoto Braga",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 215,
     "rating": 4.1,
@@ -3702,7 +3702,7 @@
   {
     "id": "prof-186",
     "name": "Felipe Rezende Bezerra",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 262,
     "rating": 4.8,
@@ -3725,7 +3725,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 309,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 145,
     "city": "Goiânia",
     "distance": 3.9,
@@ -3742,7 +3742,7 @@
   {
     "id": "prof-188",
     "name": "Henrique Coelho Aguiar",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 286,
     "rating": 4.7,
@@ -3762,7 +3762,7 @@
   {
     "id": "prof-189",
     "name": "Isabela Machado Marques",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 373,
     "rating": 3.9,
@@ -3782,7 +3782,7 @@
   {
     "id": "prof-190",
     "name": "João Xavier Matos",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 350,
     "rating": 4.6,
@@ -3802,7 +3802,7 @@
   {
     "id": "prof-191",
     "name": "Karen Camargo Azevedo",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 117,
     "rating": 3.8,
@@ -3822,7 +3822,7 @@
   {
     "id": "prof-192",
     "name": "Lucas Ramos Assis",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 174,
     "rating": 4.5,
@@ -3842,7 +3842,7 @@
   {
     "id": "prof-193",
     "name": "Mariana Almeida Campos",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 291,
     "rating": 3.7,
@@ -3862,13 +3862,13 @@
   {
     "id": "prof-194",
     "name": "Nicolas Ramos Araújo",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 288,
     "rating": 4.4,
     "reviewCount": 222,
     "city": "Campinas",
-    "distance": 1.0,
+    "distance": 1,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -3882,7 +3882,7 @@
   {
     "id": "prof-195",
     "name": "Olivia Borges Martins",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 275,
     "rating": 3.6,
@@ -3925,7 +3925,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 249,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 15,
     "city": "Goiânia",
     "distance": 4.9,
@@ -3962,7 +3962,7 @@
   {
     "id": "prof-199",
     "name": "Sofia Coelho Melo",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 243,
     "rating": 4.9,
@@ -3982,7 +3982,7 @@
   {
     "id": "prof-200",
     "name": "Thiago Cavalcante Freitas",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 290,
     "rating": 4.1,
@@ -4002,7 +4002,7 @@
   {
     "id": "prof-201",
     "name": "Ursula Nascimento Bezerra",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 337,
     "rating": 4.8,
@@ -4025,7 +4025,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 204,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 70,
     "city": "Belo Horizonte",
     "distance": 11.4,
@@ -4042,7 +4042,7 @@
   {
     "id": "prof-203",
     "name": "Wesley Matos Campos",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 181,
     "rating": 4.7,
@@ -4062,13 +4062,13 @@
   {
     "id": "prof-204",
     "name": "Yasmin Moreira Valente",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 268,
     "rating": 3.9,
     "reviewCount": 92,
     "city": "Campinas",
-    "distance": 2.0,
+    "distance": 2,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -4082,7 +4082,7 @@
   {
     "id": "prof-205",
     "name": "Caio Tavares Gomes",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 245,
     "rating": 4.6,
@@ -4102,7 +4102,7 @@
   {
     "id": "prof-206",
     "name": "Bianca Fonseca Couto",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 192,
     "rating": 3.8,
@@ -4122,7 +4122,7 @@
   {
     "id": "prof-207",
     "name": "Matheus Monteiro Siqueira",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 249,
     "rating": 4.5,
@@ -4142,7 +4142,7 @@
   {
     "id": "prof-208",
     "name": "Larissa Xavier Barbosa",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 366,
     "rating": 3.7,
@@ -4162,7 +4162,7 @@
   {
     "id": "prof-209",
     "name": "Gustavo Nascimento Souza",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 363,
     "rating": 4.4,
@@ -4182,7 +4182,7 @@
   {
     "id": "prof-210",
     "name": "Fernanda Borges Neves",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 350,
     "rating": 3.6,
@@ -4225,7 +4225,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 144,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 180,
     "city": "Belo Horizonte",
     "distance": 12.4,
@@ -4262,13 +4262,13 @@
   {
     "id": "prof-214",
     "name": "Daniel Prado Leal",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 138,
     "rating": 4.9,
     "reviewCount": 202,
     "city": "Campinas",
-    "distance": 3.0,
+    "distance": 3,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -4282,7 +4282,7 @@
   {
     "id": "prof-215",
     "name": "Eduarda Coelho Borges",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 185,
     "rating": 4.1,
@@ -4302,7 +4302,7 @@
   {
     "id": "prof-216",
     "name": "Felipe Borges Rodrigues",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 232,
     "rating": 4.8,
@@ -4325,7 +4325,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 279,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 235,
     "city": "Goiânia",
     "distance": 6.9,
@@ -4342,7 +4342,7 @@
   {
     "id": "prof-218",
     "name": "Henrique Rezende Fernandes",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 256,
     "rating": 4.7,
@@ -4362,7 +4362,7 @@
   {
     "id": "prof-219",
     "name": "Isabela Gonçalves Barbosa",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 343,
     "rating": 3.9,
@@ -4382,7 +4382,7 @@
   {
     "id": "prof-220",
     "name": "João Neves Campos",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 320,
     "rating": 4.6,
@@ -4402,7 +4402,7 @@
   {
     "id": "prof-221",
     "name": "Karen Leal Matos",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 267,
     "rating": 3.8,
@@ -4422,7 +4422,7 @@
   {
     "id": "prof-222",
     "name": "Lucas Cardoso Leal",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 324,
     "rating": 4.5,
@@ -4442,7 +4442,7 @@
   {
     "id": "prof-223",
     "name": "Mariana Souza Seixas",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 261,
     "rating": 3.7,
@@ -4462,13 +4462,13 @@
   {
     "id": "prof-224",
     "name": "Nicolas Fonseca Teixeira",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 258,
     "rating": 4.4,
     "reviewCount": 72,
     "city": "Campinas",
-    "distance": 4.0,
+    "distance": 4,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -4482,7 +4482,7 @@
   {
     "id": "prof-225",
     "name": "Olivia Cavalcante Peixoto",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Especialista em Segurança",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 245,
     "rating": 3.6,
@@ -4525,7 +4525,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 219,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 105,
     "city": "Goiânia",
     "distance": 7.9,
@@ -4562,7 +4562,7 @@
   {
     "id": "prof-229",
     "name": "Sofia Matos Fonseca",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 213,
     "rating": 4.9,
@@ -4582,7 +4582,7 @@
   {
     "id": "prof-230",
     "name": "Thiago Pinto Vargas",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 260,
     "rating": 4.1,
@@ -4602,7 +4602,7 @@
   {
     "id": "prof-231",
     "name": "Ursula Silva Batista",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 307,
     "rating": 4.8,
@@ -4625,7 +4625,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 354,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 160,
     "city": "Belo Horizonte",
     "distance": 2.4,
@@ -4642,7 +4642,7 @@
   {
     "id": "prof-233",
     "name": "Wesley Cavalcante Ramos",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 151,
     "rating": 4.7,
@@ -4662,13 +4662,13 @@
   {
     "id": "prof-234",
     "name": "Yasmin Teixeira Azevedo",
-    "profession": "Engenheiro de Software",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 238,
     "rating": 3.9,
     "reviewCount": 182,
     "city": "Campinas",
-    "distance": 5.0,
+    "distance": 5,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -4682,7 +4682,7 @@
   {
     "id": "prof-235",
     "name": "Caio Figueiredo Bezerra",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 215,
     "rating": 4.6,
@@ -4702,7 +4702,7 @@
   {
     "id": "prof-236",
     "name": "Bianca Ribeiro Ferreira",
-    "profession": "QA Tester",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 162,
     "rating": 3.8,
@@ -4722,7 +4722,7 @@
   {
     "id": "prof-237",
     "name": "Matheus Duarte Prado",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 219,
     "rating": 4.5,
@@ -4742,7 +4742,7 @@
   {
     "id": "prof-238",
     "name": "Larissa Macedo Braga",
-    "profession": "Tech Lead",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 336,
     "rating": 3.7,
@@ -4762,7 +4762,7 @@
   {
     "id": "prof-239",
     "name": "Gustavo Prado Fernandes",
-    "profession": "Especialista em Segurança",
+    "profession": "Scrum Master",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 333,
     "rating": 4.4,
@@ -4782,7 +4782,7 @@
   {
     "id": "prof-240",
     "name": "Fernanda Costa Lacerda",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 320,
     "rating": 3.6,
@@ -4802,7 +4802,7 @@
   {
     "id": "prof-241",
     "name": "Ana Duarte Ribeiro",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 257,
     "rating": 4.3,
@@ -4822,10 +4822,10 @@
   {
     "id": "prof-242",
     "name": "Bruno Gomes Dias",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 294,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 30,
     "city": "Belo Horizonte",
     "distance": 3.4,
@@ -4842,7 +4842,7 @@
   {
     "id": "prof-243",
     "name": "Carla Almeida Souza",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 341,
     "rating": 4.2,
@@ -4862,13 +4862,13 @@
   {
     "id": "prof-244",
     "name": "Daniel Dantas Aguiar",
-    "profession": "UI Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 108,
     "rating": 4.9,
     "reviewCount": 52,
     "city": "Campinas",
-    "distance": 6.0,
+    "distance": 6,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -4882,7 +4882,7 @@
   {
     "id": "prof-245",
     "name": "Eduarda Reis Barbosa",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 155,
     "rating": 4.1,
@@ -4902,7 +4902,7 @@
   {
     "id": "prof-246",
     "name": "Felipe Vargas Couto",
-    "profession": "Product Designer",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 202,
     "rating": 4.8,
@@ -4922,10 +4922,10 @@
   {
     "id": "prof-247",
     "name": "Gabriela Pacheco Fonseca",
-    "profession": "DevOps Engineer",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 249,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 85,
     "city": "Goiânia",
     "distance": 9.9,
@@ -4942,7 +4942,7 @@
   {
     "id": "prof-248",
     "name": "Henrique Brito Cardoso",
-    "profession": "Analista de Dados",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 226,
     "rating": 4.7,
@@ -4962,7 +4962,7 @@
   {
     "id": "prof-249",
     "name": "Isabela Campos Coelho",
-    "profession": "Engenheiro de Software",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 313,
     "rating": 3.9,
@@ -4982,7 +4982,7 @@
   {
     "id": "prof-250",
     "name": "João Carvalho Azevedo",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 290,
     "rating": 4.6,
@@ -5002,7 +5002,7 @@
   {
     "id": "prof-251",
     "name": "Karen Ferreira Reis",
-    "profession": "QA Tester",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 237,
     "rating": 3.8,
@@ -5022,7 +5022,7 @@
   {
     "id": "prof-252",
     "name": "Lucas Moura Lacerda",
-    "profession": "Scrum Master",
+    "profession": "Product Designer",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 294,
     "rating": 4.5,
@@ -5042,7 +5042,7 @@
   {
     "id": "prof-253",
     "name": "Mariana Vieira Moura",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 411,
     "rating": 3.7,
@@ -5062,13 +5062,13 @@
   {
     "id": "prof-254",
     "name": "Nicolas Teixeira Soares",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 408,
     "rating": 4.4,
     "reviewCount": 162,
     "city": "Campinas",
-    "distance": 7.0,
+    "distance": 7,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -5082,7 +5082,7 @@
   {
     "id": "prof-255",
     "name": "Olivia Carvalho Vasconcelos",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 215,
     "rating": 3.6,
@@ -5102,7 +5102,7 @@
   {
     "id": "prof-256",
     "name": "Pedro Lopes Seixas",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 152,
     "rating": 4.3,
@@ -5122,10 +5122,10 @@
   {
     "id": "prof-257",
     "name": "Quitéria Fernandes Santos",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 189,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 195,
     "city": "Goiânia",
     "distance": 10.9,
@@ -5142,7 +5142,7 @@
   {
     "id": "prof-258",
     "name": "Rafael Ferreira Correia",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 236,
     "rating": 4.2,
@@ -5162,7 +5162,7 @@
   {
     "id": "prof-259",
     "name": "Sofia Garcia Carvalho",
-    "profession": "UI Designer",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 183,
     "rating": 4.9,
@@ -5202,7 +5202,7 @@
   {
     "id": "prof-261",
     "name": "Ursula Valente Freitas",
-    "profession": "Product Designer",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 277,
     "rating": 4.8,
@@ -5222,10 +5222,10 @@
   {
     "id": "prof-262",
     "name": "Victor Cardoso Gonçalves",
-    "profession": "DevOps Engineer",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 324,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 10,
     "city": "Belo Horizonte",
     "distance": 5.4,
@@ -5242,7 +5242,7 @@
   {
     "id": "prof-263",
     "name": "Wesley Almeida Coelho",
-    "profession": "Analista de Dados",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 301,
     "rating": 4.7,
@@ -5262,13 +5262,13 @@
   {
     "id": "prof-264",
     "name": "Yasmin Ramos Marques",
-    "profession": "Engenheiro de Software",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 388,
     "rating": 3.9,
     "reviewCount": 32,
     "city": "Campinas",
-    "distance": 8.0,
+    "distance": 8,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -5282,7 +5282,7 @@
   {
     "id": "prof-265",
     "name": "Caio Machado Braga",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 185,
     "rating": 4.6,
@@ -5302,7 +5302,7 @@
   {
     "id": "prof-266",
     "name": "Bianca Souza Fonseca",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 132,
     "rating": 3.8,
@@ -5322,7 +5322,7 @@
   {
     "id": "prof-267",
     "name": "Matheus Silva Medeiros",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 189,
     "rating": 4.5,
@@ -5342,7 +5342,7 @@
   {
     "id": "prof-268",
     "name": "Larissa Almeida Machado",
-    "profession": "Tech Lead",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 306,
     "rating": 3.7,
@@ -5362,7 +5362,7 @@
   {
     "id": "prof-269",
     "name": "Gustavo Dantas Duarte",
-    "profession": "Especialista em Segurança",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 303,
     "rating": 4.4,
@@ -5382,7 +5382,7 @@
   {
     "id": "prof-270",
     "name": "Fernanda Queiroz Farias",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 290,
     "rating": 3.6,
@@ -5402,7 +5402,7 @@
   {
     "id": "prof-271",
     "name": "Ana Queiroz Cavalcante",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 227,
     "rating": 4.3,
@@ -5422,10 +5422,10 @@
   {
     "id": "prof-272",
     "name": "Bruno Nogueira Azevedo",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 264,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 120,
     "city": "Belo Horizonte",
     "distance": 6.4,
@@ -5442,7 +5442,7 @@
   {
     "id": "prof-273",
     "name": "Carla Guimarães Souza",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 311,
     "rating": 4.2,
@@ -5462,13 +5462,13 @@
   {
     "id": "prof-274",
     "name": "Daniel Machado Sales",
-    "profession": "UI Designer",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 258,
     "rating": 4.9,
     "reviewCount": 142,
     "city": "Campinas",
-    "distance": 9.0,
+    "distance": 9,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -5482,7 +5482,7 @@
   {
     "id": "prof-275",
     "name": "Eduarda Duarte Cordeiro",
-    "profession": "UX Designer",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 305,
     "rating": 4.1,
@@ -5502,7 +5502,7 @@
   {
     "id": "prof-276",
     "name": "Felipe Santos Rangel",
-    "profession": "Product Designer",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 172,
     "rating": 4.8,
@@ -5522,10 +5522,10 @@
   {
     "id": "prof-277",
     "name": "Gabriela Lima Melo",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 219,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 175,
     "city": "Goiânia",
     "distance": 0.9,
@@ -5542,7 +5542,7 @@
   {
     "id": "prof-278",
     "name": "Henrique Martins Marques",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 196,
     "rating": 4.7,
@@ -5562,7 +5562,7 @@
   {
     "id": "prof-279",
     "name": "Isabela Macedo Moura",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 283,
     "rating": 3.9,
@@ -5582,7 +5582,7 @@
   {
     "id": "prof-280",
     "name": "João Peixoto Prado",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 260,
     "rating": 4.6,
@@ -5602,7 +5602,7 @@
   {
     "id": "prof-281",
     "name": "Karen Miranda Medeiros",
-    "profession": "QA Tester",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 207,
     "rating": 3.8,
@@ -5622,7 +5622,7 @@
   {
     "id": "prof-282",
     "name": "Lucas Queiroz Assis",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 264,
     "rating": 4.5,
@@ -5642,7 +5642,7 @@
   {
     "id": "prof-283",
     "name": "Mariana Medeiros Siqueira",
-    "profession": "Tech Lead",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 381,
     "rating": 3.7,
@@ -5662,13 +5662,13 @@
   {
     "id": "prof-284",
     "name": "Nicolas Rezende Vargas",
-    "profession": "Especialista em Segurança",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 378,
     "rating": 4.4,
     "reviewCount": 12,
     "city": "Campinas",
-    "distance": 10.0,
+    "distance": 10,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -5682,7 +5682,7 @@
   {
     "id": "prof-285",
     "name": "Olivia Batista Peixoto",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 365,
     "rating": 3.6,
@@ -5702,7 +5702,7 @@
   {
     "id": "prof-286",
     "name": "Pedro Ribeiro Vasconcelos",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 122,
     "rating": 4.3,
@@ -5722,10 +5722,10 @@
   {
     "id": "prof-287",
     "name": "Quitéria Fonseca Castro",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "UI Designer",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 159,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 45,
     "city": "Goiânia",
     "distance": 1.9,
@@ -5742,7 +5742,7 @@
   {
     "id": "prof-288",
     "name": "Rafael Barbosa Coelho",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 206,
     "rating": 4.2,
@@ -5762,7 +5762,7 @@
   {
     "id": "prof-289",
     "name": "Sofia Teixeira Braga",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 153,
     "rating": 4.9,
@@ -5782,7 +5782,7 @@
   {
     "id": "prof-290",
     "name": "Thiago Vasconcelos Fernandes",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 200,
     "rating": 4.1,
@@ -5802,7 +5802,7 @@
   {
     "id": "prof-291",
     "name": "Ursula Almeida Reis",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 247,
     "rating": 4.8,
@@ -5822,10 +5822,10 @@
   {
     "id": "prof-292",
     "name": "Victor Cordeiro Pereira",
-    "profession": "DevOps Engineer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 294,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 100,
     "city": "Belo Horizonte",
     "distance": 8.4,
@@ -5842,7 +5842,7 @@
   {
     "id": "prof-293",
     "name": "Wesley Ribeiro Fonseca",
-    "profession": "Analista de Dados",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 271,
     "rating": 4.7,
@@ -5862,13 +5862,13 @@
   {
     "id": "prof-294",
     "name": "Yasmin Xavier Reis",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 358,
     "rating": 3.9,
     "reviewCount": 122,
     "city": "Campinas",
-    "distance": 11.0,
+    "distance": 11,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -5882,7 +5882,7 @@
   {
     "id": "prof-295",
     "name": "Caio Camargo Castro",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 335,
     "rating": 4.6,
@@ -5902,7 +5902,7 @@
   {
     "id": "prof-296",
     "name": "Bianca Barros Borges",
-    "profession": "QA Tester",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 282,
     "rating": 3.8,
@@ -5922,7 +5922,7 @@
   {
     "id": "prof-297",
     "name": "Matheus Vieira Barbosa",
-    "profession": "Scrum Master",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 159,
     "rating": 4.5,
@@ -5962,7 +5962,7 @@
   {
     "id": "prof-299",
     "name": "Gustavo Couto Cordeiro",
-    "profession": "Especialista em Segurança",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 273,
     "rating": 4.4,
@@ -5982,7 +5982,7 @@
   {
     "id": "prof-300",
     "name": "Fernanda Teixeira Brito",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 260,
     "rating": 3.6,
@@ -6002,7 +6002,7 @@
   {
     "id": "prof-301",
     "name": "Ana Oliveira Dantas",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 197,
     "rating": 4.3,
@@ -6022,10 +6022,10 @@
   {
     "id": "prof-302",
     "name": "Bruno Figueiredo Andrade",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 234,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 210,
     "city": "Belo Horizonte",
     "distance": 9.4,
@@ -6042,7 +6042,7 @@
   {
     "id": "prof-303",
     "name": "Carla Sales Pinto",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 281,
     "rating": 4.2,
@@ -6062,13 +6062,13 @@
   {
     "id": "prof-304",
     "name": "Daniel Soares Freitas",
-    "profession": "UI Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 228,
     "rating": 4.9,
     "reviewCount": 232,
     "city": "Campinas",
-    "distance": 12.0,
+    "distance": 12,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -6082,7 +6082,7 @@
   {
     "id": "prof-305",
     "name": "Eduarda Neves Ferreira",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 275,
     "rating": 4.1,
@@ -6102,7 +6102,7 @@
   {
     "id": "prof-306",
     "name": "Felipe Campos Sales",
-    "profession": "Product Designer",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 322,
     "rating": 4.8,
@@ -6122,10 +6122,10 @@
   {
     "id": "prof-307",
     "name": "Gabriela Gomes Marques",
-    "profession": "DevOps Engineer",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 369,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 25,
     "city": "Goiânia",
     "distance": 3.9,
@@ -6142,7 +6142,7 @@
   {
     "id": "prof-308",
     "name": "Henrique Santos Oliveira",
-    "profession": "Analista de Dados",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 166,
     "rating": 4.7,
@@ -6162,7 +6162,7 @@
   {
     "id": "prof-309",
     "name": "Isabela Braga Miranda",
-    "profession": "Engenheiro de Software",
+    "profession": "Tech Lead",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 253,
     "rating": 3.9,
@@ -6182,7 +6182,7 @@
   {
     "id": "prof-310",
     "name": "João Garcia Ribeiro",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 230,
     "rating": 4.6,
@@ -6202,7 +6202,7 @@
   {
     "id": "prof-311",
     "name": "Karen Reis Dantas",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 177,
     "rating": 3.8,
@@ -6222,7 +6222,7 @@
   {
     "id": "prof-312",
     "name": "Lucas Guimarães Braga",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 234,
     "rating": 4.5,
@@ -6242,7 +6242,7 @@
   {
     "id": "prof-313",
     "name": "Mariana Macedo Barbosa",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 351,
     "rating": 3.7,
@@ -6262,13 +6262,13 @@
   {
     "id": "prof-314",
     "name": "Nicolas Santos Leal",
-    "profession": "Especialista em Segurança",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 348,
     "rating": 4.4,
     "reviewCount": 102,
     "city": "Campinas",
-    "distance": 1.0,
+    "distance": 1,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -6282,7 +6282,7 @@
   {
     "id": "prof-315",
     "name": "Olivia Guimarães Oliveira",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 335,
     "rating": 3.6,
@@ -6302,7 +6302,7 @@
   {
     "id": "prof-316",
     "name": "Pedro Reis Cavalcante",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 272,
     "rating": 4.3,
@@ -6322,10 +6322,10 @@
   {
     "id": "prof-317",
     "name": "Quitéria Machado Assis",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 309,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 135,
     "city": "Goiânia",
     "distance": 4.9,
@@ -6342,7 +6342,7 @@
   {
     "id": "prof-318",
     "name": "Rafael Carvalho Siqueira",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 176,
     "rating": 4.2,
@@ -6362,7 +6362,7 @@
   {
     "id": "prof-319",
     "name": "Sofia Correia Medeiros",
-    "profession": "UI Designer",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 123,
     "rating": 4.9,
@@ -6382,7 +6382,7 @@
   {
     "id": "prof-320",
     "name": "Thiago Coelho Macedo",
-    "profession": "UX Designer",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 170,
     "rating": 4.1,
@@ -6402,7 +6402,7 @@
   {
     "id": "prof-321",
     "name": "Ursula Seixas Moreira",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 217,
     "rating": 4.8,
@@ -6422,10 +6422,10 @@
   {
     "id": "prof-322",
     "name": "Victor Pacheco Nogueira",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 264,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 190,
     "city": "Belo Horizonte",
     "distance": 11.4,
@@ -6442,7 +6442,7 @@
   {
     "id": "prof-323",
     "name": "Wesley Barros Ramos",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 241,
     "rating": 4.7,
@@ -6462,13 +6462,13 @@
   {
     "id": "prof-324",
     "name": "Yasmin Melo Azevedo",
-    "profession": "Engenheiro de Software",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 328,
     "rating": 3.9,
     "reviewCount": 212,
     "city": "Campinas",
-    "distance": 2.0,
+    "distance": 2,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -6482,7 +6482,7 @@
   {
     "id": "prof-325",
     "name": "Caio Lima Vasconcelos",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 305,
     "rating": 4.6,
@@ -6502,7 +6502,7 @@
   {
     "id": "prof-326",
     "name": "Bianca Teixeira Medeiros",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 252,
     "rating": 3.8,
@@ -6522,7 +6522,7 @@
   {
     "id": "prof-327",
     "name": "Matheus Duarte Souza",
-    "profession": "Scrum Master",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 309,
     "rating": 4.5,
@@ -6542,7 +6542,7 @@
   {
     "id": "prof-328",
     "name": "Larissa Cordeiro Rezende",
-    "profession": "Tech Lead",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 426,
     "rating": 3.7,
@@ -6562,7 +6562,7 @@
   {
     "id": "prof-329",
     "name": "Gustavo Campos Rangel",
-    "profession": "Especialista em Segurança",
+    "profession": "QA Tester",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 243,
     "rating": 4.4,
@@ -6625,7 +6625,7 @@
     "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 204,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 60,
     "city": "Belo Horizonte",
     "distance": 12.4,
@@ -6662,13 +6662,13 @@
   {
     "id": "prof-334",
     "name": "Daniel Marques Rodrigues",
-    "profession": "UI Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 198,
     "rating": 4.9,
     "reviewCount": 82,
     "city": "Campinas",
-    "distance": 3.0,
+    "distance": 3,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -6682,7 +6682,7 @@
   {
     "id": "prof-335",
     "name": "Eduarda Gonçalves Peixoto",
-    "profession": "UX Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 245,
     "rating": 4.1,
@@ -6702,7 +6702,7 @@
   {
     "id": "prof-336",
     "name": "Felipe Barbosa Garcia",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 292,
     "rating": 4.8,
@@ -6725,7 +6725,7 @@
     "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 339,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 115,
     "city": "Goiânia",
     "distance": 6.9,
@@ -6742,7 +6742,7 @@
   {
     "id": "prof-338",
     "name": "Henrique Batista Valente",
-    "profession": "Analista de Dados",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 316,
     "rating": 4.7,
@@ -6762,7 +6762,7 @@
   {
     "id": "prof-339",
     "name": "Isabela Miranda Silva",
-    "profession": "Engenheiro de Software",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 223,
     "rating": 3.9,
@@ -6782,7 +6782,7 @@
   {
     "id": "prof-340",
     "name": "João Fernandes Souza",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 200,
     "rating": 4.6,
@@ -6802,7 +6802,7 @@
   {
     "id": "prof-341",
     "name": "Karen Fernandes Lacerda",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 147,
     "rating": 3.8,
@@ -6822,7 +6822,7 @@
   {
     "id": "prof-342",
     "name": "Lucas Marques Duarte",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 204,
     "rating": 4.5,
@@ -6842,7 +6842,7 @@
   {
     "id": "prof-343",
     "name": "Mariana Fernandes Camargo",
-    "profession": "Tech Lead",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 321,
     "rating": 3.7,
@@ -6862,13 +6862,13 @@
   {
     "id": "prof-344",
     "name": "Nicolas Araújo Moraes",
-    "profession": "Especialista em Segurança",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 318,
     "rating": 4.4,
     "reviewCount": 192,
     "city": "Campinas",
-    "distance": 4.0,
+    "distance": 4,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -6882,7 +6882,7 @@
   {
     "id": "prof-345",
     "name": "Olivia Ferreira Cavalcante",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 305,
     "rating": 3.6,
@@ -6902,7 +6902,7 @@
   {
     "id": "prof-346",
     "name": "Pedro Souza Cavalcante",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 242,
     "rating": 4.3,
@@ -6922,10 +6922,10 @@
   {
     "id": "prof-347",
     "name": "Quitéria Vieira Soares",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 279,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 225,
     "city": "Goiânia",
     "distance": 7.9,
@@ -6942,7 +6942,7 @@
   {
     "id": "prof-348",
     "name": "Rafael Almeida Pacheco",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 326,
     "rating": 4.2,
@@ -6962,7 +6962,7 @@
   {
     "id": "prof-349",
     "name": "Sofia Santos Matos",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 273,
     "rating": 4.9,
@@ -6982,7 +6982,7 @@
   {
     "id": "prof-350",
     "name": "Thiago Sales Santos",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 140,
     "rating": 4.1,
@@ -7002,7 +7002,7 @@
   {
     "id": "prof-351",
     "name": "Ursula Farias Dantas",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 187,
     "rating": 4.8,
@@ -7022,10 +7022,10 @@
   {
     "id": "prof-352",
     "name": "Victor Rangel Gomes",
-    "profession": "DevOps Engineer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 234,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 40,
     "city": "Belo Horizonte",
     "distance": 2.4,
@@ -7042,7 +7042,7 @@
   {
     "id": "prof-353",
     "name": "Wesley Camargo Mendes",
-    "profession": "Analista de Dados",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 211,
     "rating": 4.7,
@@ -7062,13 +7062,13 @@
   {
     "id": "prof-354",
     "name": "Yasmin Almeida Batista",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 298,
     "rating": 3.9,
     "reviewCount": 62,
     "city": "Campinas",
-    "distance": 5.0,
+    "distance": 5,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -7082,7 +7082,7 @@
   {
     "id": "prof-355",
     "name": "Caio Peixoto Freitas",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 275,
     "rating": 4.6,
@@ -7102,7 +7102,7 @@
   {
     "id": "prof-356",
     "name": "Bianca Ferreira Garcia",
-    "profession": "QA Tester",
+    "profession": "UX Designer",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 222,
     "rating": 3.8,
@@ -7122,7 +7122,7 @@
   {
     "id": "prof-357",
     "name": "Matheus Sousa Lacerda",
-    "profession": "Scrum Master",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 279,
     "rating": 4.5,
@@ -7142,7 +7142,7 @@
   {
     "id": "prof-358",
     "name": "Larissa Ferreira Soares",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 396,
     "rating": 3.7,
@@ -7162,7 +7162,7 @@
   {
     "id": "prof-359",
     "name": "Gustavo Queiroz Souza",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 393,
     "rating": 4.4,
@@ -7182,7 +7182,7 @@
   {
     "id": "prof-360",
     "name": "Fernanda Costa Gonçalves",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 200,
     "rating": 3.6,
@@ -7202,7 +7202,7 @@
   {
     "id": "prof-361",
     "name": "Ana Gonçalves Cordeiro",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 137,
     "rating": 4.3,
@@ -7222,10 +7222,10 @@
   {
     "id": "prof-362",
     "name": "Bruno Coelho Campos",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 174,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 150,
     "city": "Belo Horizonte",
     "distance": 3.4,
@@ -7242,7 +7242,7 @@
   {
     "id": "prof-363",
     "name": "Carla Ribeiro Araújo",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 221,
     "rating": 4.2,
@@ -7262,13 +7262,13 @@
   {
     "id": "prof-364",
     "name": "Daniel Porto Fernandes",
-    "profession": "UI Designer",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 168,
     "rating": 4.9,
     "reviewCount": 172,
     "city": "Campinas",
-    "distance": 6.0,
+    "distance": 6,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -7282,7 +7282,7 @@
   {
     "id": "prof-365",
     "name": "Eduarda Gomes Moraes",
-    "profession": "UX Designer",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 215,
     "rating": 4.1,
@@ -7302,7 +7302,7 @@
   {
     "id": "prof-366",
     "name": "Felipe Batista Guimarães",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 262,
     "rating": 4.8,
@@ -7322,10 +7322,10 @@
   {
     "id": "prof-367",
     "name": "Gabriela Garcia Silva",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 309,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 205,
     "city": "Goiânia",
     "distance": 9.9,
@@ -7342,7 +7342,7 @@
   {
     "id": "prof-368",
     "name": "Henrique Campos Lopes",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 286,
     "rating": 4.7,
@@ -7362,7 +7362,7 @@
   {
     "id": "prof-369",
     "name": "Isabela Vasconcelos Coelho",
-    "profession": "Engenheiro de Software",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 373,
     "rating": 3.9,
@@ -7382,7 +7382,7 @@
   {
     "id": "prof-370",
     "name": "João Freitas Mendes",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 350,
     "rating": 4.6,
@@ -7402,7 +7402,7 @@
   {
     "id": "prof-371",
     "name": "Karen Gonçalves Rezende",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 117,
     "rating": 3.8,
@@ -7422,7 +7422,7 @@
   {
     "id": "prof-372",
     "name": "Lucas Barros Souza",
-    "profession": "Scrum Master",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 174,
     "rating": 4.5,
@@ -7442,7 +7442,7 @@
   {
     "id": "prof-373",
     "name": "Mariana Andrade Costa",
-    "profession": "Tech Lead",
+    "profession": "Administrador de Banco de Dados",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 291,
     "rating": 3.7,
@@ -7462,13 +7462,13 @@
   {
     "id": "prof-374",
     "name": "Nicolas Lopes Figueiredo",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 288,
     "rating": 4.4,
     "reviewCount": 42,
     "city": "Campinas",
-    "distance": 7.0,
+    "distance": 7,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -7482,7 +7482,7 @@
   {
     "id": "prof-375",
     "name": "Olivia Soares Rodrigues",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 275,
     "rating": 3.6,
@@ -7502,7 +7502,7 @@
   {
     "id": "prof-376",
     "name": "Pedro Monteiro Queiroz",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 212,
     "rating": 4.3,
@@ -7522,10 +7522,10 @@
   {
     "id": "prof-377",
     "name": "Quitéria Guimarães Medeiros",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 249,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 75,
     "city": "Goiânia",
     "distance": 10.9,
@@ -7542,7 +7542,7 @@
   {
     "id": "prof-378",
     "name": "Rafael Castro Lacerda",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 296,
     "rating": 4.2,
@@ -7562,7 +7562,7 @@
   {
     "id": "prof-379",
     "name": "Sofia Xavier Lopes",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 243,
     "rating": 4.9,
@@ -7582,7 +7582,7 @@
   {
     "id": "prof-380",
     "name": "Thiago Barros Miranda",
-    "profession": "UX Designer",
+    "profession": "DevOps Engineer",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 290,
     "rating": 4.1,
@@ -7602,7 +7602,7 @@
   {
     "id": "prof-381",
     "name": "Ursula Azevedo Leal",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 337,
     "rating": 4.8,
@@ -7622,10 +7622,10 @@
   {
     "id": "prof-382",
     "name": "Victor Freitas Vargas",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 204,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 130,
     "city": "Belo Horizonte",
     "distance": 5.4,
@@ -7642,7 +7642,7 @@
   {
     "id": "prof-383",
     "name": "Wesley Macedo Araújo",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 181,
     "rating": 4.7,
@@ -7662,13 +7662,13 @@
   {
     "id": "prof-384",
     "name": "Yasmin Machado Cunha",
-    "profession": "Engenheiro de Software",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 268,
     "rating": 3.9,
     "reviewCount": 152,
     "city": "Campinas",
-    "distance": 8.0,
+    "distance": 8,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -7682,7 +7682,7 @@
   {
     "id": "prof-385",
     "name": "Caio Batista Rezende",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 245,
     "rating": 4.6,
@@ -7702,7 +7702,7 @@
   {
     "id": "prof-386",
     "name": "Bianca Barbosa Ramos",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 192,
     "rating": 3.8,
@@ -7722,7 +7722,7 @@
   {
     "id": "prof-387",
     "name": "Matheus Couto Ribeiro",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 249,
     "rating": 4.5,
@@ -7742,7 +7742,7 @@
   {
     "id": "prof-388",
     "name": "Larissa Santos Miranda",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 366,
     "rating": 3.7,
@@ -7762,7 +7762,7 @@
   {
     "id": "prof-389",
     "name": "Gustavo Bezerra Vieira",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 363,
     "rating": 4.4,
@@ -7782,7 +7782,7 @@
   {
     "id": "prof-390",
     "name": "Fernanda Monteiro Coelho",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 350,
     "rating": 3.6,
@@ -7802,7 +7802,7 @@
   {
     "id": "prof-391",
     "name": "Ana Barros Valente",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 287,
     "rating": 4.3,
@@ -7822,10 +7822,10 @@
   {
     "id": "prof-392",
     "name": "Bruno Couto Lacerda",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 144,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 240,
     "city": "Belo Horizonte",
     "distance": 6.4,
@@ -7842,7 +7842,7 @@
   {
     "id": "prof-393",
     "name": "Carla Brito Figueiredo",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 191,
     "rating": 4.2,
@@ -7862,13 +7862,13 @@
   {
     "id": "prof-394",
     "name": "Daniel Medeiros Moreira",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 138,
     "rating": 4.9,
     "reviewCount": 22,
     "city": "Campinas",
-    "distance": 9.0,
+    "distance": 9,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -7882,7 +7882,7 @@
   {
     "id": "prof-395",
     "name": "Eduarda Cunha Camargo",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 185,
     "rating": 4.1,
@@ -7902,7 +7902,7 @@
   {
     "id": "prof-396",
     "name": "Felipe Prado Moura",
-    "profession": "Product Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 232,
     "rating": 4.8,
@@ -7922,10 +7922,10 @@
   {
     "id": "prof-397",
     "name": "Gabriela Neves Brito",
-    "profession": "DevOps Engineer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 279,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 55,
     "city": "Goiânia",
     "distance": 0.9,
@@ -7942,7 +7942,7 @@
   {
     "id": "prof-398",
     "name": "Henrique Figueiredo Reis",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 256,
     "rating": 4.7,
@@ -7962,7 +7962,7 @@
   {
     "id": "prof-399",
     "name": "Isabela Duarte Coelho",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 343,
     "rating": 3.9,
@@ -7982,7 +7982,7 @@
   {
     "id": "prof-400",
     "name": "João Martins Cavalcante",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 320,
     "rating": 4.6,
@@ -8002,7 +8002,7 @@
   {
     "id": "prof-401",
     "name": "Karen Bezerra Martins",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 267,
     "rating": 3.8,
@@ -8022,7 +8022,7 @@
   {
     "id": "prof-402",
     "name": "Lucas Macedo Lacerda",
-    "profession": "Scrum Master",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 324,
     "rating": 4.5,
@@ -8042,7 +8042,7 @@
   {
     "id": "prof-403",
     "name": "Mariana Santos Aguiar",
-    "profession": "Tech Lead",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 261,
     "rating": 3.7,
@@ -8062,13 +8062,13 @@
   {
     "id": "prof-404",
     "name": "Nicolas Nascimento Neves",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 258,
     "rating": 4.4,
     "reviewCount": 132,
     "city": "Campinas",
-    "distance": 10.0,
+    "distance": 10,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -8082,7 +8082,7 @@
   {
     "id": "prof-405",
     "name": "Olivia Ribeiro Teixeira",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 245,
     "rating": 3.6,
@@ -8102,7 +8102,7 @@
   {
     "id": "prof-406",
     "name": "Pedro Valente Camargo",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 182,
     "rating": 4.3,
@@ -8122,10 +8122,10 @@
   {
     "id": "prof-407",
     "name": "Quitéria Costa Melo",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 219,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 165,
     "city": "Goiânia",
     "distance": 1.9,
@@ -8142,7 +8142,7 @@
   {
     "id": "prof-408",
     "name": "Rafael Prado Monteiro",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 266,
     "rating": 4.2,
@@ -8162,7 +8162,7 @@
   {
     "id": "prof-409",
     "name": "Sofia Cavalcante Rocha",
-    "profession": "UI Designer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 213,
     "rating": 4.9,
@@ -8182,7 +8182,7 @@
   {
     "id": "prof-410",
     "name": "Thiago Cavalcante Camargo",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 260,
     "rating": 4.1,
@@ -8202,7 +8202,7 @@
   {
     "id": "prof-411",
     "name": "Ursula Fonseca Duarte",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 307,
     "rating": 4.8,
@@ -8222,10 +8222,10 @@
   {
     "id": "prof-412",
     "name": "Victor Rodrigues Coelho",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 354,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 220,
     "city": "Belo Horizonte",
     "distance": 8.4,
@@ -8242,7 +8242,7 @@
   {
     "id": "prof-413",
     "name": "Wesley Borges Machado",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 151,
     "rating": 4.7,
@@ -8262,13 +8262,13 @@
   {
     "id": "prof-414",
     "name": "Yasmin Amaral Siqueira",
-    "profession": "Engenheiro de Software",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 238,
     "rating": 3.9,
     "reviewCount": 242,
     "city": "Campinas",
-    "distance": 11.0,
+    "distance": 11,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -8282,7 +8282,7 @@
   {
     "id": "prof-415",
     "name": "Caio Cordeiro Borges",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 215,
     "rating": 4.6,
@@ -8302,7 +8302,7 @@
   {
     "id": "prof-416",
     "name": "Bianca Vasconcelos Monteiro",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 162,
     "rating": 3.8,
@@ -8322,7 +8322,7 @@
   {
     "id": "prof-417",
     "name": "Matheus Siqueira Peixoto",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 219,
     "rating": 4.5,
@@ -8342,7 +8342,7 @@
   {
     "id": "prof-418",
     "name": "Larissa Queiroz Rocha",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 336,
     "rating": 3.7,
@@ -8362,7 +8362,7 @@
   {
     "id": "prof-419",
     "name": "Gustavo Pereira Marques",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 333,
     "rating": 4.4,
@@ -8382,7 +8382,7 @@
   {
     "id": "prof-420",
     "name": "Fernanda Gonçalves Almeida",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 320,
     "rating": 3.6,
@@ -8402,7 +8402,7 @@
   {
     "id": "prof-421",
     "name": "Ana Aguiar Gomes",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 257,
     "rating": 4.3,
@@ -8422,10 +8422,10 @@
   {
     "id": "prof-422",
     "name": "Bruno Neves Moreira",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 294,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 90,
     "city": "Belo Horizonte",
     "distance": 9.4,
@@ -8442,7 +8442,7 @@
   {
     "id": "prof-423",
     "name": "Carla Barros Macedo",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 341,
     "rating": 4.2,
@@ -8462,13 +8462,13 @@
   {
     "id": "prof-424",
     "name": "Daniel Almeida Andrade",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 108,
     "rating": 4.9,
     "reviewCount": 112,
     "city": "Campinas",
-    "distance": 12.0,
+    "distance": 12,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -8482,7 +8482,7 @@
   {
     "id": "prof-425",
     "name": "Eduarda Campos Melo",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 155,
     "rating": 4.1,
@@ -8502,7 +8502,7 @@
   {
     "id": "prof-426",
     "name": "Felipe Pereira Camargo",
-    "profession": "Product Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=6",
     "servicePrice": 202,
     "rating": 4.8,
@@ -8522,10 +8522,10 @@
   {
     "id": "prof-427",
     "name": "Gabriela Cardoso Lima",
-    "profession": "DevOps Engineer",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 249,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 145,
     "city": "Goiânia",
     "distance": 3.9,
@@ -8542,7 +8542,7 @@
   {
     "id": "prof-428",
     "name": "Henrique Marques Correia",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Mobile",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 226,
     "rating": 4.7,
@@ -8562,7 +8562,7 @@
   {
     "id": "prof-429",
     "name": "Isabela Moreira Vargas",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 313,
     "rating": 3.9,
@@ -8582,7 +8582,7 @@
   {
     "id": "prof-430",
     "name": "João Cunha Duarte",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 290,
     "rating": 4.6,
@@ -8602,7 +8602,7 @@
   {
     "id": "prof-431",
     "name": "Karen Valente Fernandes",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=11",
     "servicePrice": 237,
     "rating": 3.8,
@@ -8622,7 +8622,7 @@
   {
     "id": "prof-432",
     "name": "Lucas Queiroz Prado",
-    "profession": "Scrum Master",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=12",
     "servicePrice": 294,
     "rating": 4.5,
@@ -8642,7 +8642,7 @@
   {
     "id": "prof-433",
     "name": "Mariana Castro Farias",
-    "profession": "Tech Lead",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=13",
     "servicePrice": 411,
     "rating": 3.7,
@@ -8662,13 +8662,13 @@
   {
     "id": "prof-434",
     "name": "Nicolas Correia Amaral",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=14",
     "servicePrice": 408,
     "rating": 4.4,
     "reviewCount": 222,
     "city": "Campinas",
-    "distance": 1.0,
+    "distance": 1,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -8682,7 +8682,7 @@
   {
     "id": "prof-435",
     "name": "Olivia Rodrigues Borges",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=15",
     "servicePrice": 215,
     "rating": 3.6,
@@ -8702,7 +8702,7 @@
   {
     "id": "prof-436",
     "name": "Pedro Campos Dantas",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=16",
     "servicePrice": 152,
     "rating": 4.3,
@@ -8722,10 +8722,10 @@
   {
     "id": "prof-437",
     "name": "Quitéria Oliveira Vargas",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=17",
     "servicePrice": 189,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 15,
     "city": "Goiânia",
     "distance": 4.9,
@@ -8742,7 +8742,7 @@
   {
     "id": "prof-438",
     "name": "Rafael Batista Marques",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=18",
     "servicePrice": 236,
     "rating": 4.2,
@@ -8762,7 +8762,7 @@
   {
     "id": "prof-439",
     "name": "Sofia Moreira Borges",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=19",
     "servicePrice": 183,
     "rating": 4.9,
@@ -8782,7 +8782,7 @@
   {
     "id": "prof-440",
     "name": "Thiago Melo Soares",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=20",
     "servicePrice": 230,
     "rating": 4.1,
@@ -8802,7 +8802,7 @@
   {
     "id": "prof-441",
     "name": "Ursula Tavares Xavier",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=21",
     "servicePrice": 277,
     "rating": 4.8,
@@ -8822,10 +8822,10 @@
   {
     "id": "prof-442",
     "name": "Victor Camargo Borges",
-    "profession": "DevOps Engineer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=22",
     "servicePrice": 324,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 70,
     "city": "Belo Horizonte",
     "distance": 11.4,
@@ -8842,7 +8842,7 @@
   {
     "id": "prof-443",
     "name": "Wesley Rezende Freitas",
-    "profession": "Analista de Dados",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=23",
     "servicePrice": 301,
     "rating": 4.7,
@@ -8862,13 +8862,13 @@
   {
     "id": "prof-444",
     "name": "Yasmin Vieira Medeiros",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=24",
     "servicePrice": 388,
     "rating": 3.9,
     "reviewCount": 92,
     "city": "Campinas",
-    "distance": 2.0,
+    "distance": 2,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -8882,7 +8882,7 @@
   {
     "id": "prof-445",
     "name": "Caio Barros Moura",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=25",
     "servicePrice": 185,
     "rating": 4.6,
@@ -8902,7 +8902,7 @@
   {
     "id": "prof-446",
     "name": "Bianca Braga Cavalcante",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=26",
     "servicePrice": 132,
     "rating": 3.8,
@@ -8922,7 +8922,7 @@
   {
     "id": "prof-447",
     "name": "Matheus Vieira Monteiro",
-    "profession": "Scrum Master",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=27",
     "servicePrice": 189,
     "rating": 4.5,
@@ -8942,7 +8942,7 @@
   {
     "id": "prof-448",
     "name": "Larissa Rangel Tavares",
-    "profession": "Tech Lead",
+    "profession": "Engenheiro de Software",
     "avatar": "https://i.pravatar.cc/300?img=28",
     "servicePrice": 306,
     "rating": 3.7,
@@ -8962,7 +8962,7 @@
   {
     "id": "prof-449",
     "name": "Gustavo Cardoso Lacerda",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=29",
     "servicePrice": 303,
     "rating": 4.4,
@@ -8982,7 +8982,7 @@
   {
     "id": "prof-450",
     "name": "Fernanda Carvalho Coelho",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=30",
     "servicePrice": 290,
     "rating": 3.6,
@@ -9002,7 +9002,7 @@
   {
     "id": "prof-451",
     "name": "Ana Vargas Costa",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=31",
     "servicePrice": 227,
     "rating": 4.3,
@@ -9022,10 +9022,10 @@
   {
     "id": "prof-452",
     "name": "Bruno Ramos Andrade",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=32",
     "servicePrice": 264,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 180,
     "city": "Belo Horizonte",
     "distance": 12.4,
@@ -9042,7 +9042,7 @@
   {
     "id": "prof-453",
     "name": "Carla Reis Dias",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=33",
     "servicePrice": 311,
     "rating": 4.2,
@@ -9062,13 +9062,13 @@
   {
     "id": "prof-454",
     "name": "Daniel Tavares Neves",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=34",
     "servicePrice": 258,
     "rating": 4.9,
     "reviewCount": 202,
     "city": "Campinas",
-    "distance": 3.0,
+    "distance": 3,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -9082,7 +9082,7 @@
   {
     "id": "prof-455",
     "name": "Eduarda Queiroz Soares",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=35",
     "servicePrice": 305,
     "rating": 4.1,
@@ -9102,7 +9102,7 @@
   {
     "id": "prof-456",
     "name": "Felipe Rodrigues Bezerra",
-    "profession": "Product Designer",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=36",
     "servicePrice": 172,
     "rating": 4.8,
@@ -9122,10 +9122,10 @@
   {
     "id": "prof-457",
     "name": "Gabriela Duarte Couto",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=37",
     "servicePrice": 219,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 235,
     "city": "Goiânia",
     "distance": 6.9,
@@ -9142,7 +9142,7 @@
   {
     "id": "prof-458",
     "name": "Henrique Cardoso Araújo",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=38",
     "servicePrice": 196,
     "rating": 4.7,
@@ -9162,7 +9162,7 @@
   {
     "id": "prof-459",
     "name": "Isabela Couto Braga",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=39",
     "servicePrice": 283,
     "rating": 3.9,
@@ -9182,7 +9182,7 @@
   {
     "id": "prof-460",
     "name": "João Cordeiro Ferreira",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Analista de Dados",
     "avatar": "https://i.pravatar.cc/300?img=40",
     "servicePrice": 260,
     "rating": 4.6,
@@ -9202,7 +9202,7 @@
   {
     "id": "prof-461",
     "name": "Karen Mendes Assis",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=41",
     "servicePrice": 207,
     "rating": 3.8,
@@ -9222,7 +9222,7 @@
   {
     "id": "prof-462",
     "name": "Lucas Costa Garcia",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=42",
     "servicePrice": 264,
     "rating": 4.5,
@@ -9242,7 +9242,7 @@
   {
     "id": "prof-463",
     "name": "Mariana Andrade Batista",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=43",
     "servicePrice": 381,
     "rating": 3.7,
@@ -9262,13 +9262,13 @@
   {
     "id": "prof-464",
     "name": "Nicolas Dias Barros",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=44",
     "servicePrice": 378,
     "rating": 4.4,
     "reviewCount": 72,
     "city": "Campinas",
-    "distance": 4.0,
+    "distance": 4,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -9282,7 +9282,7 @@
   {
     "id": "prof-465",
     "name": "Olivia Pinto Marques",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=45",
     "servicePrice": 365,
     "rating": 3.6,
@@ -9302,7 +9302,7 @@
   {
     "id": "prof-466",
     "name": "Pedro Ferreira Borges",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=46",
     "servicePrice": 122,
     "rating": 4.3,
@@ -9322,10 +9322,10 @@
   {
     "id": "prof-467",
     "name": "Quitéria Miranda Bezerra",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=47",
     "servicePrice": 159,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 105,
     "city": "Goiânia",
     "distance": 7.9,
@@ -9342,7 +9342,7 @@
   {
     "id": "prof-468",
     "name": "Rafael Neves Aguiar",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=48",
     "servicePrice": 206,
     "rating": 4.2,
@@ -9362,7 +9362,7 @@
   {
     "id": "prof-469",
     "name": "Sofia Valente Guimarães",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=49",
     "servicePrice": 153,
     "rating": 4.9,
@@ -9382,7 +9382,7 @@
   {
     "id": "prof-470",
     "name": "Thiago Sousa Seixas",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=50",
     "servicePrice": 200,
     "rating": 4.1,
@@ -9402,7 +9402,7 @@
   {
     "id": "prof-471",
     "name": "Ursula Garcia Miranda",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=51",
     "servicePrice": 247,
     "rating": 4.8,
@@ -9422,10 +9422,10 @@
   {
     "id": "prof-472",
     "name": "Victor Mendes Gomes",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=52",
     "servicePrice": 294,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 160,
     "city": "Belo Horizonte",
     "distance": 2.4,
@@ -9442,7 +9442,7 @@
   {
     "id": "prof-473",
     "name": "Wesley Xavier Cunha",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=53",
     "servicePrice": 271,
     "rating": 4.7,
@@ -9462,13 +9462,13 @@
   {
     "id": "prof-474",
     "name": "Yasmin Reis Moraes",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=54",
     "servicePrice": 358,
     "rating": 3.9,
     "reviewCount": 182,
     "city": "Campinas",
-    "distance": 5.0,
+    "distance": 5,
     "bio": "Projeta soluções robustas, organiza arquitetura de sistemas e aplica boas práticas de desenvolvimento.",
     "tags": [
       "Arquitetura",
@@ -9482,7 +9482,7 @@
   {
     "id": "prof-475",
     "name": "Caio Porto Teixeira",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=55",
     "servicePrice": 335,
     "rating": 4.6,
@@ -9502,7 +9502,7 @@
   {
     "id": "prof-476",
     "name": "Bianca Cunha Assis",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=56",
     "servicePrice": 282,
     "rating": 3.8,
@@ -9522,7 +9522,7 @@
   {
     "id": "prof-477",
     "name": "Matheus Fernandes Teixeira",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=57",
     "servicePrice": 159,
     "rating": 4.5,
@@ -9542,7 +9542,7 @@
   {
     "id": "prof-478",
     "name": "Larissa Moura Duarte",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=58",
     "servicePrice": 276,
     "rating": 3.7,
@@ -9562,7 +9562,7 @@
   {
     "id": "prof-479",
     "name": "Gustavo Batista Bezerra",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=59",
     "servicePrice": 273,
     "rating": 4.4,
@@ -9582,7 +9582,7 @@
   {
     "id": "prof-480",
     "name": "Fernanda Brito Rangel",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=60",
     "servicePrice": 260,
     "rating": 3.6,
@@ -9602,7 +9602,7 @@
   {
     "id": "prof-481",
     "name": "Ana Marques Miranda",
-    "profession": "Desenvolvedor Front-end",
+    "profession": "Desenvolvedor Full Stack",
     "avatar": "https://i.pravatar.cc/300?img=61",
     "servicePrice": 197,
     "rating": 4.3,
@@ -9622,10 +9622,10 @@
   {
     "id": "prof-482",
     "name": "Bruno Rangel Almeida",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=62",
     "servicePrice": 234,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 30,
     "city": "Belo Horizonte",
     "distance": 3.4,
@@ -9642,7 +9642,7 @@
   {
     "id": "prof-483",
     "name": "Carla Santos Souza",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=63",
     "servicePrice": 281,
     "rating": 4.2,
@@ -9662,13 +9662,13 @@
   {
     "id": "prof-484",
     "name": "Daniel Vieira Cavalcante",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=64",
     "servicePrice": 228,
     "rating": 4.9,
     "reviewCount": 52,
     "city": "Campinas",
-    "distance": 6.0,
+    "distance": 6,
     "bio": "Desenha interfaces digitais com foco em clareza visual, consistência, identidade de marca e experiência fluida para o usuário.",
     "tags": [
       "Figma",
@@ -9682,7 +9682,7 @@
   {
     "id": "prof-485",
     "name": "Eduarda Ferreira Santos",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=65",
     "servicePrice": 275,
     "rating": 4.1,
@@ -9702,7 +9702,7 @@
   {
     "id": "prof-486",
     "name": "Felipe Pacheco Vieira",
-    "profession": "Product Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=66",
     "servicePrice": 322,
     "rating": 4.8,
@@ -9722,10 +9722,10 @@
   {
     "id": "prof-487",
     "name": "Gabriela Costa Queiroz",
-    "profession": "DevOps Engineer",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=67",
     "servicePrice": 369,
-    "rating": 4.0,
+    "rating": 4,
     "reviewCount": 85,
     "city": "Goiânia",
     "distance": 9.9,
@@ -9742,7 +9742,7 @@
   {
     "id": "prof-488",
     "name": "Henrique Rezende Coelho",
-    "profession": "Analista de Dados",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=68",
     "servicePrice": 166,
     "rating": 4.7,
@@ -9762,7 +9762,7 @@
   {
     "id": "prof-489",
     "name": "Isabela Martins Amaral",
-    "profession": "Engenheiro de Software",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=69",
     "servicePrice": 253,
     "rating": 3.9,
@@ -9782,7 +9782,7 @@
   {
     "id": "prof-490",
     "name": "João Freitas Rezende",
-    "profession": "Desenvolvedor Mobile",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=70",
     "servicePrice": 230,
     "rating": 4.6,
@@ -9802,7 +9802,7 @@
   {
     "id": "prof-491",
     "name": "Karen Marques Braga",
-    "profession": "QA Tester",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=1",
     "servicePrice": 177,
     "rating": 3.8,
@@ -9822,7 +9822,7 @@
   {
     "id": "prof-492",
     "name": "Lucas Bezerra Braga",
-    "profession": "Scrum Master",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=2",
     "servicePrice": 234,
     "rating": 4.5,
@@ -9842,7 +9842,7 @@
   {
     "id": "prof-493",
     "name": "Mariana Melo Andrade",
-    "profession": "Tech Lead",
+    "profession": "Desenvolvedor Back-end",
     "avatar": "https://i.pravatar.cc/300?img=3",
     "servicePrice": 351,
     "rating": 3.7,
@@ -9862,13 +9862,13 @@
   {
     "id": "prof-494",
     "name": "Nicolas Medeiros Nascimento",
-    "profession": "Especialista em Segurança",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=4",
     "servicePrice": 348,
     "rating": 4.4,
     "reviewCount": 162,
     "city": "Campinas",
-    "distance": 7.0,
+    "distance": 7,
     "bio": "Avalia vulnerabilidades, aplica boas práticas de proteção e fortalece a segurança de sistemas e aplicações.",
     "tags": [
       "Pentest",
@@ -9882,7 +9882,7 @@
   {
     "id": "prof-495",
     "name": "Olivia Marques Souza",
-    "profession": "Administrador de Banco de Dados",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=5",
     "servicePrice": 335,
     "rating": 3.6,
@@ -9922,10 +9922,10 @@
   {
     "id": "prof-497",
     "name": "Quitéria Machado Bezerra",
-    "profession": "Desenvolvedor Back-end",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=7",
     "servicePrice": 309,
-    "rating": 5.0,
+    "rating": 5,
     "reviewCount": 195,
     "city": "Goiânia",
     "distance": 10.9,
@@ -9942,7 +9942,7 @@
   {
     "id": "prof-498",
     "name": "Rafael Fonseca Farias",
-    "profession": "Desenvolvedor Full Stack",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=8",
     "servicePrice": 176,
     "rating": 4.2,
@@ -9962,7 +9962,7 @@
   {
     "id": "prof-499",
     "name": "Sofia Miranda Xavier",
-    "profession": "UI Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=9",
     "servicePrice": 123,
     "rating": 4.9,
@@ -9982,7 +9982,7 @@
   {
     "id": "prof-500",
     "name": "Thiago Silva Cardoso",
-    "profession": "UX Designer",
+    "profession": "Desenvolvedor Front-end",
     "avatar": "https://i.pravatar.cc/300?img=10",
     "servicePrice": 170,
     "rating": 4.1,
