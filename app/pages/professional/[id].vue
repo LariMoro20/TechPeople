@@ -277,10 +277,9 @@ const projects = computed(() => {
   }));
 });
 
-defineOgImage("OgSiteImage", {
-  title: professional.value
-    ? `${professional.value.name} — TechPeople`
-    : "Profissional — TechPeople",
+defineOgImage("OgProfessional", {
+  name: professional.value?.name ?? "",
+  profession: professional.value?.profession ?? "",
   description: professional.value?.bio ?? "",
   tags: professional.value?.tags.slice(0, 5) ?? [],
 });
