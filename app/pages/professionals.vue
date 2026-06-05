@@ -53,7 +53,7 @@
 <script setup lang="ts">
 import type { Professional, SortField, SortDirection } from "~/types";
 
-defineOgImageComponent("OgSiteImage", {
+defineOgImage("OgSiteImage", {
   title: "Profissionais — TechPeople",
   description:
     "Encontre profissionais de tecnologia com filtros por especialidade, senioridade, cidade, faixa de preço e avaliação.",

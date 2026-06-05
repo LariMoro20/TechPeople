@@ -25,7 +25,7 @@
 <script setup lang="ts">
 import type { ButtonProps } from "@nuxt/ui";
 
-defineOgImageComponent("OgSiteImage", {
+defineOgImage("OgSiteImage", {
   title: "TechPeople — Catálogo de Profissionais de Tecnologia",
   description:
     "Explore um catálogo fictício de profissionais de tecnologia com perfis detalhados, especialidades, senioridade, stacks técnicas e disponibilidade.",
