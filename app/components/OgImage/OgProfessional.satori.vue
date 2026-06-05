@@ -11,7 +11,6 @@
       padding: 64px;
     "
   >
-    <!-- URL -->
     <div style="display: flex; flex-direction: row; align-items: center; gap: 12px">
       <div style="width: 7px; height: 7px; border-radius: 50%; background: #06ad5e; flex-shrink: 0" />
       <div style="font-size: 15px; font-weight: 700; color: rgba(232,228,220,.45); display: flex">
@@ -19,8 +18,7 @@
       </div>
     </div>
 
-    <!-- Nome + Profissão -->
-    <div style="display: flex; flex-direction: column; gap: 12px">
+    <div style="display: flex; flex-direction: column; gap: 20px">
       <div
         style="
           font-size: 80px;
@@ -33,21 +31,32 @@
       >
         {{ props.name }}
       </div>
-      <div
-        style="
-          font-size: 28px;
-          font-weight: 700;
-          letter-spacing: -0.5px;
-          color: #06ad5e;
-          display: flex;
-        "
-      >
-        {{ props.profession }}
-      </div>
-    </div>
 
-    <!-- Tags + bio -->
-    <div style="display: flex; flex-direction: column; gap: 16px">
+      <div style="display: flex; flex-direction: column; gap: 10px">
+        <div
+          style="
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            color: #06ad5e;
+            display: flex;
+          "
+        >
+          {{ props.profession }}
+        </div>
+        <div
+          style="
+            font-size: 17px;
+            font-weight: 400;
+            color: rgba(232,228,220,.75);
+            display: flex;
+            overflow: hidden;
+          "
+        >
+          {{ props.description }}
+        </div>
+      </div>
+
       <div style="display: flex; flex-direction: row; flex-wrap: wrap; gap: 8px">
         <div
           v-for="tag in props.tags"
@@ -67,20 +76,8 @@
           {{ tag }}
         </div>
       </div>
-      <div
-        style="
-          font-size: 17px;
-          font-weight: 400;
-          color: rgba(232,228,220,.45);
-          display: flex;
-          overflow: hidden;
-        "
-      >
-        {{ props.description }}
-      </div>
     </div>
 
-    <!-- Rodapé -->
     <div style="display: flex; flex-direction: row; align-items: center; justify-content: space-between">
       <div style="font-size: 14px; font-weight: 600; color: rgba(232,228,220,.35); display: flex">
         Catálogo de Profissionais de Tecnologia
