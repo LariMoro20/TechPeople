@@ -29,7 +29,7 @@
       </NuxtLink>
     </template>
 
-    <UNavigationMenu :items="items" class="hidden lg:flex" />
+    <MainMenu class="hidden lg:flex flex-1 justify-center" />
 
     <template #right>
       <UColorModeButton class="cursor-pointer" />
@@ -48,7 +48,7 @@
     </template>
 
     <template #body>
-      <UNavigationMenu :items="items" orientation="vertical" class="-mx-2" />
+      <MainMenu orientation="vertical" class="-mx-2" />
 
       <div class="mt-4 border-t border-gray-200 pt-4 dark:border-gray-800">
         <UButton
@@ -64,27 +64,3 @@
     </template>
   </UHeader>
 </template>
-
-<script setup lang="ts">
-import type { NavigationMenuItem } from "@nuxt/ui";
-
-const route = useRoute();
-
-const items = computed<NavigationMenuItem[]>(() => [
-  {
-    label: "Início",
-    to: "/",
-    active: route.path === "/",
-  },
-  {
-    label: "Profissionais",
-    to: "/professionals",
-    active: route.path.startsWith("/professionals"),
-  },
-  // {
-  //   label: "Sobre",
-  //   to: "/about",
-  //   active: route.path.startsWith("/about"),
-  // },
-]);
-</script>
