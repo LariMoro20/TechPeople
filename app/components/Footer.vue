@@ -32,7 +32,7 @@
         color="neutral"
         class="cursor-pointer"
         variant="ghost"
-        to="https://github.com/nuxt/nuxt"
+        to="https://github.com/LariMoro20"
         target="_blank"
         aria-label="GitHub"
       />
