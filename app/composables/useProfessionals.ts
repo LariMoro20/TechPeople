@@ -37,17 +37,10 @@ function numberFromQuery(value: string | string[] | undefined) {
 function priceRangeFromQuery(query: Record<string, string | string[]>) {
   const min = numberFromQuery(query.minPrice);
   const max = numberFromQuery(query.maxPrice);
-  if (min !== null && max !== null && max < min) {
-    return {
-      min,
-      max: null,
-    };
-  }
-  return {
-    min,
-    max,
-  };
+  if (min !== null && max !== null && max < min) return { min, max: null };
+  return { min, max };
 }
+
 function ratingFromQuery(value: string | string[] | undefined) {
   const rating = numberFromQuery(value);
   if (rating === null) return null;
@@ -88,121 +81,76 @@ function sortFromQuery(
   };
 }
 
+function buildRouteQuery(
+  f: ProfessionalsFilters,
+  s: ProfessionalsSort,
+  page: number,
+): Record<string, string> {
+  const q: Record<string, string> = {};
+  if (f.search) q.search = f.search;
+  if (f.professions.length) q.professions = f.professions.join(",");
+  if (f.city) q.city = f.city;
+  if (f.minRating != null) q.minRating = String(f.minRating);
+  if (f.available) q.available = "true";
+  if (f.priceRange.min != null) q.minPrice = String(f.priceRange.min);
+  if (f.priceRange.max != null) q.maxPrice = String(f.priceRange.max);
+  if (
+    s.field !== DEFAULT_SORT.field ||
+    s.direction !== DEFAULT_SORT.direction
+  ) {
+    q.sort = `${s.field}:${s.direction}`;
+  }
+  if (page > 1) q.page = String(page);
+  return q;
+}
+
 export function useProfessionals() {
   const route = useRoute();
   const router = useRouter();
 
-  const filters = reactive<ProfessionalsFilters>({
+  const filters = computed<ProfessionalsFilters>(() => ({
     ...DEFAULT_FILTERS,
     ...filtersFromQuery(route.query),
-  });
-
-  const debouncedSearch = ref(filters.search);
-  const sort = reactive<ProfessionalsSort>(sortFromQuery(route.query));
-
-  const pagination = reactive({
-    page: Number(route.query.page) || 1,
-    perPage: 12,
-  });
-
-  const apiQuery = computed<ProfessionalsQuery>(() => ({
-    filters: {
-      search: debouncedSearch.value,
-      professions: [...filters.professions],
-      priceRange: { min: filters.priceRange.min, max: filters.priceRange.max },
-      minRating: filters.minRating,
-      city: filters.city,
-      available: filters.available,
-    },
-    sort: { field: sort.field, direction: sort.direction },
-    pagination: { page: pagination.page, perPage: pagination.perPage },
   }));
 
-  const { data, status, error, execute } = useFetch<ProfessionalsResponse>(() =>
+  const sort = computed<ProfessionalsSort>(() => sortFromQuery(route.query));
+
+  const currentPage = computed(() => Number(route.query.page) || 1);
+
+  const apiQuery = computed<ProfessionalsQuery>(() => ({
+    filters: filters.value,
+    sort: sort.value,
+    pagination: { page: currentPage.value, perPage: 12 },
+  }));
+
+  const { data, status, error } = useFetch<ProfessionalsResponse>(() =>
     buildProfessionalsUrl(apiQuery.value),
   );
 
-  function syncUrl() {
-    const q: Record<string, string> = {};
-    if (filters.search) q.search = filters.search;
-    if (filters.professions.length)
-      q.professions = filters.professions.join(",");
-    if (filters.city) q.city = filters.city;
-    if (filters.minRating != null) q.minRating = String(filters.minRating);
-    if (filters.available) q.available = "true";
-    if (filters.priceRange.min != null)
-      q.minPrice = String(filters.priceRange.min);
-    if (filters.priceRange.max != null)
-      q.maxPrice = String(filters.priceRange.max);
-    if (
-      sort.field !== DEFAULT_SORT.field ||
-      sort.direction !== DEFAULT_SORT.direction
-    ) {
-      q.sort = `${sort.field}:${sort.direction}`;
-    }
-    if (pagination.page > 1) q.page = String(pagination.page);
-    router.replace({ query: q });
-  }
-
   function updateFilters(partial: Partial<ProfessionalsFilters>) {
-    if (partial.search !== undefined) filters.search = partial.search;
-    if (partial.professions !== undefined)
-      filters.professions = [...partial.professions];
-    if (partial.priceRange !== undefined)
-      filters.priceRange = { ...partial.priceRange };
-    if (partial.minRating !== undefined) filters.minRating = partial.minRating;
-    if (partial.city !== undefined) filters.city = partial.city;
-    if (partial.available !== undefined) filters.available = partial.available;
-    pagination.page = 1;
+    router.replace({
+      query: buildRouteQuery({ ...filters.value, ...partial }, sort.value, 1),
+    });
   }
 
   function updateSort(partial: Partial<ProfessionalsSort>) {
+    const next = { ...sort.value };
     if (partial.field && VALID_FIELDS.includes(partial.field))
-      sort.field = partial.field;
+      next.field = partial.field;
     if (partial.direction && VALID_DIRECTIONS.includes(partial.direction))
-      sort.direction = partial.direction;
-    pagination.page = 1;
+      next.direction = partial.direction;
+    router.replace({ query: buildRouteQuery(filters.value, next, 1) });
   }
 
   function goToPage(page: number) {
-    pagination.page = Math.max(1, page);
+    router.replace({
+      query: buildRouteQuery(filters.value, sort.value, Math.max(1, page)),
+    });
   }
 
   function clearFilters() {
-    filters.search = "";
-    filters.professions = [];
-    filters.priceRange = { min: null, max: null };
-    filters.minRating = null;
-    filters.city = null;
-    filters.available = null;
-    pagination.page = 1;
+    router.replace({ query: {} });
   }
-
-  watch(
-    apiQuery,
-    () => {
-      syncUrl();
-      execute();
-    },
-    { flush: "post" },
-  );
-
-  let searchDebounce: ReturnType<typeof setTimeout> | null = null;
-
-  watch(
-    () => filters.search,
-    (value) => {
-      if (searchDebounce) clearTimeout(searchDebounce);
-      searchDebounce = setTimeout(() => {
-        debouncedSearch.value = value;
-        searchDebounce = null;
-      }, 1000);
-    },
-  );
-
-  onUnmounted(() => {
-    if (searchDebounce) clearTimeout(searchDebounce);
-  });
 
   return {
     professionals: computed(() => data.value?.data ?? []),

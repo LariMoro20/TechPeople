@@ -89,7 +89,7 @@ const sortOptions = [
 ];
 
 const selectedSort = computed({
-  get: () => `${sort.field}:${sort.direction}`,
+  get: () => `${sort.value.field}:${sort.value.direction}`,
   set: (val: string) => {
     const [field, direction] = val.split(":") as [SortField, SortDirection];
     updateSort({ field, direction });
