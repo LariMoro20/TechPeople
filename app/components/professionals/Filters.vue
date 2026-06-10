@@ -68,11 +68,11 @@
             </label>
 
             <UInput
-              :model-value="filters.search"
+              :model-value="pendingSearch"
               placeholder="Nome ou especialidade..."
               icon="i-heroicons-magnifying-glass"
               class="w-full"
-              @update:model-value="updateSearch"
+              @update:model-value="handleSearchInput"
             />
           </div>
 
@@ -177,22 +177,73 @@ const emit = defineEmits<{
 const showMobileFilters = ref(false);
 
 const {
+  facets,
   error,
-  ratingOptions,
-  cityOptions,
-  professionOptions,
+  hasActiveFilters,
   hasPriceRange,
   priceRangeMin,
   priceRangeMax,
-  priceRangeModel,
-  hasActiveFilters,
   updateSearch,
   updateProfessions,
   updateCity,
   updateRating,
+  updatePriceRange,
   updateAvailable,
 } = useProfessionalsFilters({
-  filters: props.filters,
+  filters: () => props.filters,
   onUpdate: (partial) => emit("update:filters", partial),
 });
+
+const pendingSearch = ref(props.filters.search);
+
+watch(
+  () => props.filters.search,
+  (v) => { if (v !== pendingSearch.value) pendingSearch.value = v; },
+);
+
+function handleSearchInput(value: string | number) {
+  pendingSearch.value = String(value ?? "");
+  updateSearch(pendingSearch.value);
+}
+
+const priceRangeModel = ref<number[]>([
+  props.filters.priceRange.min ?? priceRangeMin.value,
+  props.filters.priceRange.max ?? priceRangeMax.value,
+]);
+
+watch(
+  () => {
+    const { min, max } = props.filters.priceRange;
+    return [min ?? priceRangeMin.value, max ?? priceRangeMax.value] as const;
+  },
+  ([newMin, newMax]) => {
+    if (priceRangeModel.value[0] !== newMin || priceRangeModel.value[1] !== newMax) {
+      priceRangeModel.value = [newMin, newMax];
+    }
+  },
+);
+
+watch(priceRangeModel, (value) => {
+  const { min, max } = props.filters.priceRange;
+  if (value[0] === (min ?? priceRangeMin.value) && value[1] === (max ?? priceRangeMax.value)) return;
+  updatePriceRange(value as [number, number]);
+});
+
+const ratingOptions = [
+  { label: "Qualquer", value: null },
+  { label: "4+", value: 4 },
+  { label: "4.5+", value: 4.5 },
+] as const;
+
+const cityOptions = computed(() => [
+  { label: "Todas", value: null },
+  ...(facets.value?.cities ?? []).map((city) => ({ label: city, value: city })),
+]);
+
+const professionOptions = computed(() =>
+  (facets.value?.professions ?? []).map((profession) => ({
+    label: profession,
+    value: profession,
+  })),
+);
 </script>

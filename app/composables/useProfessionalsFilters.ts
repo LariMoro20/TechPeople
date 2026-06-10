@@ -1,98 +1,44 @@
-import { PROFESSIONALS_FACETS_URL } from "~/services/filters.service";
-import type { ProfessionalsFacets, ProfessionalsFilters } from "~/types";
+import { toValue, type MaybeRefOrGetter } from "vue";
+import type { ProfessionalsFilters } from "~/types";
 
 type UseProfessionalsFiltersOptions = {
-  filters: ProfessionalsFilters;
+  filters: MaybeRefOrGetter<ProfessionalsFilters>;
   onUpdate: (partial: Partial<ProfessionalsFilters>) => void;
-};
-
-const DEFAULT_FACETS: ProfessionalsFacets = {
-  professions: [],
-  cities: [],
-  priceRange: {
-    min: 0,
-    max: 0,
-  },
 };
 
 export function useProfessionalsFilters({
   filters,
   onUpdate,
 }: UseProfessionalsFiltersOptions) {
-  const { data, status, error } = useFetch<ProfessionalsFacets>(
-    PROFESSIONALS_FACETS_URL,
-  );
+  const { facets, loading, error } = useProfessionalsFacets();
 
-  const facets = computed(() => data.value ?? DEFAULT_FACETS);
-  const loading = computed(() => status.value === "pending");
-  const priceRangeMin = computed(() => facets.value.priceRange.min);
-  const priceRangeMax = computed(() => facets.value.priceRange.max);
+  const priceRangeMin = computed(() => facets.value?.priceRange.min ?? 0);
+  const priceRangeMax = computed(() => facets.value?.priceRange.max ?? 0);
 
-  const ratingOptions = [
-    { label: "Qualquer", value: null },
-    { label: "4+", value: 4 },
-    { label: "4.5+", value: 4.5 },
-  ];
+  const hasPriceRange = computed(() => priceRangeMax.value > priceRangeMin.value);
 
-  const cityOptions = computed(() => [
-    { label: "Todas", value: null },
-    ...facets.value.cities.map((city) => ({
-      label: city,
-      value: city,
-    })),
-  ]);
-
-  const professionOptions = computed(() =>
-    facets.value.professions.map((profession) => ({
-      label: profession,
-      value: profession,
-    })),
-  );
-
-  const hasPriceRange = computed(
-    () => facets.value.priceRange.max > facets.value.priceRange.min,
-  );
-
-  const priceRangeModel = ref<number[]>([
-    filters.priceRange.min ?? priceRangeMin.value,
-    filters.priceRange.max ?? priceRangeMax.value,
-  ]);
-
-  watch([priceRangeMin, priceRangeMax], ([min, max]) => {
-    priceRangeModel.value = [
-      filters.priceRange.min ?? min,
-      filters.priceRange.max ?? max,
-    ];
+  const hasActiveFilters = computed(() => {
+    const f = toValue(filters);
+    return Boolean(
+      f.search ||
+        f.professions.length ||
+        f.city ||
+        f.minRating ||
+        f.available ||
+        f.priceRange.min !== null ||
+        f.priceRange.max !== null,
+    );
   });
 
+  let searchDebounce: ReturnType<typeof setTimeout> | null = null;
   let priceDebounce: ReturnType<typeof setTimeout> | null = null;
 
-  watch(priceRangeModel, (value) => {
-    if (priceDebounce) clearTimeout(priceDebounce);
-    priceDebounce = setTimeout(() => {
-      updatePriceRange(value);
-      priceDebounce = null;
-    }, 400);
-  });
-
-  onUnmounted(() => {
-    if (priceDebounce) clearTimeout(priceDebounce);
-  });
-
-  const hasActiveFilters = computed(() =>
-    Boolean(
-      filters.search ||
-        filters.professions.length ||
-        filters.city ||
-        filters.minRating ||
-        filters.available ||
-        filters.priceRange.min !== null ||
-        filters.priceRange.max !== null,
-    ),
-  );
-
-  function updateSearch(value: string | number) {
-    onUpdate({ search: String(value ?? "") });
+  function updateSearch(value: string) {
+    if (searchDebounce) clearTimeout(searchDebounce);
+    searchDebounce = setTimeout(() => {
+      onUpdate({ search: value });
+      searchDebounce = null;
+    }, 1000);
   }
 
   function updateProfessions(value: unknown) {
@@ -108,32 +54,36 @@ export function useProfessionalsFilters({
     onUpdate({ minRating: value });
   }
 
-  function updatePriceRange(value: unknown) {
-    if (!Array.isArray(value)) return;
-    const min = Number(value[0] ?? priceRangeMin.value);
-    const max = Number(value[1] ?? priceRangeMax.value);
-    onUpdate({ priceRange: { min, max } });
+  function updatePriceRange(value: [number, number]) {
+    if (priceDebounce) clearTimeout(priceDebounce);
+    priceDebounce = setTimeout(() => {
+      onUpdate({ priceRange: { min: value[0], max: value[1] } });
+      priceDebounce = null;
+    }, 400);
   }
 
   function updateAvailable(value: boolean) {
     onUpdate({ available: value ? true : null });
   }
 
+  onUnmounted(() => {
+    if (searchDebounce) clearTimeout(searchDebounce);
+    if (priceDebounce) clearTimeout(priceDebounce);
+  });
+
   return {
+    facets,
     loading,
     error,
-    ratingOptions,
-    cityOptions,
-    professionOptions,
-    hasPriceRange,
     priceRangeMin,
     priceRangeMax,
-    priceRangeModel,
+    hasPriceRange,
     hasActiveFilters,
     updateSearch,
     updateProfessions,
     updateCity,
     updateRating,
+    updatePriceRange,
     updateAvailable,
   };
 }
