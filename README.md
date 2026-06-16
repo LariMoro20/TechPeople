@@ -239,4 +239,6 @@ O MCP do Playwright foi usado junto ao Claude Code para inspecionar a aplicaçã
 
 O MCP do Context7 foi usado para consultar documentação atualizada de bibliotecas (Nuxt, Tailwind v4, Pinia, entre outras) durante o desenvolvimento, evitando depender de informações desatualizadas do treinamento da IA.
 
+O repositório tem duas skills customizadas do Claude Code em `.claude/skills/`: `ds-commit`, que formaliza o padrão de commit do projeto (`[branch] tipo: descrição`, sem corpo nem co-autoria), e `review-branch`, um checklist de revisão de segurança, qualidade e boas práticas Vue 3 antes de mergear uma branch.
+
 O ChatGPT foi utilizado para geração das logos do projeto e dos dados fictícios de profissionais (nomes, bios, especialidades, avaliações e demais informações do JSON de mock).
