@@ -227,4 +227,6 @@ O Claude Code foi utilizado como assistente durante o desenvolvimento para auxí
 
 O MCP do Playwright foi usado junto ao Claude Code para inspecionar a aplicação rodando localmente em tempo real durante a investigação de bugs — navegando, clicando e lendo `localStorage`/console do navegador diretamente na conversa. Foi assim que o bug de hidratação dos favoritos (ver seção [Testes](#testes)) foi diagnosticado antes de ser corrigido e coberto por um teste E2E.
 
+O MCP do Context7 foi usado para consultar documentação atualizada de bibliotecas (Nuxt, Tailwind v4, Pinia, entre outras) durante o desenvolvimento, evitando depender de informações desatualizadas do treinamento da IA.
+
 O ChatGPT foi utilizado para geração das logos do projeto e dos dados fictícios de profissionais (nomes, bios, especialidades, avaliações e demais informações do JSON de mock).
