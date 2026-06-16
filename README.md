@@ -84,7 +84,8 @@ tests/
 └── integration/   # Endpoint /api/professionals (Vitest)
 
 e2e/
-└── favorites-persistence.spec.ts  # Fluxo de favoritar + reload (Playwright)
+├── favorites-persistence.spec.ts  # Fluxo de favoritar + reload (Playwright)
+└── filters-url-sync.spec.ts       # Filtro de busca sincronizado com a URL + reload (Playwright)
 ```
 
 ---
@@ -142,6 +143,8 @@ Funções puras (normalização de busca, formatação de moeda), validação de
 **Playwright para o fluxo crítico de usuário**
 
 O fluxo de favoritar um profissional e recarregar a página é validado de ponta a ponta com Playwright, simulando o que um usuário realmente faria no navegador. Foi justamente esse teste que revelou um bug real de hydration mismatch no plugin de favoritos (`app/plugins/favorites.client.ts`): o estado era hidratado antes do Vue concluir a comparação entre o HTML do servidor e o do cliente, deixando a UI presa no estado não favoritado mesmo com o dado correto salvo. Corrigido adiando a hidratação com `onNuxtReady`.
+
+Outro teste cobre o filtro de busca sincronizado com a URL, garantindo que aplicar um filtro, recarregar a página e manter o estado funcione de ponta a ponta. Esse teste expôs uma armadilha de timing: a página busca profissionais e facets dentro do `<Suspense>` do Nuxt, então a hidratação real só termina quando esses fetches resolvem. Interagir antes disso faz o Vue sobrescrever qualquer valor digitado quando a hidratação finalmente sincroniza o DOM. A correção foi esperar `networkidle` antes de interagir com a página no teste.
 
 **Por que essa combinação**
 
