@@ -225,4 +225,6 @@ O projeto já foi pensado com essa evolução em mente. Toda a comunicação com
 
 O Claude Code foi utilizado como assistente durante o desenvolvimento para auxílio em decisões técnicas, resolução de problemas, revisão de código, escrita eficiente de componentes e geração das informações de SEO como keywords e descrições.
 
+O MCP do Playwright foi usado junto ao Claude Code para inspecionar a aplicação rodando localmente em tempo real durante a investigação de bugs — navegando, clicando e lendo `localStorage`/console do navegador diretamente na conversa. Foi assim que o bug de hidratação dos favoritos (ver seção [Testes](#testes)) foi diagnosticado antes de ser corrigido e coberto por um teste E2E.
+
 O ChatGPT foi utilizado para geração das logos do projeto e dos dados fictícios de profissionais (nomes, bios, especialidades, avaliações e demais informações do JSON de mock).
