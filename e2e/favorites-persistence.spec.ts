@@ -4,7 +4,7 @@ const STORAGE_KEY = "TECHPEOPLE-FAVORITE-PROFESSIONALS";
 
 test.describe("Persistência de favoritos", () => {
   test("favorito sobrevive a um reload da página", async ({ page }) => {
-    await page.goto("/professionals");
+    await page.goto("/professionals", { waitUntil: "networkidle" });
 
     const firstFavoriteButton = page
       .getByRole("button", { name: "Add to favorites" })

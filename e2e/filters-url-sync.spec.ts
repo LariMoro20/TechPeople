@@ -8,11 +8,6 @@ test.describe("Filtros sincronizados com a URL", () => {
     await expect(resultsCount).toContainText("500");
 
     const searchInput = page.getByPlaceholder("Nome ou especialidade...");
-
-    // A página busca profissionais e facets dentro do Suspense do Nuxt; a
-    // hidratação real só termina quando esses fetches resolvem. Interagir
-    // antes disso faz o Vue sobrescrever o valor digitado quando a
-    // hidratação finalmente sincroniza o DOM com o estado inicial.
     await searchInput.fill("UX Designer");
 
     await expect(page).toHaveURL(/search=UX(\+|%20)Designer/, {
