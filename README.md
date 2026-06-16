@@ -81,7 +81,7 @@ server/
 
 tests/
 ├── unit/          # Funções puras, schema Zod e store de favoritos (Vitest)
-└── integration/   # Endpoint /api/professionals (Vitest)
+└── integration/   # Endpoints de profissionais: listagem, contagens, facets e detalhe (Vitest)
 
 e2e/
 ├── favorites-persistence.spec.ts          # Fluxo de favoritar + reload (Playwright)
@@ -139,7 +139,7 @@ Além do modal de perfil rápido acessível pela listagem, cada profissional tem
 
 **Vitest para lógica e integração**
 
-Funções puras (normalização de busca, formatação de moeda), validação de schemas com Zod e a store de favoritos (Pinia) são cobertas por testes unitários. O endpoint `GET /api/professionals` tem testes de integração que exercitam filtros combinados, ordenação e paginação direto contra os dados reais do repositório, sem precisar subir um servidor HTTP.
+Funções puras (normalização de busca, formatação de moeda), validação de schemas com Zod e a store de favoritos (Pinia) são cobertas por testes unitários. Os endpoints de profissionais (`/api/professionals`, `/counts`, `/facets` e `/:id`) têm testes de integração que exercitam filtros combinados, ordenação, paginação, agregações e o caso de ID inexistente direto contra os dados reais do repositório, sem precisar subir um servidor HTTP.
 
 **Playwright para o fluxo crítico de usuário**
 
