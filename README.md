@@ -23,6 +23,14 @@ pnpm preview
 
 # Lint
 pnpm lint
+
+# Testes unitários e de integração (Vitest)
+pnpm test
+pnpm test:watch
+
+# Testes end-to-end (Playwright)
+pnpm test:e2e
+pnpm test:e2e:ui
 ```
 
 A aplicação em desenvolvimento estará disponível em `http://localhost:3000`.
@@ -70,6 +78,13 @@ server/
     ├── professionalsRepository.ts  # Carregamento, indexação e facets dos dados
     ├── professionals.schema.ts     # Schemas Zod para validação
     └── text.ts                     # Normalização de texto para busca sem acentos
+
+tests/
+├── unit/          # Funções puras, schema Zod e store de favoritos (Vitest)
+└── integration/   # Endpoint /api/professionals (Vitest)
+
+e2e/
+└── favorites-persistence.spec.ts  # Fluxo de favoritar + reload (Playwright)
 ```
 
 ---
@@ -115,6 +130,22 @@ O módulo NuxtSEO foi utilizado para configurar meta tags, Open Graph e dados es
 **Página dedicada por profissional**
 
 Além do modal de perfil rápido acessível pela listagem, cada profissional tem uma página dedicada em `/professional/:id`. Essa rota permite URLs compartilháveis por profissional, exibe avatar, stats, bio, especialidades e uma galeria de projetos recentes, e conta com OG image personalizada com o nome do profissional em destaque.
+
+---
+
+## Testes
+
+**Vitest para lógica e integração**
+
+Funções puras (normalização de busca, formatação de moeda), validação de schemas com Zod e a store de favoritos (Pinia) são cobertas por testes unitários. O endpoint `GET /api/professionals` tem testes de integração que exercitam filtros combinados, ordenação e paginação direto contra os dados reais do repositório, sem precisar subir um servidor HTTP.
+
+**Playwright para o fluxo crítico de usuário**
+
+O fluxo de favoritar um profissional e recarregar a página é validado de ponta a ponta com Playwright, simulando o que um usuário realmente faria no navegador. Foi justamente esse teste que revelou um bug real de hydration mismatch no plugin de favoritos (`app/plugins/favorites.client.ts`): o estado era hidratado antes do Vue concluir a comparação entre o HTML do servidor e o do cliente, deixando a UI presa no estado não favoritado mesmo com o dado correto salvo. Corrigido adiando a hidratação com `onNuxtReady`.
+
+**Por que essa combinação**
+
+A maior parte da lógica de negócio é testada com Vitest, que é rápido e não depende de browser. Os testes end-to-end ficam restritos a fluxos críticos com efeitos colaterais reais (persistência em `localStorage`, hidratação), evitando uma suíte de E2E lenta e cara de manter.
 
 ---
 
