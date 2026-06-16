@@ -84,8 +84,9 @@ tests/
 └── integration/   # Endpoint /api/professionals (Vitest)
 
 e2e/
-├── favorites-persistence.spec.ts  # Fluxo de favoritar + reload (Playwright)
-└── filters-url-sync.spec.ts       # Filtro de busca sincronizado com a URL + reload (Playwright)
+├── favorites-persistence.spec.ts          # Fluxo de favoritar + reload (Playwright)
+├── filters-url-sync.spec.ts               # Filtro de busca sincronizado com a URL + reload (Playwright)
+└── home-to-professionals-navigation.spec.ts  # Home -> especialidade -> listagem já filtrada (Playwright)
 ```
 
 ---
@@ -145,6 +146,12 @@ Funções puras (normalização de busca, formatação de moeda), validação de
 O fluxo de favoritar um profissional e recarregar a página é validado de ponta a ponta com Playwright, simulando o que um usuário realmente faria no navegador. Foi justamente esse teste que revelou um bug real de hydration mismatch no plugin de favoritos (`app/plugins/favorites.client.ts`): o estado era hidratado antes do Vue concluir a comparação entre o HTML do servidor e o do cliente, deixando a UI presa no estado não favoritado mesmo com o dado correto salvo. Corrigido adiando a hidratação com `onNuxtReady`.
 
 Outro teste cobre o filtro de busca sincronizado com a URL, garantindo que aplicar um filtro, recarregar a página e manter o estado funcione de ponta a ponta. Esse teste expôs uma armadilha de timing: a página busca profissionais e facets dentro do `<Suspense>` do Nuxt, então a hidratação real só termina quando esses fetches resolvem. Interagir antes disso faz o Vue sobrescrever qualquer valor digitado quando a hidratação finalmente sincroniza o DOM. A correção foi esperar `networkidle` antes de interagir com a página no teste.
+
+Um terceiro teste cobre a navegação da home até a listagem: clicar numa especialidade no carrossel leva para `/professionals` já filtrado por aquela profissão, com o checkbox correspondente marcado nos filtros.
+
+**Execução serial contra o servidor de dev**
+
+Os testes E2E rodam contra `pnpm dev` (Vite), que recompila módulos sob demanda. Executá-los em paralelo faz duas páginas competirem pela mesma compilação/HMR, atrasando a hidratação além do que os testes esperam e gerando falhas intermitentes. Por isso o `playwright.config.ts` força execução serial (`workers: 1`). Em um pipeline de CI que builda a aplicação antes (`pnpm build` + `pnpm preview`), a paralelização volta a ser segura.
 
 **Por que essa combinação**
 
