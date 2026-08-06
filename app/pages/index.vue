@@ -59,7 +59,7 @@ const links = ref<ButtonProps[]>([
   },
   {
     label: "Ver projeto no Github",
-    to: "https://github.com/LariMoro20/atlas-frontend-challenge",
+    to: "https://github.com/LariMoro20/TechPeople",
     color: "neutral",
     variant: "subtle",
     trailingIcon: "i-simple-icons-github",

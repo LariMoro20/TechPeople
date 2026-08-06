@@ -39,7 +39,7 @@
           color="neutral"
           variant="ghost"
           class="cursor-pointer"
-          to="https://github.com/LariMoro20/atlas-frontend-challenge"
+          to="https://github.com/LariMoro20/TechPeople"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"
@@ -54,7 +54,7 @@
         <UButton
           color="neutral"
           variant="soft"
-          to="https://github.com/LariMoro20/atlas-frontend-challenge"
+          to="https://github.com/LariMoro20/TechPeople"
           target="_blank"
           icon="i-simple-icons-github"
           label="GitHub"

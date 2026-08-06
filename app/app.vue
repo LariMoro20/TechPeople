@@ -53,14 +53,14 @@ useHead({
           "Visualização de detalhes por profissional",
           "Perfis com habilidades técnicas",
           "Informações de senioridade e experiência",
-          "Dados fictícios para desafio técnico frontend",
+          "Dados fictícios para demonstração",
           "Interface responsiva",
           "SEO configurado para páginas públicas",
         ],
         audience: {
           "@type": "Audience",
           audienceType:
-            "Recrutadores, empresas de tecnologia e avaliadores técnicos",
+            "Pessoas e empresas que buscam profissionais de tecnologia",
         },
         about: [
           "Frontend Development",

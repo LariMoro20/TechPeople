@@ -20,7 +20,7 @@ const links: ButtonProps[] = [
   },
   {
     label: "Ver no GitHub",
-    to: "https://github.com/LariMoro20/atlas-frontend-challenge",
+    to: "https://github.com/LariMoro20/TechPeople",
     color: "neutral",
     variant: "subtle",
     trailingIcon: "i-simple-icons-github",

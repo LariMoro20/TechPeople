@@ -1,6 +1,8 @@
-# TechPeople — Atlas Frontend Challenge
+# TechPeople
 
 Catálogo fictício de profissionais de tecnologia com busca, filtros, ordenação, paginação e favoritos.
+
+Projeto pessoal de portfólio, construído para praticar Nuxt 4, SSR, API com Nitro, testes (Vitest e Playwright), SEO e performance em um cenário realista de listagem com volume de dados. Todos os dados são fictícios.
 
 ---
 
@@ -95,7 +97,7 @@ e2e/
 
 **Servidor local com Nitro**
 
-O volume de dados do desafio inviabilizava uma solução puramente client-side sem perda de performance. Optei por criar uma API local usando o servidor Nitro (embutido no Nuxt), simulando uma API real com suporte a busca, filtros combinados, ordenação e paginação server-side.
+O volume de dados do projeto inviabilizava uma solução puramente client-side sem perda de performance. Optei por criar uma API local usando o servidor Nitro (embutido no Nuxt), simulando uma API real com suporte a busca, filtros combinados, ordenação e paginação server-side.
 
 **Validação com Zod**
 
